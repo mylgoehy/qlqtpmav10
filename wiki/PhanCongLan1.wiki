@@ -19,5 +19,3 @@ Phân công: Nhóm 11
 ==4/ Viết các Usercontrol cơ bản: hiển thị hình ảnh, âm thanh, phim( có các chức năng play, pause, stop), listbox chứa danh sách từ và hiển thị từ được chọn vào textbox.==
 
 
-
-
