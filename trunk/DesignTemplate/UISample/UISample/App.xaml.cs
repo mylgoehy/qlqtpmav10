@@ -25,7 +25,7 @@ namespace UISample
 
 		private void Application_Startup(object sender, StartupEventArgs e)
 		{
-			this.RootVisual = new Page2();
+			this.RootVisual = new MainPage();
 		}
 
 		private void Application_Exit(object sender, EventArgs e)
