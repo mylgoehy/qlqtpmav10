@@ -30,99 +30,106 @@ namespace UISample
 		}
 		
 		//unit 1
-		private void Rect_Unit1_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+		private void Unit1_rect_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagUnit1)
-				Rect_Unit1.Opacity = 0;
+				Unit1_rect.Opacity = 0;
 		}
 
-		private void Rect_Unit1_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
+		private void Unit1_rect_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagUnit1)
-				Rect_Unit1.Opacity = 0.5;
+				Unit1_rect.Opacity = 0.5;
 		}
 		
-		private void Rect_Unit1_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		private void Unit1_rect_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
-			Rect_Unit1.Opacity = 0.5;
-			Rect_Unit2.Opacity = 0;
-			Rect_Unit3.Opacity = 0;
+			Unit1_rect.Opacity = 0.5;
+			Unit2_rect.Opacity = 0;
+			Unit3_rect.Opacity = 0;
 			flagUnit1 = false;
 			flagUnit2 = true;
 			flagUnit3 = true;
 		}
 		
 		//unit 2
-		private void Rect_Unit2_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+		private void Unit2_rect_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagUnit2)
-				Rect_Unit2.Opacity = 0;
+				Unit2_rect.Opacity = 0;
 		}
 
-		private void Rect_Unit2_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
+		private void Unit2_rect_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagUnit2)
-				Rect_Unit2.Opacity = 0.5;
+				Unit2_rect.Opacity = 0.5;
 		}
 		
-		private void Rect_Unit2_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		private void Unit2_rect_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
-			Rect_Unit2.Opacity = 0.5;
-			Rect_Unit1.Opacity = 0;
-			Rect_Unit3.Opacity = 0;
+			Unit2_rect.Opacity = 0.5;
+			Unit1_rect.Opacity = 0;
+			Unit3_rect.Opacity = 0;
 			flagUnit2 = false;
 			flagUnit1 = true;
 			flagUnit3 = true;
 		}
 		
 		//unit 3
-		private void Rect_Unit3_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+		private void Unit3_rect_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagUnit3)
-				Rect_Unit3.Opacity = 0;
+				Unit3_rect.Opacity = 0;
 		}
-
-		private void Rect_Unit3_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		
+		private void Unit3_rect_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
-			Rect_Unit3.Opacity = 0.5;
-			Rect_Unit1.Opacity = 0;
-			Rect_Unit2.Opacity = 0;
+			if(flagUnit3)
+				Unit3_rect.Opacity = 0.5;
+		}
+
+		private void Unit3_rect_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+			Unit3_rect.Opacity = 0.5;
+			Unit1_rect.Opacity = 0;
+			Unit2_rect.Opacity = 0;
 			flagUnit3 = false;
 			flagUnit1 = true;
 			flagUnit2 = true;
 		}
-
-		private void Rect_Unit3_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
-		{
-			// TODO: Add event handler implementation here.
-			if(flagUnit3)
-				Rect_Unit3.Opacity = 0.5;
-		}
-
+		
 		//Reading
-		private void Rect_Reading_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+		private void Reading_rect_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagReading)
-				Rect_Reading.Opacity = 0;
+				Reading_rect.Opacity = 0;
 		}
 
-		private void Rect_Reading_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		private void Reading_rect_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
-			Rect_Reading.Opacity = 0.5;
-			Rect_Speaking.Opacity = 0;
-			Rect_Listening.Opacity = 0;
-			Rect_LanguageFocus.Opacity = 0;
-			Rect_Writing.Opacity = 0;
+			if(flagReading)
+				Reading_rect.Opacity = 0.5;
+		}
+		
+		private void Reading_rect_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+			Reading_rect.Opacity = 0.5;
+			Speaking_rect.Opacity = 0;
+			Listening_rect.Opacity = 0;
+			LanguageFocus_rect.Opacity = 0;
+			Writing_rect.Opacity = 0;
 			flagReading = false;
 			flagListening = true;
 			flagWriting = true;
@@ -130,29 +137,29 @@ namespace UISample
 			flagSpeaking = true;
 		}
 
-		private void Rect_Reading_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
-		{
-			// TODO: Add event handler implementation here.
-			if(flagReading)
-				Rect_Reading.Opacity = 0.5;
-		}
-
 		//Speaking
-		private void Rect_Speaking_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+		private void Speaking_rect_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagSpeaking)
-				Rect_Speaking.Opacity = 0;
+				Speaking_rect.Opacity = 0;
 		}
 
-		private void Rect_Speaking_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		private void Speaking_rect_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
-			Rect_Speaking.Opacity = 0.5;
-			Rect_Reading.Opacity = 0;
-			Rect_Listening.Opacity = 0;
-			Rect_LanguageFocus.Opacity = 0;
-			Rect_Writing.Opacity = 0;
+			if(flagSpeaking)
+				Speaking_rect.Opacity = 0.5;
+		}
+
+		private void Speaking_rect_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+			Speaking_rect.Opacity = 0.5;
+			Reading_rect.Opacity = 0;
+			Listening_rect.Opacity = 0;
+			LanguageFocus_rect.Opacity = 0;
+			Writing_rect.Opacity = 0;
 			flagSpeaking = false;
 			flagReading = true;
 			flagListening = true;
@@ -160,29 +167,29 @@ namespace UISample
 			flagLanguageFocus = true;
 		}
 
-		private void Rect_Speaking_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
-		{
-			// TODO: Add event handler implementation here.
-			if(flagSpeaking)
-				Rect_Speaking.Opacity = 0.5;
-		}
-
 		//Listening
-		private void Rect_Listening_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+		private void Listening_rect_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagListening)
-				Rect_Listening.Opacity = 0;
+				Listening_rect.Opacity = 0;
 		}
 
-		private void Rect_Listening_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		private void Listening_rect_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
-			Rect_Listening.Opacity = 0.5;
-			Rect_Speaking.Opacity = 0;
-			Rect_Reading.Opacity = 0;
-			Rect_LanguageFocus.Opacity = 0;
-			Rect_Writing.Opacity = 0;
+			if(flagListening)
+				Listening_rect.Opacity = 0.5;
+		}
+
+		private void Listening_rect_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+			Listening_rect.Opacity = 0.5;
+			Speaking_rect.Opacity = 0;
+			Reading_rect.Opacity = 0;
+			LanguageFocus_rect.Opacity = 0;
+			Writing_rect.Opacity = 0;
 			flagListening = false;
 			flagSpeaking = true;
 			flagReading = true;
@@ -190,29 +197,29 @@ namespace UISample
 			flagLanguageFocus = true;
 		}
 
-		private void Rect_Listening_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
-		{
-			// TODO: Add event handler implementation here.
-			if(flagListening)
-				Rect_Listening.Opacity = 0.5;
-		}
-
 		//Writing
-		private void Rect_Writing_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+		private void Writing_rect_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagWriting)
-				Rect_Writing.Opacity = 0;
+				Writing_rect.Opacity = 0;
 		}
 
-		private void Rect_Writing_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		private void Writing_rect_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
-			Rect_Writing.Opacity = 0.5;
-			Rect_Listening.Opacity = 0;
-			Rect_Speaking.Opacity = 0;
-			Rect_Reading.Opacity = 0;
-			Rect_LanguageFocus.Opacity= 0;
+			if(flagWriting)
+				Writing_rect.Opacity = 0.5;
+		}
+		
+		private void Writing_rect_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+			Writing_rect.Opacity = 0.5;
+			Listening_rect.Opacity = 0;
+			Speaking_rect.Opacity = 0;
+			Reading_rect.Opacity = 0;
+			LanguageFocus_rect.Opacity= 0;
 			flagWriting = false;
 			flagListening = true;
 			flagSpeaking = true;
@@ -220,41 +227,34 @@ namespace UISample
 			flagLanguageFocus = true;
 		}
 
-		private void Rect_Writing_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
-		{
-			// TODO: Add event handler implementation here.
-			if(flagWriting)
-				Rect_Writing.Opacity = 0.5;
-		}
-
 		//LanguageFocus
-		private void Rect_LanguageFocus_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+		private void LanguageFocus_rect_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 			if(flagLanguageFocus)
-				Rect_LanguageFocus.Opacity = 0;
+				LanguageFocus_rect.Opacity = 0;
 		}
 
-		private void Rect_LanguageFocus_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		private void LanguageFocus_rect_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
-			Rect_LanguageFocus.Opacity = 0.5;
-			Rect_Writing.Opacity = 0;
-			Rect_Listening.Opacity = 0;
-			Rect_Speaking.Opacity = 0;
-			Rect_Reading.Opacity = 0;
+			if(flagLanguageFocus)
+				LanguageFocus_rect.Opacity = 0.5;
+		}
+		
+		private void LanguageFocus_rect_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+			LanguageFocus_rect.Opacity = 0.5;
+			Writing_rect.Opacity = 0;
+			Listening_rect.Opacity = 0;
+			Speaking_rect.Opacity = 0;
+			Reading_rect.Opacity = 0;
 			flagLanguageFocus = false;
 			flagWriting = true;
 			flagListening = true;
 			flagSpeaking = true;
 			flagReading = true;
-		}
-
-		private void Rect_LanguageFocus_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
-		{
-			// TODO: Add event handler implementation here.
-			if(flagLanguageFocus)
-				Rect_LanguageFocus.Opacity = 0.5;
-		}
+		}		
 	}
 }
