@@ -15,10 +15,10 @@
 			<TextBlock x:Name="Titile2" Height="39" Margin="158,53,185,0" VerticalAlignment="Top" Text="GRADE 10" TextWrapping="Wrap" FontWeight="Bold" FontSize="26.667" Foreground="#FF0095D9"/>
 			<TextBlock x:Name="UserText" Height="24" HorizontalAlignment="Left" Margin="24,133,0,0" VerticalAlignment="Top" Width="52" FontSize="14.667" Foreground="#FFA3A3A3" TextWrapping="Wrap"><Run Text="User"/><Run Text=":"/></TextBlock>
 			<TextBlock x:Name="PassText" HorizontalAlignment="Left" Margin="24,0,0,142" Width="89" Text="Password:" TextWrapping="Wrap" FontSize="14.667" Foreground="#FFA3A3A3" Height="26" VerticalAlignment="Bottom"/>
-			<TextBlock x:Name="InformTexbox" Height="53" Margin="25,0,-27,50" VerticalAlignment="Bottom" FontSize="13.333" Foreground="#FFA3A3A3" TextWrapping="Wrap"><Run Text="If you don't have any account to login, please click "/><Run Foreground="#FF1147A5" TextDecorations="Underline" Text="Create Account"/></TextBlock>
-			<Button x:Name="LoginButton" Height="24" Margin="220,0,211,31" VerticalAlignment="Bottom" Content="Login"/>
-			<TextBox x:Name="UserTextbox" Height="23" Margin="125,132,85,0" VerticalAlignment="Top" TextWrapping="Wrap" Width="290"/>
-			<PasswordBox Margin="125,0,85,146" Width="290" Height="23" VerticalAlignment="Bottom"/>
+			<TextBlock x:Name="Inform" Height="53" Margin="25,0,-27,50" VerticalAlignment="Bottom" FontSize="13.333" Foreground="#FFA3A3A3" TextWrapping="Wrap"><Run Text="If you don't have any account to login, please click "/><Run Foreground="#FF1147A5" TextDecorations="Underline" Text="Create Account"/></TextBlock>
+			<Button x:Name="Login_btn" Height="24" Margin="220,0,211,31" VerticalAlignment="Bottom" Content="Login"/>
+			<TextBox x:Name="User_txt" Height="23" Margin="125,132,85,0" VerticalAlignment="Top" TextWrapping="Wrap" Width="290"/>
+			<PasswordBox x:Name="Password_txt" Margin="125,0,85,146" Width="290" Height="23" VerticalAlignment="Bottom"/>
 		</Grid>
 	</Grid>
 </navigation:Page>
