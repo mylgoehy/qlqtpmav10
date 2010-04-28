@@ -13,12 +13,12 @@
 		<Grid Margin="186,122,114,128" Background="#FF231F20" Width="500" Height="350">
 			<TextBlock x:Name="Titile1" Height="25" HorizontalAlignment="Left" Margin="36,24,0,0" VerticalAlignment="Top" Width="213" Text="LEARNING ENGLISH" TextWrapping="Wrap" Foreground="White" FontWeight="Bold" FontSize="17.333"/>
 			<TextBlock x:Name="Titile2" Height="39" Margin="158,53,185,0" VerticalAlignment="Top" Text="GRADE 10" TextWrapping="Wrap" FontWeight="Bold" FontSize="26.667" Foreground="#FF0095D9"/>
-			<TextBlock x:Name="UserText" Height="24" HorizontalAlignment="Left" Margin="40,132,0,0" VerticalAlignment="Top" Width="52" FontSize="14.667" Foreground="#FFA3A3A3" TextWrapping="Wrap"><Run Text="User"/><Run Text=":"/></TextBlock>
-			<TextBlock x:Name="PassText" HorizontalAlignment="Left" Margin="40,0,0,140" Width="89" Text="Password:" TextWrapping="Wrap" FontSize="14.667" Foreground="#FFA3A3A3" Height="26" VerticalAlignment="Bottom"/>
+			<TextBlock x:Name="UserText" Height="24" HorizontalAlignment="Left" Margin="24,133,0,0" VerticalAlignment="Top" Width="52" FontSize="14.667" Foreground="#FFA3A3A3" TextWrapping="Wrap"><Run Text="User"/><Run Text=":"/></TextBlock>
+			<TextBlock x:Name="PassText" HorizontalAlignment="Left" Margin="24,0,0,142" Width="89" Text="Password:" TextWrapping="Wrap" FontSize="14.667" Foreground="#FFA3A3A3" Height="26" VerticalAlignment="Bottom"/>
 			<TextBlock x:Name="InformTexbox" Height="53" Margin="25,0,-27,50" VerticalAlignment="Bottom" FontSize="13.333" Foreground="#FFA3A3A3" TextWrapping="Wrap"><Run Text="If you don't have any account to login, please click "/><Run Foreground="#FF1147A5" TextDecorations="Underline" Text="Create Account"/></TextBlock>
 			<Button x:Name="LoginButton" Height="24" Margin="220,0,211,31" VerticalAlignment="Bottom" Content="Login"/>
-			<TextBox x:Name="UserTextbox" Height="20" Margin="145,134,55,0" VerticalAlignment="Top" TextWrapping="Wrap" Width="300"/>
-			<TextBox x:Name="PasswordTextbox" Margin="145,0,55,143" TextWrapping="Wrap" Height="20" Width="300" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
+			<TextBox x:Name="UserTextbox" Height="23" Margin="125,132,85,0" VerticalAlignment="Top" TextWrapping="Wrap" Width="290"/>
+			<PasswordBox Margin="125,0,85,146" Width="290" Height="23" VerticalAlignment="Bottom"/>
 		</Grid>
 	</Grid>
 </navigation:Page>
