@@ -6,49 +6,49 @@
 
 	<Grid x:Name="LayoutRoot" Background="Black">
 		<Grid Width="800" Height="600" Background="#FF0095d9" Margin="0">
-			<Rectangle x:Name="Top_rect" Fill="#FF231f20" Stroke="Black" Height="70" VerticalAlignment="Top" Margin="0,2,0,0"/>
-			<Rectangle x:Name="Bottom_rect" Fill="#FF231f20" Stroke="Black" Height="50" VerticalAlignment="Bottom"/>
-			<TextBlock x:Name="LearningEng_txb" Height="36" HorizontalAlignment="Left" Margin="10,-2,0,0" VerticalAlignment="Top" Width="309" Text="LEARNING ENGLISH" TextWrapping="Wrap" FontSize="26.667" FontWeight="Bold" Foreground="White" RenderTransformOrigin="0.5,0.5">
+			<Rectangle x:Name="rctTop" Fill="#FF231f20" Stroke="Black" Height="70" VerticalAlignment="Top" Margin="0,2,0,0"/>
+			<Rectangle x:Name="rctBottom" Fill="#FF231f20" Stroke="Black" Height="50" VerticalAlignment="Bottom"/>
+			<TextBlock x:Name="txbLearningEng" Height="36" HorizontalAlignment="Left" Margin="10,-2,0,0" VerticalAlignment="Top" Width="309" Text="LEARNING ENGLISH" TextWrapping="Wrap" FontSize="26.667" FontWeight="Bold" Foreground="White" RenderTransformOrigin="0.5,0.5">
 				<TextBlock.Projection>
 					<PlaneProjection CenterOfRotationX="0" CenterOfRotationY="0"/>
 				</TextBlock.Projection>
 			</TextBlock>
-			<TextBlock x:Name="Grade10_txb" Height="45" Margin="177,29,0,0" VerticalAlignment="Top" Text="GRADE 10" TextWrapping="Wrap" FontSize="29.333" FontWeight="Bold" Foreground="#FF0095D9" HorizontalAlignment="Left" Width="197"/>
-			<Canvas x:Name="Canvas_Control" Height="480" Margin="-1,66,1,54" Width="800" Background="#FF0095D9">
-				<Rectangle x:Name="Left_rect" Fill="#FF231f20" Stroke="Black" Width="34" Clip="M-14.500003,10.500005 C-14.500003,4.9771576 -10.022851,0.5000056 -4.5000033,0.5000056 L19.499994,0.5000056 C25.022842,0.5000056 29.499994,4.9771576 29.499994,10.500005 L29.499994,441.49997 C29.499994,447.02283 25.022842,451.49997 19.499994,451.49997 L-4.5000033,451.49997 C-10.022851,451.49997 -14.500003,447.02283 -14.500003,441.49997 z" Height="452" Canvas.Top="15" Canvas.Left="-2"/>
-				<Rectangle x:Name="Unit_rect" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Height="450" Width="194" Canvas.Left="42" Canvas.Top="16" d:LayoutOverrides="Height"/>
-				<TextBlock x:Name="Unit1_txb" Height="25" Width="55" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 1" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="68" Canvas.Top="40"/>
-				<TextBlock x:Name="Unit2_txb" Height="25" Width="55" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 2" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="68" Canvas.Top="79"/>
-				<TextBlock x:Name="Unit3_txb" Height="25" Width="55" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 3" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="68" Canvas.Top="119"/>
-				<Rectangle x:Name="Section_rect" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Width="220" Height="450" Canvas.Left="250" Canvas.Top="15" d:LayoutOverrides="Width"/>
-				<Rectangle x:Name="Desc_rect" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Width="220" Height="450" Canvas.Left="487" Canvas.Top="16"/>
-				<TextBlock x:Name="ChooseUnit_txb" Height="29" Width="131" Text="Choose a unit" TextWrapping="Wrap" FontWeight="Bold" FontSize="16" Foreground="White" TextAlignment="Center" Canvas.Left="75" Canvas.Top="420"/>
-				<TextBlock x:Name="ChooseSection_txb" Height="43" Text="Choose a section of the unit" TextWrapping="Wrap" FontWeight="Bold" FontSize="16" Foreground="White" HorizontalAlignment="Left" Width="158" TextAlignment="Center" Canvas.Left="279" Canvas.Top="415"/>
-				<Rectangle x:Name="Unit1_rect" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Width="194" Opacity="0" MouseLeave="Unit1_rect_MouseLeave" MouseLeftButtonDown="Unit1_rect_MouseLeftButtonDown" MouseMove="Unit1_rect_MouseMove" Cursor="Hand" Canvas.Left="42" Canvas.Top="40"/>
-				<Rectangle x:Name="Unit2_rect" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Width="194" Opacity="0" Cursor="Hand" MouseLeave="Unit2_rect_MouseLeave" MouseLeftButtonDown="Unit2_rect_MouseLeftButtonDown" MouseMove="Unit2_rect_MouseMove" Canvas.Left="42" Canvas.Top="78"/>
-				<Rectangle x:Name="Unit3_rect" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Width="194" Opacity="0" Cursor="Hand" MouseLeave="Unit3_rect_MouseLeave" MouseLeftButtonDown="Unit3_rect_MouseLeftButtonDown" MouseMove="Unit3_rect_MouseMove" Canvas.Left="42" Canvas.Top="118"/>
-				<TextBlock x:Name="Reading_txb" Height="25" Width="78" FontSize="16" FontWeight="Bold" Foreground="White" Text="Reading" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="279" Canvas.Top="40"/>
-				<TextBlock x:Name="Speaking_txb" Height="25" Width="93" FontSize="16" FontWeight="Bold" Foreground="White" Text="Speaking" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="279" Canvas.Top="79"/>
-				<TextBlock x:Name="Listening_txb" Height="25" Width="93" FontSize="16" FontWeight="Bold" Foreground="White" Text="Listening" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="279" Canvas.Top="119"/>
-				<TextBlock x:Name="Writing_txb" FontSize="16" FontWeight="Bold" Foreground="White" Text="Writing" TextWrapping="Wrap" Cursor="Hand" Height="25" Width="78" Canvas.Left="279" Canvas.Top="161"/>
-				<TextBlock x:Name="LanguageFocus_txb" FontSize="16" FontWeight="Bold" Foreground="White" Text="Language Focus" TextWrapping="Wrap" Cursor="Hand" Height="25" Width="158" Canvas.Left="279" Canvas.Top="202"/>
-				<Rectangle x:Name="Reading_rect" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseMove="Reading_rect_MouseMove" MouseLeave="Reading_rect_MouseLeave" MouseLeftButtonDown="Reading_rect_MouseLeftButtonDown" Width="220" Canvas.Left="250" Canvas.Top="40"/>
-				<Rectangle x:Name="Speaking_rect" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="Speaking_rect_MouseLeave" MouseLeftButtonDown="Speaking_rect_MouseLeftButtonDown" MouseMove="Speaking_rect_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="80"/>
-				<Rectangle x:Name="Listening_rect" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="Listening_rect_MouseLeave" MouseLeftButtonDown="Listening_rect_MouseLeftButtonDown" MouseMove="Listening_rect_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="118"/>
-				<Rectangle x:Name="Writing_rect" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="Writing_rect_MouseLeave" MouseLeftButtonDown="Writing_rect_MouseLeftButtonDown" MouseMove="Writing_rect_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="160"/>
-				<Rectangle x:Name="LanguageFocus_rect" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="LanguageFocus_rect_MouseLeave" MouseLeftButtonDown="LanguageFocus_rect_MouseLeftButtonDown" MouseMove="LanguageFocus_rect_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="202"/>
-				<TextBlock x:Name="Desc_txb" Width="220" FontSize="16" Foreground="White" TextWrapping="Wrap" Height="342" Canvas.Left="487" Canvas.Top="40"><Run FontWeight="Bold" Text="Reading"/><LineBreak/><Run Text="Description for Reading section..."/><LineBreak/><Run Text="This section has:..."/></TextBlock>
-				<Rectangle x:Name="Right_rect" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Width="82" Clip="M-46.499996,0.49999952 L74.5,0.49999952 L74.5,449.49997 L-46.499996,449.49997 z" Height="450" Canvas.Left="724" Canvas.Top="16"/>
+			<TextBlock x:Name="txbGrade10" Height="45" Margin="177,29,0,0" VerticalAlignment="Top" Text="GRADE 10" TextWrapping="Wrap" FontSize="29.333" FontWeight="Bold" Foreground="#FF0095D9" HorizontalAlignment="Left" Width="197"/>
+			<Canvas x:Name="cnvControl" Height="480" Margin="-1,66,1,54" Width="800" Background="#FF0095D9">
+				<Rectangle x:Name="rctLeft" Fill="#FF231f20" Stroke="Black" Width="34" Clip="M-14.500003,10.500005 C-14.500003,4.9771576 -10.022851,0.5000056 -4.5000033,0.5000056 L19.499994,0.5000056 C25.022842,0.5000056 29.499994,4.9771576 29.499994,10.500005 L29.499994,441.49997 C29.499994,447.02283 25.022842,451.49997 19.499994,451.49997 L-4.5000033,451.49997 C-10.022851,451.49997 -14.500003,447.02283 -14.500003,441.49997 z" Height="452" Canvas.Top="15" Canvas.Left="-2"/>
+				<Rectangle x:Name="rctUnit" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Height="450" Width="194" Canvas.Left="42" Canvas.Top="16" d:LayoutOverrides="Height"/>
+				<TextBlock x:Name="txbUnit1" Height="25" Width="55" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 1" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="68" Canvas.Top="40"/>
+				<TextBlock x:Name="txbUnit2" Height="25" Width="55" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 2" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="68" Canvas.Top="79"/>
+				<TextBlock x:Name="txbUnit3" Height="25" Width="55" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 3" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="68" Canvas.Top="119"/>
+				<Rectangle x:Name="rctSection" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Width="220" Height="450" Canvas.Left="250" Canvas.Top="15" d:LayoutOverrides="Width"/>
+				<Rectangle x:Name="rctDesc" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Width="220" Height="450" Canvas.Left="487" Canvas.Top="16"/>
+				<TextBlock x:Name="txbChooseUnit" Height="29" Width="131" Text="Choose a unit" TextWrapping="Wrap" FontWeight="Bold" FontSize="16" Foreground="White" TextAlignment="Center" Canvas.Left="75" Canvas.Top="420"/>
+				<TextBlock x:Name="txbChooseSection" Height="43" Text="Choose a section of the unit" TextWrapping="Wrap" FontWeight="Bold" FontSize="16" Foreground="White" HorizontalAlignment="Left" Width="158" TextAlignment="Center" Canvas.Left="279" Canvas.Top="415"/>
+				<Rectangle x:Name="rctUnit1" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Width="194" Opacity="0" MouseLeave="rctUnit1_MouseLeave" MouseLeftButtonDown="rctUnit1_MouseLeftButtonDown" MouseMove="rctUnit1_MouseMove" Cursor="Hand" Canvas.Left="42" Canvas.Top="40"/>
+				<Rectangle x:Name="rctUnit2" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Width="194" Opacity="0" Cursor="Hand" MouseLeave="rctUnit2_MouseLeave" MouseLeftButtonDown="rctUnit2_MouseLeftButtonDown" MouseMove="rctUnit2_MouseMove" Canvas.Left="42" Canvas.Top="78"/>
+				<Rectangle x:Name="rctUnit3" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Width="194" Opacity="0" Cursor="Hand" MouseLeave="rctUnit3_MouseLeave" MouseLeftButtonDown="rctUnit3_MouseLeftButtonDown" MouseMove="rctUnit3_MouseMove" Canvas.Left="42" Canvas.Top="118"/>
+				<TextBlock x:Name="txbReading" Height="25" Width="78" FontSize="16" FontWeight="Bold" Foreground="White" Text="Reading" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="279" Canvas.Top="40"/>
+				<TextBlock x:Name="txbSpeaking" Height="25" Width="93" FontSize="16" FontWeight="Bold" Foreground="White" Text="Speaking" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="279" Canvas.Top="79"/>
+				<TextBlock x:Name="txbListening" Height="25" Width="93" FontSize="16" FontWeight="Bold" Foreground="White" Text="Listening" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="279" Canvas.Top="119"/>
+				<TextBlock x:Name="txbWriting" FontSize="16" FontWeight="Bold" Foreground="White" Text="Writing" TextWrapping="Wrap" Cursor="Hand" Height="25" Width="78" Canvas.Left="279" Canvas.Top="161"/>
+				<TextBlock x:Name="txbLanguageFocus" FontSize="16" FontWeight="Bold" Foreground="White" Text="Language Focus" TextWrapping="Wrap" Cursor="Hand" Height="25" Width="158" Canvas.Left="279" Canvas.Top="202"/>
+				<Rectangle x:Name="rctReading" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseMove="rctReading_MouseMove" MouseLeave="rctReading_MouseLeave" MouseLeftButtonDown="rctReading_MouseLeftButtonDown" Width="220" Canvas.Left="250" Canvas.Top="40"/>
+				<Rectangle x:Name="rctSpeaking" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctSpeaking_MouseLeave" MouseLeftButtonDown="rctSpeaking_MouseLeftButtonDown" MouseMove="rctSpeaking_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="80"/>
+				<Rectangle x:Name="rctListening" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctListening_MouseLeave" MouseLeftButtonDown="rctListening_MouseLeftButtonDown" MouseMove="rctListening_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="118"/>
+				<Rectangle x:Name="rctWriting" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctWriting_MouseLeave" MouseLeftButtonDown="rctWriting_MouseLeftButtonDown" MouseMove="rctWriting_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="160"/>
+				<Rectangle x:Name="rctLanguageFocus" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctLanguageFocus_MouseLeave" MouseLeftButtonDown="rctLanguageFocus_MouseLeftButtonDown" MouseMove="rctLanguageFocus_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="202"/>
+				<TextBlock x:Name="txbDesc" Width="220" FontSize="16" Foreground="White" TextWrapping="Wrap" Height="342" Canvas.Left="487" Canvas.Top="40"><Run FontWeight="Bold" Text="Reading"/><LineBreak/><Run Text="Description for Reading section..."/><LineBreak/><Run Text="This section has:..."/></TextBlock>
+				<Rectangle x:Name="rctRight" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Width="82" Clip="M-46.499996,0.49999952 L74.5,0.49999952 L74.5,449.49997 L-46.499996,449.49997 z" Height="450" Canvas.Left="724" Canvas.Top="16"/>
 			</Canvas>
-			<Canvas x:Name="Canvas_Reading" Margin="3,0,-3,-556" Height="480" VerticalAlignment="Bottom" Background="#FF0095D9">
-				<Rectangle x:Name="NoiDungReading_rect" Fill="#FF231F20" Stroke="Black" RadiusX="10" RadiusY="10" Height="427" Width="727" Canvas.Left="51" Canvas.Top="26"/>
-				<TextBox x:Name="Reading_texbox" Height="290" Width="669" Canvas.Left="82" Canvas.Top="101" Text="Display text" TextWrapping="Wrap"/>
-				<TextBlock x:Name="Reading_txb1" Height="28" Width="238" Canvas.Left="72" Canvas.Top="42" TextWrapping="Wrap" Foreground="#FFFFFEFE" Text="Unit 1 Reading" FontSize="18.667" FontWeight="Bold"/>
+			<Canvas x:Name="cnvReading" Margin="3,0,-3,-556" Height="480" VerticalAlignment="Bottom" Background="#FF0095D9">
+				<Rectangle x:Name="rctReadingContent" Fill="#FF231F20" Stroke="Black" RadiusX="10" RadiusY="10" Height="427" Width="727" Canvas.Left="51" Canvas.Top="26"/>
+				<TextBox x:Name="txtReading" Height="290" Width="669" Canvas.Left="82" Canvas.Top="101" Text="Display text" TextWrapping="Wrap"/>
+				<TextBlock x:Name="txbReadingTitle" Height="28" Width="238" Canvas.Left="72" Canvas.Top="42" TextWrapping="Wrap" Foreground="#FFFFFEFE" Text="Unit 1 Reading" FontSize="18.667" FontWeight="Bold"/>
 				<Path Fill="#FF231F20" Stretch="Fill" Stroke="White" Height="1" Width="727" UseLayoutRounding="False" Canvas.Left="51" Canvas.Top="80.5" Data="M51,84 L718.64679,84"/>
-				<Button x:Name="Dictionary_button" Height="28" Width="100" Canvas.Left="110" Canvas.Top="410" Content="Dictionary"/>
-				<Button x:Name="Dictation_button" Height="28" Width="104" Canvas.Left="264" Canvas.Top="410" Content="Dictation" RenderTransformOrigin="0.51,0.536"/>
-				<Button x:Name="Practice_button" Height="28" Width="102" Canvas.Left="412" Canvas.Top="410" Content="Practice"/>
-				<Rectangle x:Name="Reading_left_rect" Fill="#FF231f20" Stroke="Black" Width="34" Clip="M-14.500003,10.500005 C-14.500003,4.9771576 -10.022851,0.5000056 -4.5000033,0.5000056 L19.499994,0.5000056 C25.022842,0.5000056 29.499994,4.9771576 29.499994,10.500005 L29.499994,441.49997 C29.499994,447.02283 25.022842,451.49997 19.499994,451.49997 L-4.5000033,451.49997 C-10.022851,451.49997 -14.500003,447.02283 -14.500003,441.49997 z" Height="427" Canvas.Top="26"/>
+				<Button x:Name="btnDictionary" Height="28" Width="100" Canvas.Left="110" Canvas.Top="410" Content="Dictionary"/>
+				<Button x:Name="btnDictation" Height="28" Width="104" Canvas.Left="264" Canvas.Top="410" Content="Dictation" RenderTransformOrigin="0.51,0.536"/>
+				<Button x:Name="btnPractice" Height="28" Width="102" Canvas.Left="412" Canvas.Top="410" Content="Practice"/>
+				<Rectangle x:Name="rectReadingLeft" Fill="#FF231f20" Stroke="Black" Width="34" Clip="M-14.500003,10.500005 C-14.500003,4.9771576 -10.022851,0.5000056 -4.5000033,0.5000056 L19.499994,0.5000056 C25.022842,0.5000056 29.499994,4.9771576 29.499994,10.500005 L29.499994,441.49997 C29.499994,447.02283 25.022842,451.49997 19.499994,451.49997 L-4.5000033,451.49997 C-10.022851,451.49997 -14.500003,447.02283 -14.500003,441.49997 z" Height="427" Canvas.Top="26"/>
 			</Canvas>
 		</Grid>
 	</Grid>
