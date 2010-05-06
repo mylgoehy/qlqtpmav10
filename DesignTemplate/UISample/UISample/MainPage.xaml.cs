@@ -27,6 +27,8 @@ namespace UISample
 		{
 			// Required to initialize variables
 			InitializeComponent();
+            strbShowUnitGrid.Begin();
+
 		}
 		
 		//unit 1
@@ -47,6 +49,7 @@ namespace UISample
 		private void rctUnit1_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
+            strbShowUnitGrid.AutoReverse = true;
 			rctUnit1.Opacity = 0.5;
 			rctUnit2.Opacity = 0;
 			rctUnit3.Opacity = 0;
@@ -135,6 +138,9 @@ namespace UISample
 			flagWriting = true;
 			flagLanguageFocus = true;
 			flagSpeaking = true;
+            cnvReading.Opacity = 100;
+            strbShowReadingContent.Begin();
+          
 		}
 
 		//Speaking
@@ -255,6 +261,16 @@ namespace UISample
 			flagListening = true;
 			flagSpeaking = true;
 			flagReading = true;
-		}		
+		}
+
+		private void btnTriangle_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+
+
+            cnvReading.Opacity = 0;
+            strbShowReadingContentReverse.Begin();
+		}
+
 	}
 }
