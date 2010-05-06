@@ -2,54 +2,311 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	x:Class="UISample.MainPage" mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600">
+	mc:Ignorable="d" xmlns:Liquid="clr-namespace:Liquid;assembly=Liquid.RichText"
+	x:Class="UISample.MainPage" d:DesignWidth="800" d:DesignHeight="600">
+	<UserControl.Resources>
+		<Storyboard x:Name="strbShowUnitGrid">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="cnvAllControl" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="174"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="234"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="308.563"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="368.563"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="416.212"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="449.212"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="488.212"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.7000000" Value="521.132"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="560.132"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.9000000" Value="610.734"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="646.734"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.1000000" Value="688.734"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.2000000" Value="724.638"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="727.638"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.4000000" Value="718.647"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Style x:Key="triangleButton" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid>
+							<Grid.Resources>
+								<Storyboard x:Name="strbTriangleButton">
+									<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="path" Storyboard.TargetProperty="(UIElement.Opacity)">
+										<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+										<EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="0.8"/>
+										<EasingDoubleKeyFrame KeyTime="00:00:00.7000000" Value="0.6"/>
+										<EasingDoubleKeyFrame KeyTime="00:00:00.9000000" Value="0.5"/>
+									</DoubleAnimationUsingKeyFrames>
+								</Storyboard>
+							</Grid.Resources>
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="FocusStates">
+									<VisualState x:Name="Focused"/>
+									<VisualState x:Name="Unfocused"/>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualState x:Name="Normal"/>
+									<VisualState x:Name="MouseOver"/>
+									<VisualState x:Name="Pressed"/>
+									<VisualState x:Name="Disabled"/>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+							<Path x:Name="path" Fill="#FFFAFAFA" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Data="M56,880 L56,959 L24,920 z"/>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Name="strbShowReadingContent">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="cnvAllControl" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="-54"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="-131.526"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="-215.526"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="-295.622"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-375.622"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-453.622"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.7000000" Value="-534.746"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="-616.746"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.9000000" Value="-695.085"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="-775.085"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.1000000" Value="-853.085"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.2000000" Value="-910.689"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="strbShowReadingContentReverse">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="cnvAllControl" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="-853.085"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="-775.085"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="-695.085"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.4000000" Value="-616.746"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-534.746"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-453.622"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.7000000" Value="-375.622"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.8000000" Value="-295.622"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.9000000" Value="-215.526"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01" Value="-131.526"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01.1000000" Value="-54"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01.2000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Style x:Key="ButtonStyle1" TargetType="Button">
+			<Setter Property="Background" Value="#FF1F3B53"/>
+			<Setter Property="Foreground" Value="#FF000000"/>
+			<Setter Property="Padding" Value="3"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="BorderBrush">
+				<Setter.Value>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFA3AEB9" Offset="0"/>
+						<GradientStop Color="#FF8399A9" Offset="0.375"/>
+						<GradientStop Color="#FF718597" Offset="0.375"/>
+						<GradientStop Color="#FF617584" Offset="1"/>
+					</LinearGradientBrush>
+				</Setter.Value>
+			</Setter>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid>
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualState x:Name="Normal"/>
+									<VisualState x:Name="MouseOver">
+										<Storyboard>
+											<DoubleAnimationUsingKeyFrames Storyboard.TargetName="BackgroundAnimation" Storyboard.TargetProperty="Opacity">
+												<SplineDoubleKeyFrame KeyTime="0" Value="1"/>
+											</DoubleAnimationUsingKeyFrames>
+											<ColorAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+												<SplineColorKeyFrame KeyTime="0" Value="#F2FFFFFF"/>
+											</ColorAnimationUsingKeyFrames>
+											<ColorAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[2].(GradientStop.Color)">
+												<SplineColorKeyFrame KeyTime="0" Value="#CCFFFFFF"/>
+											</ColorAnimationUsingKeyFrames>
+											<ColorAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[3].(GradientStop.Color)">
+												<SplineColorKeyFrame KeyTime="0" Value="#7FFFFFFF"/>
+											</ColorAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Pressed">
+										<Storyboard>
+											<ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)">
+												<SplineColorKeyFrame KeyTime="0" Value="#FF6DBDD1"/>
+											</ColorAnimationUsingKeyFrames>
+											<DoubleAnimationUsingKeyFrames Storyboard.TargetName="BackgroundAnimation" Storyboard.TargetProperty="Opacity">
+												<SplineDoubleKeyFrame KeyTime="0" Value="1"/>
+											</DoubleAnimationUsingKeyFrames>
+											<ColorAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+												<SplineColorKeyFrame KeyTime="0" Value="#D8FFFFFF"/>
+											</ColorAnimationUsingKeyFrames>
+											<ColorAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+												<SplineColorKeyFrame KeyTime="0" Value="#C6FFFFFF"/>
+											</ColorAnimationUsingKeyFrames>
+											<ColorAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[2].(GradientStop.Color)">
+												<SplineColorKeyFrame KeyTime="0" Value="#8CFFFFFF"/>
+											</ColorAnimationUsingKeyFrames>
+											<ColorAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[3].(GradientStop.Color)">
+												<SplineColorKeyFrame KeyTime="0" Value="#3FFFFFFF"/>
+											</ColorAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Disabled">
+										<Storyboard>
+											<DoubleAnimationUsingKeyFrames Storyboard.TargetName="DisabledVisualElement" Storyboard.TargetProperty="Opacity">
+												<SplineDoubleKeyFrame KeyTime="0" Value=".55"/>
+											</DoubleAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="FocusStates">
+									<VisualState x:Name="Focused">
+										<Storyboard>
+											<DoubleAnimationUsingKeyFrames Storyboard.TargetName="FocusVisualElement" Storyboard.TargetProperty="Opacity">
+												<SplineDoubleKeyFrame KeyTime="0" Value="1"/>
+											</DoubleAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Unfocused"/>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+							<Border x:Name="Background" Background="#FF949494" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="3">
+								<Grid Margin="1" Background="{TemplateBinding Background}">
+									<Border x:Name="BackgroundAnimation" Opacity="0" Background="#FF448DCA"/>
+									<Rectangle x:Name="BackgroundGradient">
+										<Rectangle.Fill>
+											<LinearGradientBrush EndPoint=".7,1" StartPoint=".7,0">
+												<GradientStop Color="#FFFFFFFF" Offset="0"/>
+												<GradientStop Color="#F9FFFFFF" Offset="0.375"/>
+												<GradientStop Color="#E5FFFFFF" Offset="0.625"/>
+												<GradientStop Color="#C6FFFFFF" Offset="1"/>
+											</LinearGradientBrush>
+										</Rectangle.Fill>
+									</Rectangle>
+								</Grid>
+							</Border>
+							<ContentPresenter x:Name="contentPresenter" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}"/>
+							<Rectangle x:Name="DisabledVisualElement" Fill="#FFFFFFFF" RadiusX="3" RadiusY="3" IsHitTestVisible="false" Opacity="0"/>
+							<Rectangle x:Name="FocusVisualElement" Stroke="#FF6DBDD1" StrokeThickness="1" RadiusX="2" RadiusY="2" Margin="1" IsHitTestVisible="false" Opacity="0"/>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</UserControl.Resources>
 
-	<Grid x:Name="LayoutRoot" Background="Black">
-		<Grid Width="800" Height="600" Background="#FF0095d9" Margin="0">
-			<Rectangle x:Name="rctTop" Fill="#FF231f20" Stroke="Black" Height="70" VerticalAlignment="Top" Margin="0,2,0,0"/>
-			<Rectangle x:Name="rctBottom" Fill="#FF231f20" Stroke="Black" Height="50" VerticalAlignment="Bottom"/>
+	<Border x:Name="LayoutRoot" Background="Black">
+		<Grid x:Name="grdMain" Background="#FF0095d9" Width="800" Height="600">
+			<Rectangle x:Name="rctTop" Fill="#FF231f20" Stroke="Black" Height="70" StrokeThickness="0" VerticalAlignment="Top" Width="800"/>
+			<Rectangle x:Name="rctBottom" Fill="#FF231f20" Stroke="Black" Height="50" VerticalAlignment="Bottom" StrokeThickness="0" Width="800"/>
 			<TextBlock x:Name="txbLearningEng" Height="36" HorizontalAlignment="Left" Margin="10,-2,0,0" VerticalAlignment="Top" Width="309" Text="LEARNING ENGLISH" TextWrapping="Wrap" FontSize="26.667" FontWeight="Bold" Foreground="White" RenderTransformOrigin="0.5,0.5">
 				<TextBlock.Projection>
 					<PlaneProjection CenterOfRotationX="0" CenterOfRotationY="0"/>
 				</TextBlock.Projection>
 			</TextBlock>
 			<TextBlock x:Name="txbGrade10" Height="45" Margin="177,29,0,0" VerticalAlignment="Top" Text="GRADE 10" TextWrapping="Wrap" FontSize="29.333" FontWeight="Bold" Foreground="#FF0095D9" HorizontalAlignment="Left" Width="197"/>
-			<Canvas x:Name="cnvControl" Height="480" Margin="-1,66,1,54" Width="800" Background="#FF0095D9">
-				<Rectangle x:Name="rctLeft" Fill="#FF231f20" Stroke="Black" Width="34" Clip="M-14.500003,10.500005 C-14.500003,4.9771576 -10.022851,0.5000056 -4.5000033,0.5000056 L19.499994,0.5000056 C25.022842,0.5000056 29.499994,4.9771576 29.499994,10.500005 L29.499994,441.49997 C29.499994,447.02283 25.022842,451.49997 19.499994,451.49997 L-4.5000033,451.49997 C-10.022851,451.49997 -14.500003,447.02283 -14.500003,441.49997 z" Height="452" Canvas.Top="15" Canvas.Left="-2"/>
-				<Rectangle x:Name="rctUnit" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Height="450" Width="194" Canvas.Left="42" Canvas.Top="16" d:LayoutOverrides="Height"/>
-				<TextBlock x:Name="txbUnit1" Height="25" Width="55" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 1" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="68" Canvas.Top="40"/>
-				<TextBlock x:Name="txbUnit2" Height="25" Width="55" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 2" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="68" Canvas.Top="79"/>
-				<TextBlock x:Name="txbUnit3" Height="25" Width="55" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 3" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="68" Canvas.Top="119"/>
-				<Rectangle x:Name="rctSection" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Width="220" Height="450" Canvas.Left="250" Canvas.Top="15" d:LayoutOverrides="Width"/>
-				<Rectangle x:Name="rctDesc" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Width="220" Height="450" Canvas.Left="487" Canvas.Top="16"/>
-				<TextBlock x:Name="txbChooseUnit" Height="29" Width="131" Text="Choose a unit" TextWrapping="Wrap" FontWeight="Bold" FontSize="16" Foreground="White" TextAlignment="Center" Canvas.Left="75" Canvas.Top="420"/>
-				<TextBlock x:Name="txbChooseSection" Height="43" Text="Choose a section of the unit" TextWrapping="Wrap" FontWeight="Bold" FontSize="16" Foreground="White" HorizontalAlignment="Left" Width="158" TextAlignment="Center" Canvas.Left="279" Canvas.Top="415"/>
-				<Rectangle x:Name="rctUnit1" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Width="194" Opacity="0" MouseLeave="rctUnit1_MouseLeave" MouseLeftButtonDown="rctUnit1_MouseLeftButtonDown" MouseMove="rctUnit1_MouseMove" Cursor="Hand" Canvas.Left="42" Canvas.Top="40"/>
-				<Rectangle x:Name="rctUnit2" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Width="194" Opacity="0" Cursor="Hand" MouseLeave="rctUnit2_MouseLeave" MouseLeftButtonDown="rctUnit2_MouseLeftButtonDown" MouseMove="rctUnit2_MouseMove" Canvas.Left="42" Canvas.Top="78"/>
-				<Rectangle x:Name="rctUnit3" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Width="194" Opacity="0" Cursor="Hand" MouseLeave="rctUnit3_MouseLeave" MouseLeftButtonDown="rctUnit3_MouseLeftButtonDown" MouseMove="rctUnit3_MouseMove" Canvas.Left="42" Canvas.Top="118"/>
-				<TextBlock x:Name="txbReading" Height="25" Width="78" FontSize="16" FontWeight="Bold" Foreground="White" Text="Reading" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="279" Canvas.Top="40"/>
-				<TextBlock x:Name="txbSpeaking" Height="25" Width="93" FontSize="16" FontWeight="Bold" Foreground="White" Text="Speaking" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="279" Canvas.Top="79"/>
-				<TextBlock x:Name="txbListening" Height="25" Width="93" FontSize="16" FontWeight="Bold" Foreground="White" Text="Listening" TextWrapping="Wrap" Cursor="Hand" Canvas.Left="279" Canvas.Top="119"/>
-				<TextBlock x:Name="txbWriting" FontSize="16" FontWeight="Bold" Foreground="White" Text="Writing" TextWrapping="Wrap" Cursor="Hand" Height="25" Width="78" Canvas.Left="279" Canvas.Top="161"/>
-				<TextBlock x:Name="txbLanguageFocus" FontSize="16" FontWeight="Bold" Foreground="White" Text="Language Focus" TextWrapping="Wrap" Cursor="Hand" Height="25" Width="158" Canvas.Left="279" Canvas.Top="202"/>
-				<Rectangle x:Name="rctReading" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseMove="rctReading_MouseMove" MouseLeave="rctReading_MouseLeave" MouseLeftButtonDown="rctReading_MouseLeftButtonDown" Width="220" Canvas.Left="250" Canvas.Top="40"/>
-				<Rectangle x:Name="rctSpeaking" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctSpeaking_MouseLeave" MouseLeftButtonDown="rctSpeaking_MouseLeftButtonDown" MouseMove="rctSpeaking_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="80"/>
-				<Rectangle x:Name="rctListening" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctListening_MouseLeave" MouseLeftButtonDown="rctListening_MouseLeftButtonDown" MouseMove="rctListening_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="118"/>
-				<Rectangle x:Name="rctWriting" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctWriting_MouseLeave" MouseLeftButtonDown="rctWriting_MouseLeftButtonDown" MouseMove="rctWriting_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="160"/>
-				<Rectangle x:Name="rctLanguageFocus" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctLanguageFocus_MouseLeave" MouseLeftButtonDown="rctLanguageFocus_MouseLeftButtonDown" MouseMove="rctLanguageFocus_MouseMove" Width="220" Canvas.Left="250" Canvas.Top="202"/>
-				<TextBlock x:Name="txbDesc" Width="220" FontSize="16" Foreground="White" TextWrapping="Wrap" Height="342" Canvas.Left="487" Canvas.Top="40"><Run FontWeight="Bold" Text="Reading"/><LineBreak/><Run Text="Description for Reading section..."/><LineBreak/><Run Text="This section has:..."/></TextBlock>
-				<Rectangle x:Name="rctRight" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Width="82" Clip="M-46.499996,0.49999952 L74.5,0.49999952 L74.5,449.49997 L-46.499996,449.49997 z" Height="450" Canvas.Left="724" Canvas.Top="16"/>
+			<Canvas x:Name="cnvAllControl" Margin="0,-634,-912,0" RenderTransformOrigin="0.5,0.5" Height="450" VerticalAlignment="Top">
+				<Canvas.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</Canvas.RenderTransform>
+				<Grid x:Name="grdDescription" Height="450" Width="220" Canvas.Left="504" RenderTransformOrigin="0.5,0.5">
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform/>
+							<SkewTransform/>
+							<RotateTransform/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<Rectangle x:Name="rctDesc" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10"/>
+					<TextBlock x:Name="txbDesc" FontSize="16" Foreground="White" TextWrapping="Wrap" Margin="24,18,28,48"><Run FontWeight="Bold" Text="Reading"/><LineBreak/><Run Text="Description for Reading section..."/><LineBreak/><Run Text="This section has:..."/></TextBlock>
+				</Grid>
+				<Grid x:Name="grdSection" Height="450" Width="212" Canvas.Left="260" RenderTransformOrigin="0.5,0.5">
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform/>
+							<SkewTransform/>
+							<RotateTransform/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<Rectangle x:Name="rctSection" Fill="#FF231f20" Stroke="Black" RadiusX="10" RadiusY="10" Height="450" Width="212"/>
+					<TextBlock x:Name="txbChooseSection" Height="43" Text="Choose a section of the unit" TextWrapping="Wrap" FontWeight="Bold" FontSize="16" Foreground="White" HorizontalAlignment="Left" Width="158" TextAlignment="Center" Margin="25,0,0,17" VerticalAlignment="Bottom"/>
+					<TextBlock x:Name="txbReading" Height="25" FontSize="16" FontWeight="Bold" Foreground="White" Text="Reading" TextWrapping="Wrap" Cursor="Hand" Margin="68,25,68,0" VerticalAlignment="Top"/>
+					<TextBlock x:Name="txbSpeaking" Height="25" FontSize="16" FontWeight="Bold" Foreground="White" Text="Speaking" TextWrapping="Wrap" Cursor="Hand" Margin="64,64,64,0" VerticalAlignment="Top"/>
+					<TextBlock x:Name="txbListening" Height="25" FontSize="16" FontWeight="Bold" Foreground="White" Text="Listening" TextWrapping="Wrap" Cursor="Hand" Margin="64,104,64,0" VerticalAlignment="Top"/>
+					<TextBlock x:Name="txbWriting" FontSize="16" FontWeight="Bold" Foreground="White" Text="Writing" TextWrapping="Wrap" Cursor="Hand" Height="25" Margin="71,146,70,0" VerticalAlignment="Top"/>
+					<TextBlock x:Name="txbLanguageFocus" FontSize="16" FontWeight="Bold" Foreground="White" Text="Language Focus" TextWrapping="Wrap" Cursor="Hand" Height="25" Margin="31,187,30,0" VerticalAlignment="Top"/>
+					<Rectangle x:Name="rctReading" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseMove="rctReading_MouseMove" MouseLeave="rctReading_MouseLeave" MouseLeftButtonDown="rctReading_MouseLeftButtonDown" Margin="0,25,0,0" VerticalAlignment="Top"/>
+					<Rectangle x:Name="rctSpeaking" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctSpeaking_MouseLeave" MouseLeftButtonDown="rctSpeaking_MouseLeftButtonDown" MouseMove="rctSpeaking_MouseMove" Margin="0,65,0,0" VerticalAlignment="Top"/>
+					<Rectangle x:Name="rctListening" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctListening_MouseLeave" MouseLeftButtonDown="rctListening_MouseLeftButtonDown" MouseMove="rctListening_MouseMove" Margin="0,103,0,0" VerticalAlignment="Top"/>
+					<Rectangle x:Name="rctWriting" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctWriting_MouseLeave" MouseLeftButtonDown="rctWriting_MouseLeftButtonDown" MouseMove="rctWriting_MouseMove" Margin="0,145,0,0" VerticalAlignment="Top"/>
+					<Rectangle x:Name="rctLanguageFocus" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctLanguageFocus_MouseLeave" MouseLeftButtonDown="rctLanguageFocus_MouseLeftButtonDown" MouseMove="rctLanguageFocus_MouseMove" Margin="0,187,0,0" VerticalAlignment="Top"/>
+				</Grid>
+				<Grid x:Name="grdUnit" Height="450" Width="173" RenderTransformOrigin="0.5,0.5" Canvas.Left="67">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="0.662*"/>
+						<RowDefinition Height="0.338*"/>
+					</Grid.RowDefinitions>
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform/>
+							<SkewTransform/>
+							<RotateTransform/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<Rectangle x:Name="rctUnit" Stroke="Black" RadiusX="10" RadiusY="10" Height="450" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Fill="#FF231F20" HorizontalAlignment="Left" Width="173">
+						<Rectangle.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform/>
+								<SkewTransform/>
+								<RotateTransform/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</Rectangle.RenderTransform>
+					</Rectangle>
+					<TextBlock x:Name="txbChooseUnit" Height="29" Text="Choose a unit" TextWrapping="Wrap" FontWeight="Bold" FontSize="16" Foreground="White" TextAlignment="Center" Margin="23,0,19,19" VerticalAlignment="Bottom" Grid.Row="1"/>
+					<Rectangle x:Name="rctUnit1" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" MouseLeave="rctUnit1_MouseLeave" MouseLeftButtonDown="rctUnit1_MouseLeftButtonDown" MouseMove="rctUnit1_MouseMove" Cursor="Hand" Margin="0,40,0,0" VerticalAlignment="Top"/>
+					<Rectangle x:Name="rctUnit2" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctUnit2_MouseLeave" MouseLeftButtonDown="rctUnit2_MouseLeftButtonDown" MouseMove="rctUnit2_MouseMove" HorizontalAlignment="Right" Margin="0,79,0,0" VerticalAlignment="Top" Width="173"/>
+					<Rectangle x:Name="rctUnit3" Fill="#FF0095D9" Stroke="Black" RadiusX="10" RadiusY="10" Height="25" Opacity="0" Cursor="Hand" MouseLeave="rctUnit3_MouseLeave" MouseLeftButtonDown="rctUnit3_MouseLeftButtonDown" MouseMove="rctUnit3_MouseMove" Margin="1,118,0,0" VerticalAlignment="Top"/>
+					<TextBlock x:Name="txbUnit1" Height="25" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 1" TextWrapping="Wrap" Cursor="Hand" Margin="56,40,55,0" VerticalAlignment="Top"/>
+					<TextBlock x:Name="txbUnit2" Height="25" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 2" TextWrapping="Wrap" Cursor="Hand" Margin="54,79,55,0" VerticalAlignment="Top"/>
+					<TextBlock x:Name="txbUnit3" Height="25" FontSize="16" FontWeight="Bold" Foreground="White" Text="Unit 3" TextWrapping="Wrap" Cursor="Hand" HorizontalAlignment="Left" Margin="52,118,0,0" VerticalAlignment="Top" Width="64"/>
+				</Grid>
+				<Rectangle x:Name="rctLeft" Fill="#FF231f20" Stroke="Black" Width="48" RadiusY="10" RadiusX="10" Height="450" d:LayoutOverrides="Height" Canvas.Left="-8"/>
+				<Rectangle Fill="#FF231f20" Stroke="Black" RadiusX="16" RadiusY="16" Height="450" Width="218" Canvas.Left="746"/>
+				<Canvas x:Name="cnvReading" Height="450" RenderTransformOrigin="0.5,0.5" Width="800" Canvas.Left="912">
+					<Canvas.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform/>
+							<SkewTransform/>
+							<RotateTransform/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Canvas.RenderTransform>
+					<Rectangle x:Name="rctReadingContent" Fill="#FF00172E" Stroke="Black" Height="450" Width="727" Canvas.Left="73" Opacity="0.35" StrokeThickness="0"/>
+					<TextBlock x:Name="txbReadingTitle" Height="28" Width="238" Canvas.Left="93" Canvas.Top="16" TextWrapping="Wrap" Foreground="#FFFFFEFE" Text="Unit 1 Reading" FontSize="18.667" FontWeight="Bold"/>
+					<Button x:Name="btnTriangle" Height="56" Style="{StaticResource triangleButton}" Width="32" Canvas.Top="186" Content="Button" Click="btnTriangle_Click" RenderTransformOrigin="0.5,0.5" Canvas.Left="12">
+						<Button.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform/>
+								<SkewTransform/>
+								<RotateTransform/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</Button.RenderTransform>
+					</Button>
+					<Button x:Name="bntPractice" Height="40" Width="104" FontSize="21.333" FontWeight="Bold" Content="Practice" Canvas.Left="120" Canvas.Top="402"/>
+					<Button x:Name="bntEnglish" Height="40" Width="104" FontSize="21.333" FontWeight="Bold" Content="English" Canvas.Left="304" Canvas.Top="402"/>
+					<Button x:Name="bntVietnam" Height="40" Width="232" FontSize="21.333" FontWeight="Bold" Content="Vietnammese" Canvas.Left="496" Canvas.Top="402"/>
+					<Liquid:RichTextBox x:Name="rtbxReading" Canvas.Left="73" Canvas.Top="48" Text="Đây là RichTextBox mình vừa add dll vào. H mọi người code phần reading trên canvas này nhe. Có thiếu control ji cứ thêm vào. Nhóm Design sẽ chỉnh sửa lại sao. Nếu ko có ji thì đừng nên &#xd;&#xa;dịch chuyển vị trí các control nhe(amination chạy loạn á mà).&#xd;&#xa;&#xd;&#xa;À 1 vấn đề là khi hiển thị thì phan nội dung bên phải cửa sổ chương trình nó vẫn hiện lên=&gt; nên khi chạy nhin thay hết canvas Reading (xấu lắm). Tụi mình chưa sửa dc nên dùng 1 rectangle màu đen che đỡ. Bạn nao biết chỉ dùm lun.&#xd;&#xa;Thank all." TextWrapping="Wrap" Width="727" Height="330" FontSize="21.333" Background="#FF231F20" BorderThickness="0" Foreground="White"/>
+				</Canvas>
 			</Canvas>
-			<Canvas x:Name="cnvReading" Margin="3,0,-3,-556" Height="480" VerticalAlignment="Bottom" Background="#FF0095D9">
-				<Rectangle x:Name="rctReadingContent" Fill="#FF231F20" Stroke="Black" RadiusX="10" RadiusY="10" Height="427" Width="727" Canvas.Left="51" Canvas.Top="26"/>
-				<TextBox x:Name="txtReading" Height="290" Width="669" Canvas.Left="82" Canvas.Top="101" Text="Display text" TextWrapping="Wrap"/>
-				<TextBlock x:Name="txbReadingTitle" Height="28" Width="238" Canvas.Left="72" Canvas.Top="42" TextWrapping="Wrap" Foreground="#FFFFFEFE" Text="Unit 1 Reading" FontSize="18.667" FontWeight="Bold"/>
-				<Path Fill="#FF231F20" Stretch="Fill" Stroke="White" Height="1" Width="727" UseLayoutRounding="False" Canvas.Left="51" Canvas.Top="80.5" Data="M51,84 L718.64679,84"/>
-				<Button x:Name="btnDictionary" Height="28" Width="100" Canvas.Left="110" Canvas.Top="410" Content="Dictionary"/>
-				<Button x:Name="btnDictation" Height="28" Width="104" Canvas.Left="264" Canvas.Top="410" Content="Dictation" RenderTransformOrigin="0.51,0.536"/>
-				<Button x:Name="btnPractice" Height="28" Width="102" Canvas.Left="412" Canvas.Top="410" Content="Practice"/>
-				<Rectangle x:Name="rectReadingLeft" Fill="#FF231f20" Stroke="Black" Width="34" Clip="M-14.500003,10.500005 C-14.500003,4.9771576 -10.022851,0.5000056 -4.5000033,0.5000056 L19.499994,0.5000056 C25.022842,0.5000056 29.499994,4.9771576 29.499994,10.500005 L29.499994,441.49997 C29.499994,447.02283 25.022842,451.49997 19.499994,451.49997 L-4.5000033,451.49997 C-10.022851,451.49997 -14.500003,447.02283 -14.500003,441.49997 z" Height="427" Canvas.Top="26"/>
-			</Canvas>
+			<Rectangle x:Name="rctCheDo" Fill="Black" Stroke="Black" RadiusX="10" RadiusY="10" HorizontalAlignment="Right" Margin="0,0,-1008,16" Width="1008"/>
 		</Grid>
-	</Grid>
+	</Border>
 </UserControl>

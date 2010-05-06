@@ -48,6 +48,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Liquid.Components.dll">
+      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.dll">
+      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.Menu.dll">
+      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.Menu.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.Popup.dll">
+      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.Popup.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.RichText.dll">
+      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.RichText.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.TreeView.dll">
+      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.TreeView.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations, Version=2.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217" />
     <Reference Include="System.Windows" />
     <Reference Include="mscorlib" />
