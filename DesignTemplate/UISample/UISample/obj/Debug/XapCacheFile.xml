@@ -1,23 +1,23 @@
-﻿<xapCache source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\UISample.xap" lastWriteTime="5/11/2010 5:11:48 PM">
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\UISample.dll" archivePath="UISample.dll" lastWriteTime="5/11/2010 5:11:47 PM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.Components.dll" archivePath="Liquid.Components.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.dll" archivePath="Liquid.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.Menu.dll" archivePath="Liquid.Menu.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.Popup.dll" archivePath="Liquid.Popup.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.RichText.dll" archivePath="Liquid.RichText.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.TreeView.dll" archivePath="Liquid.TreeView.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\MyControlLibrary.dll" archivePath="MyControlLibrary.dll" lastWriteTime="5/9/2010 2:05:10 AM" />
+﻿<xapCache source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\UISample.xap" lastWriteTime="5/11/2010 5:56:27 PM">
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\UISample.dll" archivePath="UISample.dll" lastWriteTime="5/11/2010 5:56:25 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.Components.dll" archivePath="Liquid.Components.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.dll" archivePath="Liquid.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.Menu.dll" archivePath="Liquid.Menu.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.Popup.dll" archivePath="Liquid.Popup.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.RichText.dll" archivePath="Liquid.RichText.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.TreeView.dll" archivePath="Liquid.TreeView.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\MyControlLibrary.dll" archivePath="MyControlLibrary.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="6/23/2009 10:12:28 PM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="6/23/2009 10:12:28 PM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Controls.Navigation.dll" archivePath="System.Windows.Controls.Navigation.dll" lastWriteTime="6/23/2009 10:12:28 PM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Data\Reading\Practice\reading_practice_3.xml" archivePath="Data\Reading\Practice\reading_practice_3.xml" lastWriteTime="5/9/2010 2:15:40 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Data\Reading\Text\RichText.xml" archivePath="Data\Reading\Text\RichText.xml" lastWriteTime="5/9/2010 1:50:28 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.Components.dll" archivePath="Dll\Liquid.Components.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.dll" archivePath="Dll\Liquid.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.Menu.dll" archivePath="Dll\Liquid.Menu.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.Popup.dll" archivePath="Dll\Liquid.Popup.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.RichText.dll" archivePath="Dll\Liquid.RichText.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\Liquid.TreeView.dll" archivePath="Dll\Liquid.TreeView.dll" lastWriteTime="5/9/2010 12:37:12 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Dll\MyControlLibrary.dll" archivePath="Dll\MyControlLibrary.dll" lastWriteTime="5/9/2010 2:05:10 AM" />
-  <file source="C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="5/9/2010 2:07:12 AM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Data\Reading\Practice\reading_practice_3.xml" archivePath="Data\Reading\Practice\reading_practice_3.xml" lastWriteTime="5/11/2010 5:54:27 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Data\Reading\Text\RichText.xml" archivePath="Data\Reading\Text\RichText.xml" lastWriteTime="5/11/2010 5:54:27 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.Components.dll" archivePath="Dll\Liquid.Components.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.dll" archivePath="Dll\Liquid.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.Menu.dll" archivePath="Dll\Liquid.Menu.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.Popup.dll" archivePath="Dll\Liquid.Popup.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.RichText.dll" archivePath="Dll\Liquid.RichText.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\Liquid.TreeView.dll" archivePath="Dll\Liquid.TreeView.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Dll\MyControlLibrary.dll" archivePath="Dll\MyControlLibrary.dll" lastWriteTime="5/11/2010 5:54:39 PM" />
+  <file source="C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="5/11/2010 5:54:27 PM" />
 </xapCache>
