@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Choose the option that best suits the meaning of the italicised word(s).</Heading>
+  <NumQuestions>2</NumQuestions>
+  <Question>
+    <Ask>The alarm [goes off] at 4:30.</Ask>
+    <Selections>
+      <Option>goes wrong</Option>
+      <Option>goes away</Option>
+      <Option>rings</Option>
+    </Selections>
+  </Question>
+  <Question>
+    <Ask>It takes me 45 minutes [to get] ready.</Ask>
+    <Selections>
+      <Option>to go</Option>
+      <Option>to wake up</Option>
+      <Option>to prepare</Option>
+    </Selections>
+  </Question>
+</ReadingPractice>

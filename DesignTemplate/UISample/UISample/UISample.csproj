@@ -3,7 +3,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
-    <ProjectGuid>{5617aa20-7618-468c-a487-582c64357ae3}</ProjectGuid>
+    <ProjectGuid>{5617AA20-7618-468C-A487-582C64357AE3}</ProjectGuid>
     <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -48,24 +48,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Liquid.Components.dll">
-      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.Components.dll</HintPath>
-    </Reference>
-    <Reference Include="Liquid.dll">
-      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.dll</HintPath>
-    </Reference>
-    <Reference Include="Liquid.Menu.dll">
-      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.Menu.dll</HintPath>
-    </Reference>
-    <Reference Include="Liquid.Popup.dll">
-      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.Popup.dll</HintPath>
-    </Reference>
-    <Reference Include="Liquid.RichText.dll">
-      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.RichText.dll</HintPath>
-    </Reference>
-    <Reference Include="Liquid.TreeView.dll">
-      <HintPath>D:\NghiaHuynh\LapTrinh\Silverlight\Login_Silverlight\Login_SilverlightSite\ClientBin\Liquid.TreeView.dll</HintPath>
-    </Reference>
+    <Reference Include="Liquid, Version=5.3.0.10320, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.Components, Version=5.3.0.10320, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.Menu, Version=5.3.0.10320, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.Popup, Version=5.3.0.10319, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.RichText, Version=5.3.0.10319, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.TreeView, Version=5.3.0.10320, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="MyControlLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="System.ComponentModel.DataAnnotations, Version=2.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217" />
     <Reference Include="System.Windows" />
     <Reference Include="mscorlib" />
@@ -100,6 +89,26 @@
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="uc_LanguageFocus.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="uc_Listening.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="uc_Reading.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="uc_Speaking.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="uc_Writing.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Compile Include="Page1.xaml.cs">
       <DependentUpon>Page1.xaml</DependentUpon>
     </Compile>
@@ -107,9 +116,44 @@
       <DependentUpon>Page2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uc_LanguageFocus.xaml.cs">
+      <DependentUpon>uc_LanguageFocus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="uc_Listening.xaml.cs">
+      <DependentUpon>uc_Listening.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="uc_Reading.xaml.cs">
+      <DependentUpon>uc_Reading.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="uc_Speaking.xaml.cs">
+      <DependentUpon>uc_Speaking.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="uc_Writing.xaml.cs">
+      <DependentUpon>uc_Writing.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Properties\AppManifest.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Reading\Practice\reading_practice_3.xml" />
+    <Content Include="Data\Reading\Text\RichText.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dll\Liquid.Components.dll" />
+    <Content Include="Dll\Liquid.dll" />
+    <Content Include="Dll\Liquid.Menu.dll" />
+    <Content Include="Dll\Liquid.Popup.dll" />
+    <Content Include="Dll\Liquid.RichText.dll" />
+    <Content Include="Dll\Liquid.TreeView.dll" />
+    <Content Include="Dll\MyControlLibrary.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight\V3.0\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
