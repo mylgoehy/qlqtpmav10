@@ -1,0 +1,36 @@
+﻿<navigation:Page 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+	x:Class="UISample.Page2" 
+	Title="Page2 Page"
+	d:DesignWidth="800" d:DesignHeight="600">
+	
+	<Grid x:Name="LayoutRoot" Background="Black" >
+		<Grid Margin="158,108,142,142" Width="500" Background="#FF231F20" Height="350">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="0.091*"/>
+				<RowDefinition Height="0.909*"/>
+			</Grid.RowDefinitions>
+			<TextBlock x:Name="txbCreateAccount" HorizontalAlignment="Left" Margin="13,4,0,0" Width="139" Text="Create Account" TextWrapping="Wrap" Foreground="White" FontWeight="Bold" FontSize="16"/>
+			<TextBlock x:Name="txbUsername" Height="20" HorizontalAlignment="Left" Margin="25,20,0,0" VerticalAlignment="Top" Width="77" Text="Username:" TextWrapping="Wrap" FontSize="13.333" Grid.Row="1" Foreground="#FFA3A3A3"/>
+			<TextBox x:Name="txtUsername" Height="20" Margin="175,20,35,0" VerticalAlignment="Top" TextWrapping="Wrap" Width="290" Grid.Row="1"/>
+			<PasswordBox x:Name="pwbPassword" Height="20" Margin="175,60,35,0" VerticalAlignment="Top" Grid.Row="1"/>
+			<PasswordBox x:Name="pwbConfirmPassword" Height="20" Margin="175,100,35,0" VerticalAlignment="Top" Grid.Row="1"/>
+			<TextBox x:Name="txtName" Margin="175,140,35,158" TextWrapping="Wrap" Width="290" Grid.Row="1" Height="20"/>
+			<TextBox x:Name="txtSchool" Height="20" Margin="175,0,35,117" VerticalAlignment="Bottom" TextWrapping="Wrap" Width="290" Grid.Row="1"/>
+			<TextBox x:Name="txtClass" Height="20" Margin="175,0,35,77" VerticalAlignment="Bottom" TextWrapping="Wrap" Width="290" Grid.Row="1"/>
+			<TextBlock x:Name="txbPassword" Height="20" HorizontalAlignment="Left" Margin="25,60,0,0" VerticalAlignment="Top" Width="77" FontSize="13.333" Text="Password:" TextWrapping="Wrap" Grid.Row="1" Foreground="#FFA3A3A3"/>
+			<TextBlock x:Name="txbConfirmPassword" Height="23" HorizontalAlignment="Left" Margin="25,100,0,0" VerticalAlignment="Top" Width="146" FontSize="13.333" Text="Confirm password:" TextWrapping="Wrap" Grid.Row="1" Foreground="#FFA3A3A3"/>
+			<TextBlock x:Name="txbName" HorizontalAlignment="Left" Margin="25,140,0,158" Width="77" FontSize="13.333" Text="Name:" TextWrapping="Wrap" Grid.Row="1" RenderTransformOrigin="0.481,1.15" Foreground="#FFA3A3A3"/>
+			<TextBlock x:Name="txbSchool" Height="20" HorizontalAlignment="Left" Margin="25,0,0,117" VerticalAlignment="Bottom" Width="77" FontSize="13.333" Text="School:" TextWrapping="Wrap" Grid.Row="1" Foreground="#FFA3A3A3"/>
+			<TextBlock x:Name="txbClass" Height="20" HorizontalAlignment="Left" Margin="25,0,0,77" VerticalAlignment="Bottom" Width="77" FontSize="13.333" Text="Class:" TextWrapping="Wrap" Grid.Row="1" Foreground="#FFA3A3A3"/>
+			<Button x:Name="btnSubmit" Height="20" HorizontalAlignment="Left" Margin="177,0,0,31" VerticalAlignment="Bottom" Width="60" Content="Submit" Grid.Row="1" Background="#FF231F20"/>
+			<Button x:Name="btnCancel" Height="20" HorizontalAlignment="Right" Margin="0,0,106,31" VerticalAlignment="Bottom" Width="60" Content="Cancel" Grid.Row="1" Background="#FF231F20"/>
+			<Path Fill="White" Stretch="Fill" Stroke="White" Height="1" Margin="1,0,0.899,0" VerticalAlignment="Bottom" UseLayoutRounding="False" Data="M1,31 L498.10059,31"/>
+		</Grid>
+	</Grid>
+</navigation:Page>
