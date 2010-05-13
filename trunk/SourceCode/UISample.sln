@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UISampleSite", "UISampleSite", "{B4B09DDC-5816-4495-85CC-5D62DC18AB1B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/UISampleSite"
+		Debug.AspNetCompiler.PhysicalPath = "UISampleSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UISampleSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UISampleSite"
+		Release.AspNetCompiler.PhysicalPath = "UISampleSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UISampleSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1579"
+		ProjOutputReferences = "{5617aa20-7618-468c-a487-582c64357ae3}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UISample", "UISample\UISample.csproj", "{5617AA20-7618-468C-A487-582C64357AE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4B09DDC-5816-4495-85CC-5D62DC18AB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B09DDC-5816-4495-85CC-5D62DC18AB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B09DDC-5816-4495-85CC-5D62DC18AB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B09DDC-5816-4495-85CC-5D62DC18AB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5617AA20-7618-468C-A487-582C64357AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5617AA20-7618-468C-A487-582C64357AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5617AA20-7618-468C-A487-582C64357AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5617AA20-7618-468C-A487-582C64357AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
