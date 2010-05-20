@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UISampleSite", "UISampleSite", "{B4B09DDC-5816-4495-85CC-5D62DC18AB1B}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UISampleSite", "UISampleSite\", "{B4B09DDC-5816-4495-85CC-5D62DC18AB1B}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/UISampleSite"
@@ -18,7 +18,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UISampleSite", "UISampleSit
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "1579"
+		VWDPort = "50002"
 		ProjOutputReferences = "{5617aa20-7618-468c-a487-582c64357ae3}|ClientBin|false;"
 	EndProjectSection
 EndProject

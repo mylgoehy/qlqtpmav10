@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AnhVan10" Class="AV10DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\AnhVan10.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AnhVan10ConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VOCABULARY" Member="VOCABULARies">
+    <Type Name="VOCABULARY">
+      <Column Name="ID_Voc" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_Skill" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Eword" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Vword" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Voice_Path" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
