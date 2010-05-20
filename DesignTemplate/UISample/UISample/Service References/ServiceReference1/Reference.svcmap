@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e6159d65-b4ae-47cd-88c2-89a822b3b92f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50002/UISampleSite/Service123.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service123.wsdl" MetadataType="Wsdl" ID="7232a078-1dab-4bfb-9239-e317d8a2babe" SourceId="1" SourceUrl="http://localhost:50002/UISampleSite/Service123.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Service123.xsd" MetadataType="Schema" ID="07613a5a-db56-4fce-aa64-8b0e936957b5" SourceId="1" SourceUrl="http://localhost:50002/UISampleSite/Service123.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1231.xsd" MetadataType="Schema" ID="6a48438c-e109-491b-8264-cbb062519edd" SourceId="1" SourceUrl="http://localhost:50002/UISampleSite/Service123.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service123.disco" MetadataType="Disco" ID="4466c5c6-169e-4283-822e-8028ac3baf16" SourceId="1" SourceUrl="http://localhost:50002/UISampleSite/Service123.svc?disco" />
+    <MetadataFile FileName="Service1231.wsdl" MetadataType="Wsdl" ID="022bcece-6121-48e2-809c-3dfa3c83fff6" SourceId="1" SourceUrl="http://localhost:50002/UISampleSite/Service123.svc?wsdl" />
+    <MetadataFile FileName="Service1232.xsd" MetadataType="Schema" ID="0e96749c-a249-4300-8dd1-30ef94ca7a65" SourceId="1" SourceUrl="http://localhost:50002/UISampleSite/Service123.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

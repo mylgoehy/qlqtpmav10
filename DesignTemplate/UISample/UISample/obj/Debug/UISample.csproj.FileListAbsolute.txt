@@ -1,532 +1,219 @@
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\AppManifest.xaml
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\UISample.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\UISample.pdb
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\UISample.xap
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\TestPage.html
-C:\C#\Silverlight\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\C#\Silverlight\UISample\UISample\obj\Debug\App.g.cs
-C:\C#\Silverlight\UISample\UISample\obj\Debug\MainPage.g.cs
-C:\C#\Silverlight\UISample\UISample\obj\Debug\UISample.g.resources
-C:\C#\Silverlight\UISample\UISample\obj\Debug\UISample.dll
-C:\C#\Silverlight\UISample\UISample\obj\Debug\UISample.pdb
-C:\C#\Silverlight\UISample\UISample\obj\Debug\XapCacheFile.xml
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\C#\Silverlight\UISample\UISample\obj\Debug\Page1.g.cs
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\C#\Silverlight\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\C#\Silverlight\UISample\UISample\obj\Debug\Page2.g.cs
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\AppManifest.xaml
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\UISample.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\UISample.pdb
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\UISample.xap
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\TestPage.html
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\obj\Debug\App.g.cs
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\obj\Debug\MainPage.g.cs
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\obj\Debug\Page1.g.cs
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\obj\Debug\Page2.g.cs
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\obj\Debug\UISample.g.resources
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\obj\Debug\UISample.dll
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\obj\Debug\UISample.pdb
-C:\Users\Kawaii\Desktop\QLQTPM AV10\trunk\DesignTemplate\UISample\UISample\obj\Debug\XapCacheFile.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\AppManifest.xaml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\UISample.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\UISample.pdb
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\UISample.xap
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\TestPage.html
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\obj\Debug\App.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\obj\Debug\MainPage.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\obj\Debug\Page1.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\obj\Debug\Page2.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\obj\Debug\UISample.g.resources
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\obj\Debug\UISample.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\obj\Debug\UISample.pdb
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample\UISample\obj\Debug\XapCacheFile.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\AppManifest.xaml
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\UISample.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\UISample.pdb
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\UISample.xap
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\TestPage.html
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\obj\Debug\App.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\obj\Debug\MainPage.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\obj\Debug\Page1.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\obj\Debug\Page2.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\obj\Debug\UISample.g.resources
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\obj\Debug\UISample.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\obj\Debug\UISample.pdb
-C:\Documents and Settings\Hoai Ninh\Desktop\UISample_Copy1\UISample\obj\Debug\XapCacheFile.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\AppManifest.xaml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\UISample.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\UISample.pdb
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\UISample.xap
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\TestPage.html
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\obj\Debug\App.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\obj\Debug\MainPage.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\obj\Debug\Page1.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\obj\Debug\Page2.g.cs
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\obj\Debug\UISample.g.resources
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\obj\Debug\UISample.dll
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\obj\Debug\UISample.pdb
-C:\Documents and Settings\Hoai Ninh\Desktop\QLQT\DesignTemplate\UISample_Copy1\UISample\obj\Debug\XapCacheFile.xml
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\obj\Debug\App.g.cs
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\obj\Debug\MainPage.g.cs
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\obj\Debug\Page1.g.cs
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\obj\Debug\Page2.g.cs
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\obj\Debug\UISample.g.resources
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\obj\Debug\UISample.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\obj\Debug\UISample.pdb
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\AppManifest.xaml
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\UISample.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\UISample.pdb
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\UISample.xap
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\Bin\Debug\TestPage.html
-C:\Users\X-Freshy\Desktop\qlqtpmav10\DesignTemplate\UISample\UISample\obj\Debug\XapCacheFile.xml
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\AppManifest.xaml
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\UISample.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\UISample.pdb
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\UISample.xap
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\TestPage.html
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\obj\Debug\App.g.cs
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\obj\Debug\MainPage.g.cs
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\obj\Debug\Page1.g.cs
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\obj\Debug\Page2.g.cs
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\obj\Debug\UISample.g.resources
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\obj\Debug\UISample.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\obj\Debug\UISample.pdb
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\obj\Debug\XapCacheFile.xml
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.Components.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.Menu.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.Popup.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.RichText.dll
-C:\Users\Kawaii\Desktop\QLQT AV10\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.TreeView.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\AppManifest.xaml
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\UISample.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\UISample.pdb
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\UISample.xap
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\TestPage.html
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\Liquid.Components.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\Liquid.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\Liquid.Menu.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\Liquid.Popup.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\Liquid.RichText.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\Liquid.TreeView.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Green\Desktop\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Green\Desktop\UISample\UISample\obj\Debug\App.g.cs
-C:\Users\Green\Desktop\UISample\UISample\obj\Debug\MainPage.g.cs
-C:\Users\Green\Desktop\UISample\UISample\obj\Debug\Page1.g.cs
-C:\Users\Green\Desktop\UISample\UISample\obj\Debug\Page2.g.cs
-C:\Users\Green\Desktop\UISample\UISample\obj\Debug\UISample.g.resources
-C:\Users\Green\Desktop\UISample\UISample\obj\Debug\UISample.dll
-C:\Users\Green\Desktop\UISample\UISample\obj\Debug\UISample.pdb
-C:\Users\Green\Desktop\UISample\UISample\obj\Debug\XapCacheFile.xml
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\Data\Reading\Text\RichText.xml
-C:\Users\Green\Desktop\UISample\UISample\Bin\Debug\MyControlLibrary.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\AppManifest.xaml
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\Data\Reading\Text\RichText.xml
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\UISample.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\UISample.pdb
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\UISample.xap
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\TestPage.html
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\Liquid.Components.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\Liquid.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\Liquid.Menu.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\Liquid.Popup.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\Liquid.RichText.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\Liquid.TreeView.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\MyControlLibrary.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\obj\Debug\App.g.cs
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\obj\Debug\MainPage.g.cs
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\obj\Debug\Page1.g.cs
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\obj\Debug\Page2.g.cs
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\obj\Debug\UISample.g.resources
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\obj\Debug\UISample.dll
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\obj\Debug\UISample.pdb
-C:\Users\Kawaii\Desktop\UISample\UISample\UISample\obj\Debug\XapCacheFile.xml
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\AppManifest.xaml
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\Data\Reading\Text\RichText.xml
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\UISample.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\UISample.pdb
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\UISample.xap
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\TestPage.html
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\Liquid.Components.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\Liquid.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\Liquid.Menu.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\Liquid.Popup.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\Liquid.RichText.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\Liquid.TreeView.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\MyControlLibrary.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\App.g.cs
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\MainPage.g.cs
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\Page1.g.cs
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\Page2.g.cs
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\UISample.g.resources
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\UISample.dll
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\UISample.pdb
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\XapCacheFile.xml
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\uc_Reading.g.cs
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\uc_LanguageFocus.g.cs
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\uc_Listening.g.cs
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\uc_Speaking.g.cs
-C:\Users\Ninh\Desktop\UISample1\UISample\UISample\obj\Debug\uc_Writing.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\AppManifest.xaml
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\Data\Reading\Text\RichText.xml
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\UISample.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\UISample.pdb
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\UISample.xap
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\TestPage.html
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.Components.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.Menu.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.Popup.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.RichText.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\Liquid.TreeView.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\MyControlLibrary.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\App.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\MainPage.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\Page1.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\Page2.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\uc_LanguageFocus.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\uc_Listening.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\uc_Reading.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\uc_Speaking.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\uc_Writing.g.cs
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\UISample.g.resources
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\UISample.dll
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\UISample.pdb
-C:\Users\Ninh\Desktop\dm\DesignTemplate\UISample\UISample\obj\Debug\XapCacheFile.xml
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\AppManifest.xaml
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\Data\Reading\Text\RichText.xml
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\UISample.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\UISample.pdb
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\UISample.xap
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\TestPage.html
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\Liquid.Components.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\Liquid.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\Liquid.Menu.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\Liquid.Popup.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\Liquid.RichText.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\Liquid.TreeView.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\MyControlLibrary.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\App.g.cs
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\MainPage.g.cs
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\MyButton.g.cs
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\Page1.g.cs
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\Page2.g.cs
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\UISample.g.resources
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\UISample.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\UISample.pdb
+D:\NghiaHuynh\Download\UISample\UISample\UISample\obj\Debug\XapCacheFile.xml
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.Windows.Data.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.Windows.Data.xml
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.xml
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\de\System.Windows.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\es\System.Windows.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\fr\System.Windows.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\it\System.Windows.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ja\System.Windows.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ko\System.Windows.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+D:\NghiaHuynh\Download\UISample\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\AppManifest.xaml
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\Data\Reading\Text\RichText.xml
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\UISample.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\UISample.pdb
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\UISample.xap
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\TestPage.html
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\Liquid.Components.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\Liquid.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\Liquid.Menu.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\Liquid.Popup.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\Liquid.RichText.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\Liquid.TreeView.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\MyControlLibrary.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.Windows.Data.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.Windows.Data.xml
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\App.g.cs
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\MainPage.g.cs
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\MyButton.g.cs
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\Page1.g.cs
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\Page2.g.cs
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\UISample.g.resources
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\UISample.dll
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\UISample.pdb
+C:\Users\Ninh\Desktop\20_5\UISample\UISample\obj\Debug\XapCacheFile.xml
+D:\UISample\UISample\Bin\Debug\AppManifest.xaml
+D:\UISample\UISample\Bin\Debug\Data\Reading\Text\RichText.xml
+D:\UISample\UISample\Bin\Debug\UISample.dll
+D:\UISample\UISample\Bin\Debug\UISample.pdb
+D:\UISample\UISample\Bin\Debug\UISample.xap
+D:\UISample\UISample\Bin\Debug\TestPage.html
+D:\UISample\UISample\Bin\Debug\Liquid.Components.dll
+D:\UISample\UISample\Bin\Debug\Liquid.dll
+D:\UISample\UISample\Bin\Debug\Liquid.Menu.dll
+D:\UISample\UISample\Bin\Debug\Liquid.Popup.dll
+D:\UISample\UISample\Bin\Debug\Liquid.RichText.dll
+D:\UISample\UISample\Bin\Debug\Liquid.TreeView.dll
+D:\UISample\UISample\Bin\Debug\MyControlLibrary.dll
+D:\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.dll
+D:\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
+D:\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
+D:\UISample\UISample\Bin\Debug\System.Windows.Data.dll
+D:\UISample\UISample\Bin\Debug\System.Windows.Data.xml
+D:\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.xml
+D:\UISample\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+D:\UISample\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
+D:\UISample\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
+D:\UISample\UISample\Bin\Debug\de\System.Windows.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\es\System.Windows.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\fr\System.Windows.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\it\System.Windows.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\ja\System.Windows.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\ko\System.Windows.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+D:\UISample\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+D:\UISample\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+D:\UISample\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+D:\UISample\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+D:\UISample\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+D:\UISample\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+D:\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+D:\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+D:\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+D:\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+D:\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+D:\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+D:\UISample\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+D:\UISample\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+D:\UISample\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+D:\UISample\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+D:\UISample\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+D:\UISample\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+D:\UISample\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+D:\UISample\UISample\obj\Debug\ResolveAssemblyReference.cache
+D:\UISample\UISample\obj\Debug\App.g.cs
+D:\UISample\UISample\obj\Debug\MainPage.g.cs
+D:\UISample\UISample\obj\Debug\MyButton.g.cs
+D:\UISample\UISample\obj\Debug\Page1.g.cs
+D:\UISample\UISample\obj\Debug\Page2.g.cs
+D:\UISample\UISample\obj\Debug\UISample.g.resources
+D:\UISample\UISample\obj\Debug\UISample.dll
+D:\UISample\UISample\obj\Debug\UISample.pdb
+D:\UISample\UISample\obj\Debug\XapCacheFile.xml

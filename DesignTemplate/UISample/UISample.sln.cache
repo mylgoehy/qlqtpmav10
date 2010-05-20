@@ -31,11 +31,11 @@
     <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
   </PropertyGroup>
   <PropertyGroup>
-    <SolutionDir>C:\Users\Kawaii\Desktop\UISample\UISample\</SolutionDir>
+    <SolutionDir>D:\NghiaHuynh\Download\UISample\UISample\</SolutionDir>
     <SolutionExt>.sln</SolutionExt>
     <SolutionFileName>UISample.sln</SolutionFileName>
     <SolutionName>UISample</SolutionName>
-    <SolutionPath>C:\Users\Kawaii\Desktop\UISample\UISample\UISample.sln</SolutionPath>
+    <SolutionPath>D:\NghiaHuynh\Download\UISample\UISample\UISample.sln</SolutionPath>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>

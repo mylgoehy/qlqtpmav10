@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <customBinding>
+                <binding name="CustomBinding_Service123">
+                    <binaryMessageEncoding />
+                    <httpTransport maxReceivedMessageSize="2147483647" maxBufferSize="2147483647" />
+                </binding>
+            </customBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:50002/UISampleSite/Service123.svc"
+                binding="customBinding" bindingConfiguration="CustomBinding_Service123"
+                contract="ServiceReference1.Service123" name="CustomBinding_Service123" />
+        </client>
+    </system.serviceModel>
+</configuration>
