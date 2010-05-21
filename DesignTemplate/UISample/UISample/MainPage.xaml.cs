@@ -20,13 +20,13 @@ namespace UISample
 	public partial class MainPage : UserControl
 	{
         ServiceReference1.Service123Client client = new ServiceReference1.Service123Client();
-
+        int iCurrentUnit;
         public MainPage()
         {
             // Required to initialize variables
             InitializeComponent();
             strbShowUnitGrid.Begin();
-
+            iCurrentUnit = 1;
             //===moi them vao===//
             rtbxReading.IsReadOnly = true;
             rtbxReading.Visibility = Visibility.Collapsed;
@@ -158,6 +158,7 @@ namespace UISample
         public void client_GetVocabularyCompleted(object sender,ServiceReference1.GetVocabularyCompletedEventArgs e)
         {
             dg_NewVocabulary.ItemsSource = e.Result.ToList();
+            
         }
 
         private void bnt_New_Vocabulary_Click(object sender, System.Windows.RoutedEventArgs e)
@@ -169,6 +170,13 @@ namespace UISample
             //can bit dang o bai nao thi load vocabolary bai do len, truyen tham so vao
             //vi du o day la a
             client.GetVocabularyAsync(a);
+        }
+
+        private void mbtUnit_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MyButton mbt = (MyButton)sender;
+
+            iCurrentUnit = mbt.ID;
         }
 	}
 }
