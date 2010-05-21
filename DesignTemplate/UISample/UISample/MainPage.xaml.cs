@@ -21,6 +21,7 @@ namespace UISample
 	{
         ServiceReference1.Service123Client client = new ServiceReference1.Service123Client();
         int iCurrentUnit;
+        bool flagShowButtonVoca = false;
         public MainPage()
         {
             // Required to initialize variables
@@ -41,90 +42,15 @@ namespace UISample
 
         }
 		
-        ////unit 1
-        //private void rctUnit1_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
-        //{
-        //    // TODO: Add event handler implementation here.
-        //    if (flagUnit1)
-        //        rctUnit1.Opacity = 0;
-        //}
-
-        //private void rctUnit1_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
-        //{
-        //    // TODO: Add event handler implementation here.
-        //    if (flagUnit1)
-        //        rctUnit1.Opacity = 0.5;
-        //}
-		
-        //private void rctUnit1_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        //{
-        //    // TODO: Add event handler implementation here.
-        //    //strbShowUnitGrid.AutoReverse = true;
-        //    rctUnit1.Opacity = 0.5;
-        //    rctUnit2.Opacity = 0;
-        //    rctUnit3.Opacity = 0;
-        //    flagUnit1 = false;
-        //    flagUnit2 = true;
-        //    flagUnit3 = true;
-        //}
-		
-        ////unit 2
-        //private void rctUnit2_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
-        //{
-        //    // TODO: Add event handler implementation here.
-        //    if (flagUnit2)
-        //        rctUnit2.Opacity = 0;
-        //}
-
-        //private void rctUnit2_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
-        //{
-        //    // TODO: Add event handler implementation here.
-        //    if (flagUnit2)
-        //        rctUnit2.Opacity = 0.5;
-        //}
-		
-        //private void rctUnit2_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        //{
-        //    // TODO: Add event handler implementation here.
-        //    rctUnit2.Opacity = 0.5;
-        //    rctUnit1.Opacity = 0;
-        //    rctUnit3.Opacity = 0;
-        //    flagUnit2 = false;
-        //    flagUnit1 = true;
-        //    flagUnit3 = true;
-        //}
-		
-        ////unit 3
-        //private void rctUnit3_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
-        //{
-        //    // TODO: Add event handler implementation here.
-        //    if (flagUnit3)
-        //        rctUnit3.Opacity = 0;
-        //}
-		
-        //private void rctUnit3_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
-        //{
-        //    // TODO: Add event handler implementation here.
-        //    if (flagUnit3)
-        //        rctUnit3.Opacity = 0.5;
-        //}
-
-        //private void rctUnit3_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        //{
-        //    // TODO: Add event handler implementation here.
-        //    rctUnit3.Opacity = 0.5;
-        //    rctUnit1.Opacity = 0;
-        //    rctUnit2.Opacity = 0;
-        //    flagUnit3 = false;
-        //    flagUnit1 = true;
-        //    flagUnit2 = true;
-        //}
 		private void btnTriangle_Click(object sender, System.Windows.RoutedEventArgs e)
 		{
-			// TODO: Add event handler implementation here.
-            //cnvReading.Opacity = 0;
             strbShowReadingContentReverse.Begin();
-            strbShowNewVocabolaryReverse.Begin();
+            if (flagShowButtonVoca == true)
+            {
+                strbShowNewVocabolaryReverse.Begin();
+                bnt_New_Vocabulary.Content = "Vocabulary";
+                flagShowButtonVoca = false;
+            }
 		}
 
         private void bntVietnam_Click(object sender, RoutedEventArgs e)
@@ -145,7 +71,6 @@ namespace UISample
         private void bntPractice_Click(object sender, RoutedEventArgs e)
         {
             rpcReadingPractice.Visibility = Visibility.Visible;
-
             rtbxReading.Visibility = Visibility.Collapsed;
         }
 
@@ -158,25 +83,32 @@ namespace UISample
         public void client_GetVocabularyCompleted(object sender,ServiceReference1.GetVocabularyCompletedEventArgs e)
         {
             dg_NewVocabulary.ItemsSource = e.Result.ToList();
-            
-        }
-
-        private void bnt_New_Vocabulary_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
-            int a;
-            a = 1;
-            strbShowNewVocabolary.Begin();
-            client.GetVocabularyCompleted += new EventHandler<ServiceReference1.GetVocabularyCompletedEventArgs>(client_GetVocabularyCompleted);
-            //can bit dang o bai nao thi load vocabolary bai do len, truyen tham so vao
-            //vi du o day la a
-            client.GetVocabularyAsync(a);
         }
 
         private void mbtUnit_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             MyButton mbt = (MyButton)sender;
-
             iCurrentUnit = mbt.ID;
         }
+
+        private void bnt_New_Vocabulary_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            if (flagShowButtonVoca == false)
+            {
+                strbShowNewVocabolary.Begin();
+                bnt_New_Vocabulary.Content = "Exit";
+                flagShowButtonVoca = true;
+            }
+            else
+            {
+                strbShowNewVocabolaryReverse.Begin();
+                bnt_New_Vocabulary.Content = "Vocabulary";
+                flagShowButtonVoca = false;
+            }
+            client.GetVocabularyCompleted += new EventHandler<ServiceReference1.GetVocabularyCompletedEventArgs>(client_GetVocabularyCompleted);
+            
+            client.GetVocabularyAsync(iCurrentUnit);
+        }
+
 	}
 }

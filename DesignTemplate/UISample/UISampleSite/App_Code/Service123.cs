@@ -12,15 +12,14 @@ using System.Data.Linq;
 public class Service123
 {
     [OperationContract]
-    public List<VOCABULARY> GetVocabulary(int a)
+    public List<VOCABULARY> GetVocabulary(int iCurrentUnit)
     {
         AV10DataContext db = new AV10DataContext();
-        var voca = from item in db.VOCABULARies select item;
+        //var voca = from item in db.VOCABULARies select item;
         
-        //var queue = from q in dc.SomeTable
-        //where q.SomeDate <= DateTime.Now && q.Locked != true
-        //orderby (q.Priority, q.TimeCreated)
-        //select q;
+        var voca = from item in db.VOCABULARies
+        where item.ID_Unit == 1
+        select item;
 
         //var queue2 = dc.SomeTable
         //.Where( q => q.SomeDate <= DateTime.Now && q.Locked != true )
