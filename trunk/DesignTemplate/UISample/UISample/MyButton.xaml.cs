@@ -14,6 +14,7 @@ namespace UISample
 {
     public partial class MyButton : UserControl
     {
+        int id;
         public MyButton()
         {
             InitializeComponent();
@@ -48,7 +49,7 @@ namespace UISample
             //cnvReading.Opacity = 100;
 
             Storyboard sb = (this.Resources["strbShowReadingContent"] as Storyboard);
-            sb.Begin();
+            //sb.Begin();
 
         }
 
@@ -63,6 +64,12 @@ namespace UISample
         {
             get { return txb.Text; }
             set { txb.Text = value; }
+        }
+
+        public int ID
+        {
+            get { return id; }
+            set { id = value; }
         }
 
     }
