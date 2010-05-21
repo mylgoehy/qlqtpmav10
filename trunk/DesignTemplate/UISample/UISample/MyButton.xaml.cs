@@ -39,6 +39,8 @@ namespace UISample
                 rct.Opacity = 0;
             if (id != iCurrentSkill && id > 16)
                 rct.Opacity = 0;
+            if (id == 0)
+                rct.Opacity = 0.0;
         }
         private void rct_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
         {

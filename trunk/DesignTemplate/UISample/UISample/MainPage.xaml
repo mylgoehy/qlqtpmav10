@@ -614,7 +614,7 @@
 						<inf:MyButton x:Name="mbtListening" ID="18" myText="Listening" Margin="0,65,0,0" Height="30" VerticalAlignment="Top" MouseLeftButtonDown="mbt_MouseLeftButtonDown"/>
 						<inf:MyButton x:Name="mbtSpeaking" ID="19" myText="Speaking" Margin="0,99,0,0" Height="30" VerticalAlignment="Top" MouseLeftButtonDown="mbt_MouseLeftButtonDown"/>
 						<inf:MyButton x:Name="mbtGrammar" ID="20" myText="Grammar" Margin="0,133,0,0" MouseLeftButtonDown="mbt_MouseLeftButtonDown" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-						<inf:MyButton x:Name="mbtLanguageFocus" myText="Language Focus" Height="31" Margin="0,162,0,0" VerticalAlignment="Top" MouseLeftButtonDown="mbt_MouseLeftButtonDown"/>
+						<inf:MyButton x:Name="mbtLanguageFocus" ID="21" myText="Language Focus" Height="31" Margin="0,162,0,0" VerticalAlignment="Top" MouseLeftButtonDown="mbt_MouseLeftButtonDown"/>
                         
 					</Grid>
 					<Grid x:Name="grdUnit" Height="450" Width="173" RenderTransformOrigin="0.5,0.5" Canvas.Left="67">
