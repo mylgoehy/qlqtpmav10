@@ -15,16 +15,30 @@ namespace UISample
     public partial class MyButton : UserControl
     {
         int id;
+        int iGroup;
+        static Rectangle rctCurrentUnit;
+        static int iCurrentUnit;
+        static Rectangle rctCurrentSkill;
+        static int iCurrentSkill;
         public MyButton()
         {
             InitializeComponent();
-            //InitializeComponent();
+
+            rctCurrentSkill = null;
+            rctCurrentUnit = null;
+            id = 0;
+            iCurrentUnit = 0;
+            iCurrentSkill = 0;
         }
         private void rct_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
         {
             // TODO: Add event handler implementation here.
             //if(flagReading)
-            rct.Opacity = 0;
+            Rectangle rct = (Rectangle)sender;
+            if(id != iCurrentUnit && id < 17)
+                rct.Opacity = 0;
+            if (id != iCurrentSkill && id > 16)
+                rct.Opacity = 0;
         }
         private void rct_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
         {
@@ -35,22 +49,27 @@ namespace UISample
         }
         private void rct_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            // TODO: Add event handler implementation here.
-            //rctReading.Opacity = 0.5;
-            //rctSpeaking.Opacity = 0;
-            //rctListening.Opacity = 0;
-            //rctLanguageFocus.Opacity = 0;
-            //rctWriting.Opacity = 0;
-            //flagReading = false;
-            //flagListening = true;
-            //flagWriting = true;
-            //flagLanguageFocus = true;
-            //flagSpeaking = true;
-            //cnvReading.Opacity = 100;
-
-            Storyboard sb = (this.Resources["strbShowReadingContent"] as Storyboard);
-            //sb.Begin();
-
+            Rectangle rct = (Rectangle)sender;
+            if (id < 17)
+            {
+                if (iCurrentUnit > 0)
+                {
+                    rctCurrentUnit.Opacity = 0.0;
+                }
+                rctCurrentUnit = rct;
+                rct.Opacity = 0.5;
+                iCurrentUnit = id;
+            }
+            else
+            {
+                if (iCurrentSkill > 0)
+                {
+                    rctCurrentSkill.Opacity = 0.0;
+                }
+                rctCurrentSkill = rct;
+                rct.Opacity = 0.5;
+                iCurrentSkill = id;
+            }
         }
 
        
@@ -70,6 +89,11 @@ namespace UISample
         {
             get { return id; }
             set { id = value; }
+        }
+        public int Group
+        {
+            get { return iGroup; }
+            set { iGroup = value; }
         }
 
     }
