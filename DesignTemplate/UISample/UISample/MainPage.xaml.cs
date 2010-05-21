@@ -88,7 +88,10 @@ namespace UISample
         private void mbtUnit_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             MyButton mbt = (MyButton)sender;
-            iCurrentUnit = mbt.ID;
+            if (mbt.ID > 0)
+            {
+                iCurrentUnit = mbt.ID;
+            }
         }
 
         private void bnt_New_Vocabulary_Click(object sender, System.Windows.RoutedEventArgs e)
@@ -96,7 +99,7 @@ namespace UISample
             if (flagShowButtonVoca == false)
             {
                 strbShowNewVocabolary.Begin();
-                bnt_New_Vocabulary.Content = "Exit";
+                bnt_New_Vocabulary.Content = "Close Vocabulary";
                 flagShowButtonVoca = true;
             }
             else
