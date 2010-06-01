@@ -1,0 +1,180 @@
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\UISample.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\UISample.pdb
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\AppManifest.xaml
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\UISample.xap
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\TestPage.html
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.Components.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.Menu.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.Popup.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.RichText.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.TreeView.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Microsoft.Expression.Prototyping.SketchControls.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Input.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.xml
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Input.xml
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.Windows.Controls.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.Windows.Controls.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.Windows.Controls.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.Windows.Controls.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.Windows.Controls.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.Windows.Controls.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\App.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\FillInBlankControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\FindControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\HighlightButton.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\HighlightButton_1.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\LanguageFocusControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\ListeningControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\MainPage.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\Page1.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\Page2.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\Player.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\ReadingControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\PracticeControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\SelectionPartControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\SentenceCorrectionControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\SpeakingControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\UnitControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\WritingControl.g.cs
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\UISample.g.resources
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\UISample.dll
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\UISample.pdb
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\XapCacheFile.xml
+C:\Users\Orange\Desktop\Quy trinh phan mem dang lam\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Xml.Linq.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\AppManifest.xaml
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\UISample.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\UISample.pdb
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\UISample.xap
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.Components.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.Menu.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.Popup.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.RichText.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Liquid.TreeView.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Microsoft.Expression.Prototyping.SketchControls.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Input.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Xml.Linq.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.xml
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Input.xml
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.Windows.Controls.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.Windows.Controls.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.Windows.Controls.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.Windows.Controls.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.Windows.Controls.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.Windows.Controls.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\App.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\FillInBlankControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\FindControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\HighlightButton.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\HighlightButton_1.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\LanguageFocusControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\ListeningControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\MainPage.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\Page1.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\Page2.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\Player.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\ReadingControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\PracticeControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\SelectionPartControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\SentenceCorrectionControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\SpeakingControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\UnitControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\WritingControl.g.cs
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\UISample.g.resources
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\UISample.dll
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\UISample.pdb
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\obj\Debug\XapCacheFile.xml
+C:\Users\Green\Desktop\Final\UISample_Test - Copy\UISample_Test\UISample\Bin\Debug\TestPage.html

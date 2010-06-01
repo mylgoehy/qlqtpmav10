@@ -1,0 +1,43 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[Unit3:PEOPLE S BACKGROUND]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Read the passage and them do the tasks that follow]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Marie Curie was born in Wasaw on November 7th, 1867.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[She received general education in local schools and some scientific training from her father.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[As a brilliant and mature student. Marie harboured the dream of a scientific career, which was impossible for]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[a woman at that time. To save money for a study tour abroad, she had to work as a private tutor, and her]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[studies were interrupted.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Finally in 1891, Marie, with very little money to live on, went to Paris to realize her dream at the Sorbone.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[In spite of her difficult living conditions, she worked extremely hard.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[She earned a degree in Physics with flying colours, and went on to take another degree in Mathematics.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[She met Pierre Cure in the School of Physics in 1894 and a year later they got married. From then on, they]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[worked together on their research. In 1903, Mare became the first woman to receive a  PhD from the Sorbonne.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[After the tragic death of Pierre Curie in 1906, she took up the position which her husband had obtained at the]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Sorbonne. Thus, she was the first woman in France to be an university professor. Soon after, she was awarded]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[a Nobel Prize in Chemistry for determining the atomic weight of radium. But her real joy was   easing human]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[suffering . The founding of the Radim Institute in 1914 made her humanitarian wish come true.]]></Text>
+</LiquidRichText>

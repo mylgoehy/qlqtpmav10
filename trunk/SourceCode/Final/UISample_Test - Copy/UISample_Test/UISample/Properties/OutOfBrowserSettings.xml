@@ -1,0 +1,12 @@
+<OutOfBrowserSettings ShortName="UISample Application" EnableGPUAcceleration="True" ShowInstallMenuItem="True">
+  <OutOfBrowserSettings.Blurb>UISample Application on your desktop; at home, at work or on the go.</OutOfBrowserSettings.Blurb>
+  <OutOfBrowserSettings.WindowSettings>
+    <WindowSettings Title="UISample Application" Height="600" Width="800" />
+  </OutOfBrowserSettings.WindowSettings>
+  <OutOfBrowserSettings.Icons>
+    <Icon Size="16,16">Data/Icon/Book-icon_16.png</Icon>
+    <Icon Size="32,32">Data/Icon/Book-icon_32.png</Icon>
+    <Icon Size="48,48">Data/Icon/Book-icon_48.png</Icon>
+    <Icon Size="128,128">Data/Icon/Book-icon_128.png</Icon>
+  </OutOfBrowserSettings.Icons>
+</OutOfBrowserSettings>

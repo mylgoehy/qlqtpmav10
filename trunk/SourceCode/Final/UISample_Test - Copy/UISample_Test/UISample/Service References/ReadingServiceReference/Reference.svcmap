@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3bdfc384-7cbb-4849-9d7d-6e3ddee7097d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52690/UISampleSite/Reading_Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Reading_Service3.xsd" MetadataType="Schema" ID="9d7947e8-5a24-4e2d-83db-13417547d9a4" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Reading_Service.svc?xsd=xsd3" />
+    <MetadataFile FileName="Reading_Service.xsd" MetadataType="Schema" ID="010b7069-e197-47bb-8d9d-20fca2382111" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Reading_Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Reading_Service1.xsd" MetadataType="Schema" ID="421129f7-7312-4c2d-b039-81bdd84bc31b" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Reading_Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Reading_Service2.xsd" MetadataType="Schema" ID="feec9d6a-4e20-45a5-8177-6ddcaf3d6c58" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Reading_Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Reading_Service.disco" MetadataType="Disco" ID="87c3a87c-f61f-405e-a429-7ff2ddcb343b" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Reading_Service.svc?disco" />
+    <MetadataFile FileName="Reading_Service.wsdl" MetadataType="Wsdl" ID="0ca915db-cd4e-463c-9436-3390754b74c0" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Reading_Service.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

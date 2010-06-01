@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Decide whether the following statements are true (T) or false (F). 
+Correct the false information.
+</Heading>
+  <NumQuestions>5</NumQuestions>
+  <Question>
+    <Ask>There are five news programmes on the three channels.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>There is a comedy programme on between 10:15 and 11:00 </Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The Nature of Language is documentary programme
+ at 15:15 on VTV2.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The film Punishment is shown at 4:15 p.m. on VTV1.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>VTV1 starts at 5:35 and ends at 23:30.	</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+</ReadingPractice>

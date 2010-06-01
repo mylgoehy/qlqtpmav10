@@ -1,0 +1,36 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / s /  -  / z /
+	* Grammar and vocabulary :
+			          1. to + infinitive
+					  2. Wh- questions
+
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="s" soundPath = "test/Sue.mp3">Sue</Item>
+			<Item type="s" soundPath = "test/said.mp3">said</Item>
+			<Item type="z" soundPath = "test/zoo.mp3">zoo</Item>
+			<Item type="z" soundPath = "test/please.mp3">please</Item> 
+			
+			<Item type="s" soundPath = "test/sip.mp3">sip</Item>
+			<Item type="s" soundPath = "test/bus.mp3">bus</Item>
+			<Item type="z" soundPath = "test/zip.mp3">zip</Item>
+			<Item type="z" soundPath = "test/buzz.mp3">buzz</Item>
+      
+			<Item type="s" soundPath = "test/piece.mp3">piece</Item>
+			<Item type="s" soundPath = "test/price.mp3">price</Item>
+			<Item type="z" soundPath = "test/peas.mp3">peas</Item>
+			<Item type="z" soundPath = "test/prize.mp3">prize</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. Susan love classical music.</Sentence>
+			<Sentence>2. I like to listen to jazz records.</Sentence>
+			<Sentence>3. But aunt likes to watch the film “The Sound of  Music”.</Sentence>
+			<Sentence>4. But my cousin prefer going to concernts.</Sentence>
+			<Sentence>5. He’s won the fisrt prize for singing folk songs.</Sentence>
+			<Sentence>6. I’d like a piece of bread and some peas, please.</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

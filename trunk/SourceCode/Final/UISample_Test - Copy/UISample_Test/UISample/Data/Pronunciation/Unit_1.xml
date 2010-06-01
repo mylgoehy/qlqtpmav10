@@ -1,0 +1,35 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / I /  -  / i: /
+	* Grammar and vocabulary :
+			          1. The present simple
+			          2. Adverbs of Frequency
+			          3. The past simple
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="I" soundPath = "test/hit.mp3">hit</Item>
+			<Item type="I" soundPath = "test/bit.mp3">bit</Item>
+			<Item type="i:" soundPath = "test/heat.mp3">heat</Item>
+			<Item type="i:" soundPath = "test/beat.mp3">beat</Item>
+		  
+			<Item type="I" soundPath = "test/little.mp3">little</Item>
+			<Item type="I" soundPath = "test/kick.mp3">kick</Item> 
+			<Item type="i" soundPath = "test/meat.mp3">meat</Item>
+			<Item type="i" soundPath = "test/repeat.mp3">repeat</Item>
+			
+			<Item type="I" soundPath = "test/click.mp3">click</Item>
+			<Item type="I" soundPath = "test/interest.mp3">interest</Item>
+			<Item type="i:" soundPath = "test/read.mp3">read</Item>
+			<Item type="i:" soundPath = "test/eaten.mp3">eaten</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. Is he coming to the cinema ?</Sentence>
+			<Sentence>2. We'll miss the beginning of the film ?</Sentence>
+			<Sentence>3. Is it an interesting film,Jim ?</Sentence>
+			<Sentence>4. The beans and the meat were quite cheap</Sentence>
+			<Sentence>5. He is going to leave here for the Green Mountains</Sentence>
+			<Sentence>6. Would you like to have meat,peas and cheese</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

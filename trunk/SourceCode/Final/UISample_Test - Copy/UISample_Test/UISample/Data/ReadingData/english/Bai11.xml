@@ -1,0 +1,45 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[Unit 11: NATIONAL PARKS.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Read the passages, and then do the tasks that follow.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Cuc Phuong National Park, Vietnam]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Cuc Phuong National Park is located 160 kilometres south west of Hanoi. It is the first of Vietnam s nine national]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[parks to be established, and it contains over 200 squares kilimetres of rainforest. Tourists go there to study]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[butterflies, visit caves, hike mountains and look at the 1000-yer-old tree. The best time to visit the park is]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[during the dry season, from October to April, when the rainy season is over.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Narobi National Park, Kenya]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Narobi National Park is Kenya s smallest park, but you may be surprised at the large variety of animals]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[that live there. Visitors, especially children, can go there to learn how to recognize the different species of]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[animals and plants. They also learn about the habits of animals and how one species is dependent upon]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[another for survival. An interesting feature of this park is the Orphanage, where lots of orphaned or]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[abandoned animals are taken care of.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Everglades National Park, USA]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Everglades National Park is a sub-tropical wilderness in the southeastern United States. This national park]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[is special because it has plants and animals from both tropical and temperate zones. Due to an increase in]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[population and the use of nearby land for farming, there are toxic levels of chemicals in the water. This]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[contamination has threatened the park and many of the animals in it.]]></Text>
+</LiquidRichText>

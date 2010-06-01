@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Decide whether the following statements are true(T) or false(F).</Heading>
+  <NumQuestions>6</NumQuestions>
+  <Question>
+    <Ask>The construction of Van Mieu took place between 1076 and 1779.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>Quoc Tu Giam is considered to be first university of Vietnam.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>Thousands of talented men were trained in Quoc Tu Giam from the 11th to the 19th century.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>Van Mieu has now lost most of its traditional Vietnamese architecture.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>Festivals and examinations used to be held in Van Mieu – Quoc Tu Giam.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>Visitors can still see some trees which have been in Van Mieu for a long time.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+</ReadingPractice>

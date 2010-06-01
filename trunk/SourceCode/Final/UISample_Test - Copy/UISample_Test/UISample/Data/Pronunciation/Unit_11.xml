@@ -1,0 +1,39 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / t /  -  / d /
+	* Grammar and vocabulary : 
+					Gramar: Conditional sentense type 3
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="t" soundPath = "test/Topic.mp3">Topic</Item>
+			<Item type="t" soundPath = "test/toxic.mp3">toxic</Item>
+			<Item type="d" soundPath = "test/difficulty.mp3">difficulty</Item>
+			<Item type="d" soundPath = "test/doccumentary.mp3">doccumentary</Item> 
+			
+			<Item type="t" soundPath = "test/Contain.mp3">Contain</Item>
+			<Item type="t" soundPath = "test/contamination.mp3">contamination</Item>
+			<Item type="d" soundPath = "test/invader.mp3">invader</Item>
+			<Item type="d" soundPath = "test/dependent.mp3">dependent</Item>
+      
+			<Item type="t" soundPath = "test/Plaint.mp3">Plaint</Item>
+			<Item type="t" soundPath = "test/different.mp3">different</Item>
+			<Item type="d" soundPath = "test/spend.mp3">spend</Item>
+			<Item type="d" soundPath = "test/depend.mp3">depend</Item>
+
+			<Item type="t" soundPath = "test/Worked.mp3">Worked</Item>
+			<Item type="t" soundPath = "test/hoped.mp3">hoped</Item>
+			<Item type="d" soundPath = "test/lived.mp3">lived</Item>
+			<Item type="d" soundPath = "test/played.mp3">played</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. It’s next to the restaurant on the third floor.</Sentence>
+			<Sentence>2. They’re on the next counter on your left, dear.</Sentence>
+			<Sentence>3. It’s exactly twenty-two minutes to ten.</Sentence>
+			<Sentence>4. They stayed at home and  played card with children.</Sentence>
+			<Sentence>5. Sidney and I listen to the radio and studied.</Sentence>
+			<Sentence>6. Donald and I had a bad cold, so we decided to stay ar home.</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

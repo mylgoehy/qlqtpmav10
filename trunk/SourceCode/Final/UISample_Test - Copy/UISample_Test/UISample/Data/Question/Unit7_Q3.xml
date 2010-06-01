@@ -1,0 +1,126 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom37" FontFamily="Portable User Interface" FontSize="16" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom37"><![CDATA[1.	Because of the cold weather ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox1" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="Everyone is living on the beans"/>
+		<ComboBoxItem Content="He had to cancel the appointment"/>
+		<ComboBoxItem Content="We kept the fire burning all day"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[    In spite of the cold weather ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox2" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="He managed to come the school"/>
+		<ComboBoxItem Content="We have managed to get some beef"/>
+		<ComboBoxItem Content="We all wore shorts"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[2.	Because of his illness ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox3" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="He had to cancel the appointment"/>
+		<ComboBoxItem Content="We kept the fire burning all day"/>
+		<ComboBoxItem Content="The council demolished it"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[    In spite of his illness ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox4" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="He managed to come the school"/>
+		<ComboBoxItem Content="We all wore shorts"/>
+		<ComboBoxItem Content="We have managed to get some beef"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[3.	Because of the large crowds ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox5" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="We could not see what was going on"/>
+		<ComboBoxItem Content="There were enough seats for everyone"/>
+		<ComboBoxItem Content="He had to cancel the appointment"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[    In spite of the large crowds ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox6" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="Everyone is living on the beans"/>
+		<ComboBoxItem Content="There were enough seats for everyone"/>
+		<ComboBoxItem Content="We have managed to get some beef"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[4.	Because of the meat shortage ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox7" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="Everyone is living on the beans"/>
+		<ComboBoxItem Content="The council demolished it"/>
+		<ComboBoxItem Content="We kept the fire burning all day"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[    In spite of  the meat shortage ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox8" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="We all wore shorts"/>
+		<ComboBoxItem Content="He managed to come the school"/>
+		<ComboBoxItem Content="The council demolished it"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[5.	Because of the bad condition of the house ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox9" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="Everyone is living on the beans"/>
+		<ComboBoxItem Content="The council demolished it"/>
+		<ComboBoxItem Content="He had to cancel the appointment"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[    I spite of the bad condition of the house ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox10" Cursor="Hand" Width="200" Height="Auto" >
+		<ComboBoxItem Content="Everyone is living on the beans"/>
+		<ComboBoxItem Content="We kept the fire burning all day"/>
+		<ComboBoxItem Content="They enjoyed living there"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+</LiquidRichText>

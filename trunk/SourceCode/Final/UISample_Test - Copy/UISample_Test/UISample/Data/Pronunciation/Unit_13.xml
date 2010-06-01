@@ -1,0 +1,37 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / f /  -  / v /
+	* Grammar and vocabulary :
+			          1.	adjectives of attitude
+					  2.	it is/ was not until … that …
+					  3.	a / an and the
+
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="f" soundPath = "test/Fan.mp3">Fan</Item>
+			<Item type="f" soundPath = "test/fiction.mp3">fiction</Item>
+			<Item type="v" soundPath = "test/van.mp3">van</Item>
+			<Item type="v" soundPath = "test/vote.mp3">vote</Item> 
+			
+			<Item type="f" soundPath = "test/First.mp3">First</Item>
+			<Item type="f" soundPath = "test/photograph.mp3">photograph</Item>
+			<Item type="v" soundPath = "test/vine.mp3">vine</Item>
+			<Item type="v" soundPath = "test/stephen.mp3">stephen</Item>
+      
+			<Item type="f" soundPath = "test/Form.mp3">Form</Item>
+			<Item type="f" soundPath = "test/enough.mp3">enough</Item>
+			<Item type="v" soundPath = "test/view.mp3">view</Item>
+			<Item type="v" soundPath = "test/leave.mp3">leave</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. he feels happy enough.</Sentence>
+			<Sentence>2. I want a photograph for myself and my wife.</Sentence>
+			<Sentence>3. would you prefer a full photograph or a profile?</Sentence>
+			<Sentence>4. stephen is driving a van full of vines.</Sentence>
+			<Sentence>5. we used to live in a village in the valley.</Sentence>
+			<Sentence>6. the arrived in the village on a van.</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

@@ -1,0 +1,87 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[Unit 7 : THE  MASS MEDIA]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Look at some popular TV programmes, and then do the tasks that follow.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[VTV1]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[05:35 Morning Exercise]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[06:30 Population and Development]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[07:20 Cartoon:  The Adventure of Donald Duck]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[08:00 TV Series: The Road of Life]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[09:00 News]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[09:15 Film: When the Birds Return]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[10:15 Comedy: Family Secrets]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[11:00 Music]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[12:00 Fifteen-minute News]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[13:00 Film: The Beauty of Life]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[14:20 People s Army]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[16:15 Film: Punishment]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[19:00 News]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[20:00 Sport Comments]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[21:30 Folk Songs]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[23:00 News Headlines]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[23:30 Weather Forecast]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[VTV3]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[07:30 Quiz Show]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[09:15 Drama: Stolen Heart]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[10:00 Music of Children]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[11:30 Portrait of Life]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[12:00 Film : Deep in the City]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[14:30 Theatre : My Life]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[15:15 Documentary : The Nature of Language]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[16:00 Culture and Education]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[19:00 News]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[20:00 Sports]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[21:30 Film : Guest of the Nation]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[23:30 Football : Liverpool vs. West Ham]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[VTV2]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[15:15 Wildlife World]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[17:00 Around the World]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[18:30 Science Documentary]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[19:00 Bussiness Comments]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[20:00 Learning English through Songs]]></Text>
+</LiquidRichText>

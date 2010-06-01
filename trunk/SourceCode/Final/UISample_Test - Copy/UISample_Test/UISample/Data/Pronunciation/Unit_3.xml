@@ -1,0 +1,35 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / e /  -  / æ: /
+	* Grammar and vocabulary :
+			          1. The past perfect
+			          2. The past perfect vs.the past simple
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="e" soundPath = "test/men.mp3">men</Item>
+			<Item type="e" soundPath = "test/said.mp3">said</Item>
+			<Item type="æ:" soundPath = "test/man.mp3">man</Item>
+			<Item type="æ:" soundPath = "test/sad.mp3">sad</Item>
+			
+		    <Item type="e" soundPath = "test/met.mp3">met</Item>
+		    <Item type="e" soundPath = "test/bed.mp3">bed</Item> 
+			<Item type="æ:" soundPath = "test/mat.mp3">mat</Item>
+			<Item type="æ:" soundPath = "test/bad.mp3">bad</Item>
+			
+			<Item type="e" soundPath = "test/pen.mp3">pen</Item>
+			<Item type="e" soundPath = "test/send.mp3">send</Item>
+			<Item type="æ:" soundPath = "test/pan.mp3">pan</Item>
+			<Item type="æ:" soundPath = "test/sand.mp3">sand</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. The fat man has a red pen</Sentence>
+			<Sentence>2. This handbag will be sent to Helen</Sentence>
+			<Sentence>3. Sam said apples were very expensive then</Sentence>
+			<Sentence>4. There're ten pans on the shelf</Sentence>
+			<Sentence>5. Ben sat on a bench with a yellow cat</Sentence>
+			<Sentence>6. Ann never gets bad marks in French</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

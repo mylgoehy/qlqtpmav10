@@ -1,0 +1,38 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[Unit 1: A DAY IN A LIFE OF]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Read the passage and then do the tasks that follow.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Mr. Vy : The alarm goes off at 4:30. I get up and go down to the kitchen to boil some water for]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[my morning tea. I drink several cup of tea, have a quick breakfast and then lead the buffalo to]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[the field. It takes me 45 minutes to get ready. I leave the house at the quarter past five and arriv]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[ in the field at exactly 5:30. I plough and harrow my plot of land and at a quarter to eight, I take a]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[short rest. During my break, I often drink tea with my fellow peasants and smoke local tobacco. I]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[continue to work from a quarter past eight till 10:30, then I go home, take a short rest and have lunch]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[with my family at 11:30. After lunch I usually take an hours rest.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Mrs. Tuyet : At 2:30 in the afternoon we go the field again. We repair the banks of our plot of land. Then]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[my husband pumps water into it while Im on the transplanting. We work for about two hours before we]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[take the rest. We finish our work at 6 p.m. We have dinner at about 7 p.m., then we watch TV and go to]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[bed at about 10 p.m. Sometimes we go and see our neighbours for a cup of tea. We chat about our work,]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[our children and our plans for the next crop. Although its a long day for us,we are contented with what]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[we do. We love working and we love our children.]]></Text>
+</LiquidRichText>

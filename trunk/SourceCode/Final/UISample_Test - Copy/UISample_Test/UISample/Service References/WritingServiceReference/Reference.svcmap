@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6dcd7e91-87b5-4478-8723-256801fd2178" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52690/UISampleSite/Writing_Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Writing_Service.disco" MetadataType="Disco" ID="8d625e25-6c78-4dd2-8236-fdf6eeb8ebc7" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Writing_Service.svc?disco" />
+    <MetadataFile FileName="Writing_Service.xsd" MetadataType="Schema" ID="3f67b1aa-0814-4bd7-85c6-81b5bbccb5fb" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Writing_Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Writing_Service1.xsd" MetadataType="Schema" ID="71414cdc-b075-4a26-9889-bd0d5c9940fd" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Writing_Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Writing_Service.wsdl" MetadataType="Wsdl" ID="ca4a9f4c-d2a2-44e6-be0a-866e78250328" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Writing_Service.svc?wsdl" />
+    <MetadataFile FileName="Writing_Service2.xsd" MetadataType="Schema" ID="42c0f019-e275-4870-bf68-c6e1c2f772b1" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/Writing_Service.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

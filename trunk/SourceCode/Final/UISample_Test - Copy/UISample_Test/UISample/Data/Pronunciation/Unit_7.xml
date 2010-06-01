@@ -1,0 +1,38 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / ei/  -  / ai /	-/ ɔi /
+	* Grammar and vocabulary :
+			         1. The present perfect
+					 2. because of and in sprite of
+
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="ei" soundPath = "test/Play.mp3">Play</Item>
+			<Item type="ei" soundPath = "test/time.mp3">time</Item>
+			<Item type="ai" soundPath = "test/Radio.mp3">Radio</Item>
+			<Item type="ai" soundPath = "test/height.mp3">height</Item>
+			<Item type="ɔi" soundPath = "test/buy.mp3">buy</Item>
+			<Item type="ɔi" soundPath = "test/enjoy.mp3">enjoy</Item>
+			
+			<Item type="ei" soundPath = "test/voice.mp3">voice</Item>
+			<Item type="ei" soundPath = "test/Today.mp3">Today</Item> 
+			<Item type="ei" soundPath = "test/wildlife.mp3">wildlife</Item>
+			<Item type="ai" soundPath = "test/noise.mp3">noise</Item>
+			<Item type="ɔi" soundPath = "test/toy.mp3">toy</Item>
+			<Item type="ɔi" soundPath = "test/Newspaper.mp3">Newspaper</Item>
+			
+	<Item type="ɔi" soundPath = "test/They.mp3">They</Item>
+	<Item type="ɔi" soundPath = "test/type.mp3">type</Item>
+	<Item type="ɔi" soundPath = "test/destroy.mp3">destroy</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. I’m afraid you’ve made a mistake.</Sentence>
+			<Sentence>2. They changed the timeable at the end of April.</Sentence>
+			<Sentence>3. I have ninety-nine pages totype by Friday?</Sentence>
+			<Sentence>4. Would you like to go for a ride withme on Friday?</Sentence>
+			<Sentence>5. This is the noisiest Rolls Royce I’ve ever heard.</Sentence>
+			<Sentence>6. While you’re changing the oil, I”ll go and visit my boy.</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

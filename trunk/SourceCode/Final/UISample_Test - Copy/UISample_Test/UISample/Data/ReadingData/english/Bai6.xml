@@ -1,0 +1,46 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[Unit 6 : AN EXCURSION]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Read the letter and then do the tasks that follow.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Dear Minh,]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[I m writing to tell you a piece of news. The first term is coming to an end soon and my school is going to]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[have some days off. On this occasion, my class is visiting some caves near Hanoi as we have recently studied]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[rock formations. Besides, many of us have never been inside a cave, so I suppose the trip will be very]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[interesting.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[At first we wanted to travel to Thay Pagoda because it is  only over 20 kilometres away, and we could go on]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[a day excursion. However, only today have we learnt that the caves near Thay Pagoda are closed until after]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Tet. So we are visiting the ones  near Huong Pagoda instead. A night camp-fire on a two-day trip will be a]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[great event in our schoolday! To make the trip cheap, we are bringing our own food and sharing buses with]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[some other lasses.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[It is much warmer now. I believe we re going to enjoy good weather with lots of sunshine.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[The only problem I seem to have is getting my parents  permission. They may not want to let me stay the]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[night away from home. I ll try to persuade them.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[That s all for now. Give my love to your parents and sister.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Yours,]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Lan]]></Text>
+</LiquidRichText>

@@ -1,0 +1,36 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / ʊ /  -  / u: /
+	* Grammar and vocabulary :
+			          1. The present perfect
+			          2. The present perfect passive
+					  3. Who, which, that
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="ʊ" soundPath = "test/put.mp3">put</Item>
+			<Item type="ʊ" soundPath = "test/pull.mp3">pull</Item>
+			<Item type="u:" soundPath = "test/fruit.mp3">fruit</Item>
+			<Item type="u:" soundPath = "test/june.mp3">june</Item>
+			
+			<Item type="ʊ" soundPath = "test/foot.mp3">foot</Item>
+			<Item type="ʊ" soundPath = "test/look.mp3">look</Item> 
+			<Item type="u:" soundPath = "test/full.mp3">full</Item>
+			<Item type="u:" soundPath = "test/cook.mp3">cook</Item>
+			
+			<Item type="ʊ" soundPath = "test/food.mp3">food</Item>
+			<Item type="ʊ" soundPath = "test/school.mp3">school</Item>
+			<Item type="u:" soundPath = "test/tooth.mp3">tooth</Item>
+			<Item type="u:" soundPath = "test/afternoon.mp3">afternoon</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. Could you tell me where you’ve put my book?</Sentence>
+			<Sentence>2. Your bookshelf is full of book.</Sentence>
+			<Sentence>3. Look! The boy is looking at your book.</Sentence>
+			<Sentence>4. Miss June is looking at the Moon.</Sentence>
+			<Sentence>5. Both your shoes and your boots are dirty.</Sentence>
+			<Sentence>6. Miss Moon went to school this afternoon.</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

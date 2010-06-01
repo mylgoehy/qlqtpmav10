@@ -1,0 +1,39 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[UNIT 10: CONSERVATION]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Read the paragraphs, and then do the tasks that follow.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[The loss of forest is destroying the earth s plant and animal variety. Scientists say about 5,000 species of]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[plants and animals are eliminated each year. This is especially worrying as many of those plants and animals]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[could be used as medicines against cancer, AIDS, heart disease and many other sicknesses. We may never]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[know the true cost of this destruction.	]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Man and most animals need a constant supply of water to live. Farmers need water for their crops. Hydroelecric]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[dams hold back needed water and provide  power for homes and industries. Trees, grasses, and other plant life]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[play an important part in the natural circulation of water, and thus help conserve it. Without plants, most water]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[would run off as soon as it falls, taking away valuable soil. Rapid run-off would cause frequent floods and leave]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[little water during dry seasons.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[These days it is impossible to open a newspaper without reading about the damage we are doing to the environment.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[The earth is being threatened and the future looks bad. What can each of us do? We cannot clean up our polluted]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[rivers and seas overnight. Nor can we stop the disappearance of the plants and animals. But we can stop worsening]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[the problem while scientists search for answers, and laws are passed in nature s defence.]]></Text>
+</LiquidRichText>

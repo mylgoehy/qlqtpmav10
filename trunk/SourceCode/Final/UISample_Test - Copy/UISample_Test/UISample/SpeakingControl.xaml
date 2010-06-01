@@ -1,0 +1,30 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:Liquid="clr-namespace:Liquid;assembly=Liquid.RichText"
+	x:Class="UISample.SpeakingControl"
+	d:DesignWidth="640" d:DesignHeight="480" Width="728" Height="450">
+
+	<Grid x:Name="LayoutRoot">
+		<Rectangle x:Name="rctBackground" Fill="#FF00172E" Opacity="0.35" StrokeThickness="0" Margin="0" Width="728" Height="450"/>
+		<TextBlock x:Name="txbTitle" Height="28" Width="238" TextWrapping="Wrap" Foreground="#FFFFFEFE" Text="Unit 1 Speaking" FontSize="18.667" FontWeight="Bold" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top"/>
+		<Canvas x:Name="MainCanvas" Margin="8,38,8,8">
+			<Canvas x:Name="Canvas_Task0" Height="354" Width="696" Canvas.Left="8" Canvas.Top="8" d:IsHidden="True">
+				<TextBox x:Name="Task0_Title" Height="42" Text="Title" TextWrapping="Wrap" Foreground="#FFB92020" FontSize="21.333" IsReadOnly="True" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" FontWeight="Bold" TextAlignment="Center" Width="696" Canvas.Top="8"/>
+				<TextBox x:Name="Task0_Text" Height="199" Width="696" FontSize="16" Foreground="Black" AcceptsReturn="True" IsReadOnly="True" Text="Text" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Canvas.Top="56"/>
+				<ListBox x:Name="Task0_Suggestion" Height="94" Width="696" Canvas.Top="259" FontSize="16"/>
+			</Canvas>
+			<Canvas x:Name="Canvas_Task1" Height="319" Width="712" Canvas.Top="38" d:IsHidden="True">
+				<TextBox x:Name="Task1_Title" Height="32" Width="712" FontSize="16" FontWeight="Bold" Foreground="#FFB92020" AcceptsReturn="True" IsReadOnly="True" Text="Title" TextAlignment="Center" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Canvas.Left="-2" Canvas.Top="-24"/>
+				<ListBox x:Name="Task1_Question" Height="264" Width="712" FontSize="13.333" Canvas.Top="12" Canvas.Left="-2"/>
+				<Button x:Name="Task1_Result" Height="39" Width="100" Canvas.Left="300" Canvas.Top="280" Content="Result" FontSize="13.333" Background="#FF1F3B53" Click="Result_Click"/>
+			</Canvas>
+			<Button x:Name="Next" Height="35" Width="106" Canvas.Left="582" Canvas.Top="362" Content="Next" Click="Next_Click"/>
+			<Button x:Name="Back" Height="35" Content="Back" Width="106" Canvas.Left="24" Canvas.Top="366" Click="Back_Click"/>
+		</Canvas>
+		<Button x:Name="ShowHide" Height="30" HorizontalAlignment="Right" Margin="0,8,32,0" VerticalAlignment="Top" Width="70" Content="Show Hide" FontSize="10.667" Click="ShowHide_Click"/>
+	</Grid>
+</UserControl>

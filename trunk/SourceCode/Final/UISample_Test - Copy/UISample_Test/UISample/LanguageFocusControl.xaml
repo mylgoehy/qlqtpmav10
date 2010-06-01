@@ -1,0 +1,271 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:Liquid="clr-namespace:Liquid;assembly=Liquid.RichText" xmlns:local="clr-namespace:UISample"
+	x:Class="UISample.LanguageFocusControl"
+	d:DesignWidth="640" d:DesignHeight="480" Width="728" Height="450">
+	<UserControl.Resources>
+		<Style x:Key="triangleButton" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid>
+							<Grid.Resources>
+								<Storyboard x:Name="strbTriangleButton">
+									<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="path" Storyboard.TargetProperty="(UIElement.Opacity)">
+										<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+										<EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="0.8"/>
+										<EasingDoubleKeyFrame KeyTime="00:00:00.7000000" Value="0.6"/>
+										<EasingDoubleKeyFrame KeyTime="00:00:00.9000000" Value="0.5"/>
+									</DoubleAnimationUsingKeyFrames>
+								</Storyboard>
+							</Grid.Resources>
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="FocusStates">
+									<VisualState x:Name="Focused"/>
+									<VisualState x:Name="Unfocused"/>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualState x:Name="Normal"/>
+									<VisualState x:Name="MouseOver"/>
+									<VisualState x:Name="Pressed"/>
+									<VisualState x:Name="Disabled"/>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+							<Path x:Name="path" Fill="#FFFAFAFA" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Data="M56,880 L56,959 L24,920 z"/>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Name="strb_ShowGrammar">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="gridGrammar" Storyboard.TargetProperty="(FrameworkElement.Height)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="412"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="btnTriangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="23.989"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="strb_ShowAnswer">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rtb_Answer" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-194.166"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="btnTriangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="2.635"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rtb_Answer" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="2.999"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="btnTriangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="21.967"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="btnTriangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0.26600000262260437"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-179.777"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rtb_Grammar" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0.788"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rtb_Grammar" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-71.992"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="bnt_delete" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-144.9"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="bnt_delete" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0.788"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-71.992"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="bnt_right" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-137.936"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="tb_Page" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-52.494"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="bnt_right" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rtb_Answer" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0.985"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="strb_ShowGrammarReverse">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="gridGrammar" Storyboard.TargetProperty="(FrameworkElement.Height)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="412"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="btnTriangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="strb_ShowAnswerReverse">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rtb_Answer" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="-196.23"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="btnTriangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="7.635"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rtb_Answer" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="2.999"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="btnTriangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="26.977"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="btnTriangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="-179.777"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0.26600000262260437"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rtb_Grammar" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rtb_Grammar" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="bnt_delete" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="bnt_delete" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="bnt_right" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="tb_Page" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<Rectangle x:Name="rctBackground" Fill="#FF00172E" Opacity="0.35" StrokeThickness="0" Height="450" Margin="0" Width="728"/>
+		<TextBlock x:Name="txbTitle" Height="28" Width="238" TextWrapping="Wrap" Foreground="#FFFFFEFE" Text="Language Focus" FontSize="18.667" FontWeight="Bold" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top"/>
+		<Grid x:Name="gridGrammar" Margin="3,38,-207,0" RenderTransformOrigin="0.5,0.5" Width="932" Height="412" d:IsHidden="True">
+			<Grid.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Grid.RenderTransform>
+			<Liquid:RichTextBox x:Name="rtb_Grammar" Margin="2,8,249,38" Text="vvvv" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5">
+				<Liquid:RichTextBox.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</Liquid:RichTextBox.RenderTransform>
+			</Liquid:RichTextBox>
+			<Liquid:RichTextBox x:Name="rtb_Answer" HorizontalAlignment="Right" Width="149" Text="RichTextBox" TextWrapping="Wrap" Height="411" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Background="#FF1D252D" Foreground="White" Margin="0,0,31,0">
+				<Liquid:RichTextBox.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</Liquid:RichTextBox.RenderTransform>
+			</Liquid:RichTextBox>
+			<Button x:Name="btnTriangle" Style="{StaticResource triangleButton}" Width="20.866" OpacityMask="Black" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Foreground="Black" Content="Button" d:LayoutRounding="Auto" HorizontalAlignment="Right" Margin="0,141.726,209.128,180.267" Click="btnTriangle_Click">
+				<Button.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform Angle="0.266"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</Button.RenderTransform>
+			</Button>
+			<Rectangle x:Name="rectangle" Fill="White" StrokeThickness="0" Height="38" Margin="2,0,249,0" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
+				<Rectangle.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</Rectangle.RenderTransform>
+			</Rectangle>
+			<TextBox x:Name="tb_Page" Background="#FFE2E2E2" BorderThickness="0" Height="34" HorizontalAlignment="Left" Margin="309,0,0,2" VerticalAlignment="Bottom" Width="72" IsReadOnly="True" TextWrapping="Wrap" FontSize="29.333" FontFamily="Times New Roman" TextAlignment="Center" RenderTransformOrigin="0.5,0.5">
+				<TextBox.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</TextBox.RenderTransform>
+			</TextBox>
+			<Image x:Name="bnt_right" Height="29" HorizontalAlignment="Right" Margin="0,0,271,3" VerticalAlignment="Bottom" Width="48" MouseLeftButtonDown="bnt_right_MouseLeftButtonDown" Source="next-icon.png" OpacityMask="Black" RenderTransformOrigin="0.5,1.828">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</Image.RenderTransform>
+			</Image>
+			<Image x:Name="bnt_left" Height="29" HorizontalAlignment="Left" Margin="29,0,0,4" VerticalAlignment="Bottom" Width="48" OpacityMask="Black" MouseLeftButtonDown="bnt_left_MouseLeftButtonDown" Source="back-icon.png"/>
+			<Image x:Name="bnt_delete" Height="29" HorizontalAlignment="Right" Margin="0,8,249,0" VerticalAlignment="Top" Width="48" OpacityMask="Black" MouseLeftButtonDown="bnt_delete_MouseLeftButtonDown" Source="delete-icon.png" RenderTransformOrigin="0.5,0.5">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</Image.RenderTransform>
+			</Image>
+		</Grid>
+		<Button x:Name="buttonGrammar" Height="32" Margin="296,6,328,0" VerticalAlignment="Top" Content="Grammar" Click="buttonGrammar_Click" RenderTransformOrigin="0.5,0.5" Background="{x:Null}">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="bHideShow" Height="32" HorizontalAlignment="Right" Margin="0,6,216,0" VerticalAlignment="Top" Width="96" Content="Pronunciation" Background="{x:Null}" Click="bHideShow_Click"/>
+		<Canvas x:Name="cvMainPronun" Margin="14,41,22,4" Background="White">
+			<Canvas x:Name="cvContent" Height="120" Width="596" Canvas.Left="56" Canvas.Top="8">
+				<Rectangle x:Name="rctbkContent" Fill="#FF77BB82" StrokeThickness="0" Height="120" Width="614" Canvas.Left="-18"/>
+				<TextBlock x:Name="tlockContent" Height="120" Width="614" FontSize="16" FontWeight="Bold"  TextWrapping="Wrap" Canvas.Left="-18"/>
+			</Canvas>
+			<TextBlock x:Name="txbpronun" Height="26" Width="191" Canvas.Left="15" Canvas.Top="125" FontSize="14.667" Text="* Listen and repeat" TextWrapping="Wrap" FontWeight="Bold" Foreground="#FF0A0A0A"/>
+			<ListBox x:Name="listword" Height="106" Width="692" Canvas.Top="167" Background="{x:Null}"/>
+			<Canvas x:Name="cvPronun" Grid.Column="1" Grid.Row="1" Height="27" Width="677" Canvas.Left="15" Canvas.Top="142"/>
+			<TextBlock x:Name="txbpractise" Height="26" Width="239" Canvas.Left="15" Canvas.Top="273" FontSize="14.667" Text="* Practise these sentences." TextWrapping="Wrap" FontWeight="Bold"/>
+			<ListBox x:Name="lbPractise" Height="112" Width="677" BorderThickness="0" FontSize="16" Canvas.Left="15" Canvas.Top="293"/>
+			<MediaElement x:Name="iTem" AutoPlay="False"/>
+		</Canvas>
+	</Grid>
+</UserControl>

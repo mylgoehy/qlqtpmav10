@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task>
+	<title>The villagers of Ha Xuyen are discussing plans to improve their life on the village. Match each of the plans with its possible result.</title>
+	<text>Plans :
+1.	Widen the roads. xxx
+2.	Raise and resurface the roads. xxx
+3.	Build a medical centre. xxx
+4.	Build a football ground. xxx
+5.	Grow cash crops. xxx
+6.	Build a bridge over the canal. xxx
+7.	Build a new school. xxx
+
+Possible results :
+a.	Children have better learning conditions
+b.	Cars and lorries can get to the village
+c.	Villagers have a shorter way to town
+d.	People's health is looked after.
+e.	Young people can play sports
+f.	People can export the crops and have the more money
+g.	Roads will not be muddy and flooded after it rains, and people get around more easily
+</text>
+  <answer>1. b</answer>
+  <answer>2. g</answer>
+  <answer>3. d</answer>
+  <answer>4. e</answer>
+  <answer>5. f</answer>
+  <answer>6. c</answer>
+  <answer>7. a</answer>
+</task>

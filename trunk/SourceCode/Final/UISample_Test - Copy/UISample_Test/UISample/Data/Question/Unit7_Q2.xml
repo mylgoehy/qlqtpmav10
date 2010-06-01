@@ -1,0 +1,125 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom37" FontFamily="Portable User Interface" FontSize="16" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom37"><![CDATA[1.	Lan and Minh have lived in Ho Chi Minh City ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox1" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ 1999.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[2.	Hoa and  Quan quarreled with eac other some time ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox2" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Newline />
+<Text Style="Custom37"><![CDATA[3.	The house is very dirty. We haven't cleaned it ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox3" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ ages.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[4.	We haven't had good meal ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox4" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ three weeks.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[5.	]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox5" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ Christmas, the weather has been quite good.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[6.	They have known each other ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox6" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ a long time.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[7.	They first met a long time ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox7" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[8.	The arrived home ten minutes ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox8" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[9.	It's two years ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox9" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ I last saw Quoc Anh.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[10.	How long is it ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox10" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="for"/>
+		<ComboBoxItem Content="since"/>
+		<ComboBoxItem Content="ago"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ you last saw Linda?]]></Text>
+<Newline />
+</LiquidRichText>

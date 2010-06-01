@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <!--element NewLine đánh dấu xuống dòng trong mỗi Paragraph.Giữa mỗi Paragraph ko cần thêm NewLine-->
+  <Type>1</Type>
+  <Heading>Fill each blank with one of the words in the box below. There are more words than needed.</Heading>
+  <Question>
+    <Words>
+      <Option>language</Option>
+      <Option>worry</Option>
+      <Option>subjects</Option>
+      <Option>crowded</Option>
+      <Option>bike</Option>
+      <Option>ride</Option>
+      <Option>traffic</Option>
+      <Option>enjoy</Option>
+      <Option>narrow</Option>
+      <Option>learn</Option>
+    </Words>
+    <CorrectAnswers>
+      <Ans>enjoy</Ans>
+      <Ans>traffic</Ans>
+      <Ans>worry</Ans>
+      <Ans>crowded</Ans>
+      <Ans>language</Ans>
+    </CorrectAnswers>
+    <Paragraph>
+      <Text>1.	Young children </Text>
+      <Blank></Blank>
+      <Text>helping with household tasks.</Text>
+      <NewLine />
+      <Text>2.	We were stuck in heavy</Text>
+      <Blank></Blank>
+      <Text>for more than an hour.</Text>
+      <NewLine></NewLine>
+      <Text>3.	I think you don’t have to</Text>
+      <Blank></Blank>
+      <Text>about the weight.</Text>
+      <NewLine />
+      <Text>4.	It was two weeks before Christmas and the mall was</Text>
+      <Blank></Blank>
+      <Text>with shoppers.</Text>
+      <NewLine />
+      <Text>5.	If two people speak the same</Text>
+      <Blank></Blank>
+      <Text>, they usually have similar attitudes and opinions.</Text>
+    </Paragraph>
+  </Question>
+</ReadingPractice>

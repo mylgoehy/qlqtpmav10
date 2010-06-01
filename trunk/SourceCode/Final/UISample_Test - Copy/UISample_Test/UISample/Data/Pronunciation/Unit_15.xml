@@ -1,0 +1,37 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / θ /  -  / ð /
+	* Grammar and vocabulary :
+			         1.	Non – defining and defining relative clauses
+					 2.	Although to connect contrasting ideas
+
+
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="θ" soundPath = "test/think.mp3">think</Item>
+			<Item type="θ" soundPath = "test/thin.mp3">thin</Item>
+			<Item type="ð" soundPath = "test/they.mp3">they</Item>
+			<Item type="ð" soundPath = "test/then.mp3">then</Item> 
+			
+			<Item type="θ" soundPath = "test/thought.mp3">thought</Item>
+			<Item type="θ" soundPath = "test/something.mp3">something</Item>
+			<Item type="ð" soundPath = "test/those.mp3">those</Item>
+			<Item type="ð" soundPath = "test/another.mp3">another</Item>
+      
+			<Item type="θ" soundPath = "test/mouth.mp3">mouth</Item>
+			<Item type="θ" soundPath = "test/birthday.mp3">birthday</Item>
+			<Item type="ð" soundPath = "test/clothes.mp3">clothes</Item>
+			<Item type="ð" soundPath = "test/brother.mp3">brother</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. I thought Mr. Smith was thirty-three.</Sentence>
+			<Sentence>2. But next Thursday will be his thirtieth birthday.</Sentence>
+			<Sentence>3. Something about him makes me think he is like my brother.</Sentence>
+			<Sentence>4. The rose that you gave him are beautiful.</Sentence>
+			<Sentence>5. Look at the clothes on that him man over there!</Sentence>
+			
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

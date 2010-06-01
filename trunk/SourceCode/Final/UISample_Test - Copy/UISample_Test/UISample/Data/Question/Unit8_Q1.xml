@@ -1,0 +1,66 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom37" FontFamily="Portable User Interface" FontSize="16" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom37"><![CDATA[1.	Jack ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox1" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="say"/>
+		<ComboBoxItem Content="tell"/>
+		<ComboBoxItem Content="talk"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ me that he was enjoying his new class.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[2.	Tom ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox2" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="say"/>
+		<ComboBoxItem Content="tell"/>
+		<ComboBoxItem Content="talk"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ it was a nice restaurant, but I din't like it very much.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[3.	The doctor ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox3" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="say"/>
+		<ComboBoxItem Content="tell"/>
+		<ComboBoxItem Content="talk"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ that I would have to rest for at least one week]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[4.	My aunt ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox4" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="say"/>
+		<ComboBoxItem Content="tell"/>
+		<ComboBoxItem Content="talk"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ us that she wouldn't be able to come the next weend.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[5.	At the meeting the teacher ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox5" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="say"/>
+		<ComboBoxItem Content="tell"/>
+		<ComboBoxItem Content="talk"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ about the problems our school had.]]></Text>
+<Newline />
+</LiquidRichText>

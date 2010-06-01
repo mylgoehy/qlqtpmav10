@@ -1,0 +1,12 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:input="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input" x:Class="UISample.FindControl" 
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot" Background="#FF3D3D3D">
+
+    	<input:AutoCompleteBox x:Name="autocomplexbox" Height="37" Margin="31,20,35,0" VerticalAlignment="Top" TextChanged="autocomplexbox_TextChanged"/>
+    	<TextBlock x:Name="textblock" Margin="32,87,35,23" TextWrapping="Wrap" Foreground="White" FontSize="16"/>
+
+    </Grid>
+</UserControl>

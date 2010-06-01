@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Choose A, B, or C that best suits the meaning of the italicised word.</Heading>
+  <NumQuestions>5</NumQuestions>
+  <Question>
+    <Ask>Van Mieu was [originally] built in 1070 in the Ly dynasty.</Ask>
+    <Selections>
+      <Option>Beautifully</Option>
+      <Option>Initially</Option>
+      <Option>Finally</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>It is [representative] of Confucian ways of thought and behavior.</Ask>
+    <Selections>
+      <Option>Typical</Option>
+      <Option>Fond</Option>
+      <Option>Traditional</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>Van Mieu was a place to [memorialize] the most brilliant scholars of the nation.</Ask>
+    <Selections>
+      <Option>Ignore</Option>
+      <Option>Gather</Option>
+      <Option>Honor</Option>
+    </Selections>
+    <CorrectAnswer>3</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The stone stelae were [engraved] with the names of the top students in royal examinations.</Ask>
+    <Selections>
+      <Option>Printed</Option>
+      <Option>Carved</Option>
+      <Option>Washed</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The banyan trees in Van Mieu continue to [flourish] even now.</Ask>
+    <Selections>
+      <Option>Slow down</Option>
+      <Option>Fall off</Option>
+      <Option>Grow well</Option>
+    </Selections>
+    <CorrectAnswer>3</CorrectAnswer>
+  </Question>
+</ReadingPractice>

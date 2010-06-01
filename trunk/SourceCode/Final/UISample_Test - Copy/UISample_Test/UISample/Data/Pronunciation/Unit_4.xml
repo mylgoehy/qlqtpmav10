@@ -1,0 +1,36 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / Ɔ /  -  / Ɔ: /
+	* Grammar and vocabulary :
+			          1. The + adjective
+			          2. Used to + infinitive
+					  3. Which as a connector
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="Ɔ" soundPath = "test/top.mp3">top</Item>
+			<Item type="Ɔ" soundPath = "test/boss.mp3">boss</Item>
+			<Item type="Ɔ:" soundPath = "test/call.mp3">call</Item>
+			<Item type="Ɔ:" soundPath = "test/sport.mp3">sport</Item>
+			
+			<Item type="Ɔ" soundPath = "test/doctor.mp3">doctor</Item>
+			<Item type="Ɔ" soundPath = "test/wrong.mp3">wrong</Item> 
+			<Item type="Ɔ:" soundPath = "test/four.mp3">four</Item>
+			<Item type="Ɔ:" soundPath = "test/walking.mp3">walking</Item>
+			
+			<Item type="Ɔ" soundPath = "test/job.mp3">job</Item>
+			<Item type="Ɔ" soundPath = "test/box.mp3">box</Item>
+			<Item type="Ɔ:" soundPath = "test/more.mp3">more</Item>
+			<Item type="Ɔ:" soundPath = "test/talk.mp3">talk</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. Put the socks on top of the box</Sentence>
+			<Sentence>2. He lost his job as a doctor in the hospital.</Sentence>
+			<Sentence>3. What’s wrong with you, boss?</Sentence>
+			<Sentence>4. Is walking called a sport?</Sentence>
+			<Sentence>5. He can’t talk to her any more</Sentence>
+			<Sentence>6. Four of us have walked for fourteen miles</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

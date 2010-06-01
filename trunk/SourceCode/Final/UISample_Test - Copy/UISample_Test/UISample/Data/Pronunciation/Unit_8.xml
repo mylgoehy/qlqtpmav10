@@ -1,0 +1,38 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / aʊ /  -  / əʊ /
+	* Grammar and vocabulary :
+			         1. Reported speed : tatements
+					 2. Conditional  sentence type 1
+
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="aʊ" soundPath = "test/Cow.mp3">Cow</Item>
+			<Item type="aʊ" soundPath = "test/house.mp3">house</Item>
+			<Item type="əʊ" soundPath = "test/bone.mp3">bone</Item>
+			<Item type="əʊ" soundPath = "test/close.mp3">close</Item>
+			
+			<Item type="aʊ" soundPath = "test/town.mp3">town</Item>
+			<Item type="aʊ" soundPath = "test/couch.mp3">couch</Item> 
+			<Item type="əʊ" soundPath = "test/coat.mp3">coat</Item>
+			<Item type="əʊ" soundPath = "test/bowl.mp3">bowl</Item>
+			
+			<Item type="aʊ" soundPath = "test/How.mp3">How</Item>
+			<Item type="aʊ" soundPath = "test/mouse.mp3">mouse</Item>
+			
+			
+<Item type="əʊ" soundPath = "test/phone.mp3">phone</Item>
+      <Item type="əʊ" soundPath = "test/note.mp3">note</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. Don’t shout so loudly.</Sentence>
+			<Sentence>2. Ours is the nicest house in the town.</Sentence>
+			<Sentence>3. At last we found the mouse under the couch.</Sentence>
+			<Sentence>4. Look at the red rose on the snow.</Sentence>
+			<Sentence>5. Come over to the window.</Sentence>
+			<Sentence>6. I’ll put my coat on and go out.</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

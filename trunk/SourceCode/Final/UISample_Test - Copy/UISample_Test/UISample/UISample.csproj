@@ -1,0 +1,688 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
+    <ProjectGuid>{5617AA20-7618-468C-A487-582C64357AE3}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <DefaultClrNameSpace>UISample</DefaultClrNameSpace>
+    <RootNamespace>UISample</RootNamespace>
+    <AssemblyName>UISample</AssemblyName>
+    <ApplicationVersion>1.0.0.*</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <AlwaysCompileMarkupFilesInSeparateDomain>false</AlwaysCompileMarkupFilesInSeparateDomain>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <XapOutputs>true</XapOutputs>
+    <XapFilename>UISample.xap</XapFilename>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>UISample.App</SilverlightAppEntry>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <TestPageFileName>TestPage.html</TestPageFileName>
+    <EnableOutOfBrowser>false</EnableOutOfBrowser>
+    <OutOfBrowserSettingsFile>Properties\OutOfBrowserSettings.xml</OutOfBrowserSettingsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Liquid, Version=5.3.0.10320, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.Components, Version=5.3.0.10320, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.Menu, Version=5.3.0.10320, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.Popup, Version=5.3.0.10319, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.RichText, Version=5.3.0.10319, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Liquid.TreeView, Version=5.3.0.10320, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Expression.Interactions, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Expression.Prototyping.SketchControls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.ComponentModel.DataAnnotations, Version=2.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Windows.Controls.Data.Input, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Windows.Controls.Input, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Windows.Controls.Navigation" />
+    <Reference Include="System.Windows.Interactivity, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml.Linq, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\System.Xml.Linq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CItem.cs" />
+    <Compile Include="CPronunciation.cs" />
+    <Compile Include="CustomMediaSlider.cs" />
+    <Compile Include="FillInBlankControl.xaml.cs">
+      <DependentUpon>FillInBlankControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FindControl.xaml.cs">
+      <DependentUpon>FindControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HighlightButton.xaml.cs">
+      <DependentUpon>HighlightButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HighlightButton_1.xaml.cs">
+      <DependentUpon>HighlightButton_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageFocusControl.xaml.cs">
+      <DependentUpon>LanguageFocusControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListeningControl.xaml.cs">
+      <DependentUpon>ListeningControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="FillInBlankControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+    </Page>
+    <Page Include="FindControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+    </Page>
+    <Page Include="HighlightButton.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="HighlightButton_1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LanguageFocusControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ListeningControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Page1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Page2.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Player.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ReadingControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PracticeControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+    </Page>
+    <Page Include="SelectionPartControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SentenceCorrectionControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeakingControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UnitControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WritingControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Player.xaml.cs">
+      <DependentUpon>Player.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadingControl.xaml.cs">
+      <DependentUpon>ReadingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PracticeControl.xaml.cs">
+      <DependentUpon>PracticeControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionPartControl.xaml.cs">
+      <DependentUpon>SelectionPartControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SentenceCorrectionControl.xaml.cs">
+      <DependentUpon>SentenceCorrectionControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ListeningServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ReadingServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SpeakingServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\VocabularyServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WritingServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SpeakingControl.xaml.cs">
+      <DependentUpon>SpeakingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UnitControl.xaml.cs">
+      <DependentUpon>UnitControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WritingControl.xaml.cs">
+      <DependentUpon>WritingControl.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Properties\AppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Answer\Unit10_E1.xml" />
+    <Content Include="Data\Answer\Unit10_E2.xml" />
+    <Content Include="Data\Answer\Unit10_E3.xml" />
+    <Content Include="Data\Answer\Unit11_E1.xml" />
+    <Content Include="Data\Answer\Unit11_E2.xml" />
+    <Content Include="Data\Answer\Unit11_E3.xml" />
+    <Content Include="Data\Answer\Unit12_E1.xml" />
+    <Content Include="Data\Answer\Unit12_E2.xml" />
+    <Content Include="Data\Answer\Unit13_E1.xml" />
+    <Content Include="Data\Answer\Unit13_E2.xml" />
+    <Content Include="Data\Answer\Unit13_E3.xml" />
+    <Content Include="Data\Answer\Unit13_E4.xml" />
+    <Content Include="Data\Answer\Unit14_E1.xml" />
+    <Content Include="Data\Answer\Unit14_E2.xml" />
+    <Content Include="Data\Answer\Unit14_E3.xml" />
+    <Content Include="Data\Answer\Unit15_E1.xml" />
+    <Content Include="Data\Answer\Unit15_E2.xml" />
+    <Content Include="Data\Answer\Unit16_E1.xml" />
+    <Content Include="Data\Answer\Unit16_E2.xml" />
+    <Content Include="Data\Answer\Unit16_E3.xml" />
+    <Content Include="Data\Answer\Unit1_E1.xml" />
+    <Content Include="Data\Answer\Unit1_E2.xml" />
+    <Content Include="Data\Answer\Unit1_E3.xml" />
+    <Content Include="Data\Answer\Unit2_E1.xml" />
+    <Content Include="Data\Answer\Unit2_E2.xml" />
+    <Content Include="Data\Answer\Unit2_E3.xml" />
+    <Content Include="Data\Answer\Unit3_E1.xml" />
+    <Content Include="Data\Answer\Unit3_E2.xml" />
+    <Content Include="Data\Answer\Unit3_E3.xml" />
+    <Content Include="Data\Answer\Unit4_E1.xml" />
+    <Content Include="Data\Answer\Unit4_E2.xml" />
+    <Content Include="Data\Answer\Unit4_E3.xml" />
+    <Content Include="Data\Answer\Unit5_E1.xml" />
+    <Content Include="Data\Answer\Unit5_E2.xml" />
+    <Content Include="Data\Answer\Unit5_E3.xml" />
+    <Content Include="Data\Answer\Unit6_E1.xml" />
+    <Content Include="Data\Answer\Unit6_E2.xml" />
+    <Content Include="Data\Answer\Unit6_E3.xml" />
+    <Content Include="Data\Answer\Unit7_E1.xml" />
+    <Content Include="Data\Answer\Unit7_E2.xml" />
+    <Content Include="Data\Answer\Unit7_E3.xml" />
+    <Content Include="Data\Answer\Unit8_E1.xml" />
+    <Content Include="Data\Answer\Unit8_E2.xml" />
+    <Content Include="Data\Answer\Unit8_E3.xml" />
+    <Content Include="Data\Answer\Unit8_E4.xml" />
+    <Content Include="Data\Answer\Unit9_E1.xml" />
+    <Content Include="Data\Answer\Unit9_E2.xml" />
+    <Content Include="Data\Answer\Unit9_E3.xml" />
+    <Content Include="Data\Pronunciation\Unit_1.xml" />
+    <Content Include="Data\Pronunciation\Unit_10.xml" />
+    <Content Include="Data\Pronunciation\Unit_11.xml" />
+    <Content Include="Data\Pronunciation\Unit_12.xml" />
+    <Content Include="Data\Pronunciation\Unit_13.xml" />
+    <Content Include="Data\Pronunciation\Unit_14.xml" />
+    <Content Include="Data\Pronunciation\Unit_15.xml" />
+    <Content Include="Data\Pronunciation\Unit_16.xml" />
+    <Content Include="Data\Pronunciation\Unit_2.xml" />
+    <Content Include="Data\Pronunciation\Unit_3.xml" />
+    <Content Include="Data\Pronunciation\Unit_4.xml" />
+    <Content Include="Data\Pronunciation\Unit_5.xml" />
+    <Content Include="Data\Pronunciation\Unit_6.xml" />
+    <Content Include="Data\Pronunciation\Unit_7.xml" />
+    <Content Include="Data\Pronunciation\Unit_8.xml" />
+    <Content Include="Data\Pronunciation\Unit_9.xml" />
+    <Content Include="Data\Question\Unit10_Q1.xml" />
+    <Content Include="Data\Question\Unit10_Q2.xml" />
+    <Content Include="Data\Question\Unit10_Q3.xml" />
+    <Content Include="Data\Question\Unit11_Q1.xml" />
+    <Content Include="Data\Question\Unit11_Q2.xml" />
+    <Content Include="Data\Question\Unit11_Q3.xml" />
+    <Content Include="Data\Question\Unit12_Q1.xml" />
+    <Content Include="Data\Question\Unit12_Q2.xml" />
+    <Content Include="Data\Question\Unit12_Q3.xml" />
+    <Content Include="Data\Question\Unit13_Q1.xml" />
+    <Content Include="Data\Question\Unit13_Q2.xml" />
+    <Content Include="Data\Question\Unit13_Q3.xml" />
+    <Content Include="Data\Question\Unit13_Q4.xml" />
+    <Content Include="Data\Question\Unit14_Q1.xml" />
+    <Content Include="Data\Question\Unit14_Q2.xml" />
+    <Content Include="Data\Question\Unit14_Q3.xml" />
+    <Content Include="Data\Question\Unit15_Q1.xml" />
+    <Content Include="Data\Question\Unit15_Q2.xml" />
+    <Content Include="Data\Question\Unit16_Q1.xml" />
+    <Content Include="Data\Question\Unit16_Q2.xml" />
+    <Content Include="Data\Question\Unit1_Q1.xml" />
+    <Content Include="Data\Question\Unit1_Q2.xml" />
+    <Content Include="Data\Question\Unit1_Q3.xml" />
+    <Content Include="Data\Question\Unit2_Q1.xml" />
+    <Content Include="Data\Question\Unit2_Q2.xml" />
+    <Content Include="Data\Question\Unit3_Q1.xml" />
+    <Content Include="Data\Question\Unit3_Q2.xml" />
+    <Content Include="Data\Question\Unit3_Q3.xml" />
+    <Content Include="Data\Question\Unit4_Q1.xml" />
+    <Content Include="Data\Question\Unit4_Q2.xml" />
+    <Content Include="Data\Question\Unit4_Q3.xml" />
+    <Content Include="Data\Question\Unit5_Q1.xml" />
+    <Content Include="Data\Question\Unit5_Q2.xml" />
+    <Content Include="Data\Question\Unit5_Q3.xml" />
+    <Content Include="Data\Question\Unit6_Q1.xml" />
+    <Content Include="Data\Question\Unit6_Q2.xml" />
+    <Content Include="Data\Question\Unit6_Q3.xml" />
+    <Content Include="Data\Question\Unit7_Q1.xml" />
+    <Content Include="Data\Question\Unit7_Q2.xml" />
+    <Content Include="Data\Question\Unit7_Q3.xml" />
+    <Content Include="Data\Question\Unit8_Q1.xml" />
+    <Content Include="Data\Question\Unit8_Q2.xml" />
+    <Content Include="Data\Question\Unit9_Q1.xml" />
+    <Content Include="Data\Question\Unit9_Q2.xml" />
+    <Content Include="Data\Question\Unit9_Q3.xml" />
+    <Content Include="Data\ReadingData\english\Bai1.xml" />
+    <Content Include="Data\ReadingData\english\Bai10.xml" />
+    <Content Include="Data\ReadingData\english\Bai11.xml" />
+    <Content Include="Data\ReadingData\english\Bai12.xml" />
+    <Content Include="Data\ReadingData\english\Bai2.xml" />
+    <Content Include="Data\ReadingData\english\Bai3.xml" />
+    <Content Include="Data\ReadingData\english\Bai4.xml" />
+    <Content Include="Data\ReadingData\english\Bai5.xml" />
+    <Content Include="Data\ReadingData\english\Bai6.xml" />
+    <Content Include="Data\ReadingData\english\Bai7.xml" />
+    <Content Include="Data\ReadingData\english\Bai8.xml" />
+    <Content Include="Data\ReadingData\english\Bai9.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit10_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit11_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit12_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit1_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit2_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit3_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit4=5_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit4_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit6_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit7_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit8_VietText.xml" />
+    <Content Include="Data\ReadingData\vietnam\Reading_Unit9_VietText.xml" />
+    <Content Include="Data\Speaking\Speaking-1-0.xml" />
+    <Content Include="Data\Speaking\Speaking-1-1.xml" />
+    <Content Include="Data\Speaking\Speaking-10-0.xml" />
+    <Content Include="Data\Speaking\Speaking-10-1.xml" />
+    <Content Include="Data\Speaking\Speaking-11-0.xml" />
+    <Content Include="Data\Speaking\Speaking-11-1.xml" />
+    <Content Include="Data\Speaking\Speaking-12-0.xml" />
+    <Content Include="Data\Speaking\Speaking-12-1.xml" />
+    <Content Include="Data\Speaking\Speaking-13-0.xml" />
+    <Content Include="Data\Speaking\Speaking-13-1.xml" />
+    <Content Include="Data\Speaking\Speaking-14-0.xml" />
+    <Content Include="Data\Speaking\Speaking-14-1.xml" />
+    <Content Include="Data\Speaking\Speaking-15-0.xml" />
+    <Content Include="Data\Speaking\Speaking-15-1.xml" />
+    <Content Include="Data\Speaking\Speaking-16-0.xml" />
+    <Content Include="Data\Speaking\Speaking-16-1.xml" />
+    <Content Include="Data\Speaking\Speaking-2-0.xml" />
+    <Content Include="Data\Speaking\Speaking-2-1.xml" />
+    <Content Include="Data\Speaking\Speaking-3-0.xml" />
+    <Content Include="Data\Speaking\Speaking-3-1.xml" />
+    <Content Include="Data\Speaking\Speaking-4-0.xml" />
+    <Content Include="Data\Speaking\Speaking-4-1.xml" />
+    <Content Include="Data\Speaking\Speaking-5-0.xml" />
+    <Content Include="Data\Speaking\Speaking-5-1.xml" />
+    <Content Include="Data\Speaking\Speaking-6-0.xml" />
+    <Content Include="Data\Speaking\Speaking-6-1.xml" />
+    <Content Include="Data\Speaking\Speaking-7-0.xml" />
+    <Content Include="Data\Speaking\Speaking-7-1.xml" />
+    <Content Include="Data\Speaking\Speaking-8-0.xml" />
+    <Content Include="Data\Speaking\Speaking-8-1.xml" />
+    <Content Include="Data\Speaking\Speaking-9-0.xml" />
+    <Content Include="Data\Speaking\Speaking-9-1.xml" />
+    <None Include="Data\Unit_10\Reading\Audio\Reading_Unit10.mp3" />
+    <Content Include="Data\Unit_10\Reading\Practice\Reading_Practise_Unit10_Task1.xml" />
+    <Content Include="Data\Unit_10\Reading\Practice\Reading_Practise_Unit10_Task2.xml" />
+    <Content Include="Data\Unit_10\Reading\Practice\Reading_Practise_Unit10_Task3.xml" />
+    <Content Include="Data\Unit_10\Reading\Text\Reading_Unit10_EngText.xml" />
+    <Content Include="Data\Unit_10\Reading\Text\Reading_Unit10_VietText.xml" />
+    <None Include="Data\Unit_11\Reading\Audio\Reading_Unit11.mp3" />
+    <Content Include="Data\Unit_11\Reading\Practice\Reading_Practise_Unit11_Task1.xml" />
+    <Content Include="Data\Unit_11\Reading\Practice\Reading_Practise_Unit11_Task2.xml" />
+    <Content Include="Data\Unit_11\Reading\Text\Reading_Unit11_EngText.xml" />
+    <Content Include="Data\Unit_11\Reading\Text\Reading_Unit11_VietText.xml" />
+    <None Include="Data\Unit_12\Reading\Audio\Reading_Unit12.mp3" />
+    <Content Include="Data\Unit_12\Reading\Practice\Reading_Practise_Unit12_Task1.xml" />
+    <Content Include="Data\Unit_12\Reading\Practice\Reading_Practise_Unit12_Task2.xml" />
+    <Content Include="Data\Unit_12\Reading\Text\Reading_Unit12_EngText.xml" />
+    <Content Include="Data\Unit_12\Reading\Text\Reading_Unit12_VietText.xml" />
+    <None Include="Data\Unit_13\Reading\Audio\Reading_Unit13.mp3" />
+    <Content Include="Data\Unit_13\Reading\Practice\Reading_Practise_Unit13_Task1.xml" />
+    <Content Include="Data\Unit_13\Reading\Practice\Reading_Practise_Unit13_Task2.xml" />
+    <Content Include="Data\Unit_13\Reading\Practice\Reading_Practise_Unit13_Task3.xml" />
+    <None Include="Data\Unit_14\Reading\Audio\Reading_Unit14.mp3" />
+    <Content Include="Data\Unit_14\Reading\Practice\Reading_Practise_Unit14_Task1.xml" />
+    <Content Include="Data\Unit_14\Reading\Practice\Reading_Practise_Unit14_Task2.xml" />
+    <Content Include="Data\Unit_14\Reading\Practice\Reading_Practise_Unit14_Task3.xml" />
+    <None Include="Data\Unit_15\Reading\Audio\Reading_Unit15.mp3" />
+    <Content Include="Data\Unit_15\Reading\Practice\Reading_Practise_Unit15_Task1.xml" />
+    <Content Include="Data\Unit_15\Reading\Practice\Reading_Practise_Unit15_Task2.xml" />
+    <Content Include="Data\Unit_15\Reading\Practice\Reading_Practise_Unit15_Task3.xml" />
+    <None Include="Data\Unit_16\Reading\Audio\Reading_Unit16.mp3" />
+    <Content Include="Data\Unit_16\Reading\Practice\Reading_Practise_Unit16_Task1.xml" />
+    <Content Include="Data\Unit_16\Reading\Practice\Reading_Practise_Unit16_Task2.xml" />
+    <None Include="Data\Unit_1\Reading\Audio\Reading_Unit1.mp3" />
+    <Content Include="Data\Unit_1\Reading\Practice\Reading_Practice_Unit1_Task1.xml" />
+    <Content Include="Data\Unit_1\Reading\Practice\Reading_Practice_Unit1_Task2.xml" />
+    <Content Include="Data\Unit_1\Reading\Practice\Reading_Practice_Unit1_Task2_RichText.xml" />
+    <Content Include="Data\Unit_1\Reading\ReadingDescription.xml" />
+    <Content Include="Data\Unit_1\Reading\Text\Reading_Unit1_EngText.xml" />
+    <Content Include="Data\Unit_1\Reading\Text\Reading_Unit1_VietText.xml" />
+    <None Include="Data\Unit_2\Reading\Audio\Reading_Unit2.mp3" />
+    <Content Include="Data\Unit_2\Reading\Practice\Reading_Practice_Unit2_Task1.xml" />
+    <Content Include="Data\Unit_2\Reading\Practice\Reading_Practice_Unit2_Task1_Old.xml" />
+    <Content Include="Data\Unit_2\Reading\Practice\Reading_Practice_Unit2_Task1_RichText.xml" />
+    <Content Include="Data\Unit_2\Reading\Practice\Reading_Practice_Unit2_Task2.xml" />
+    <Content Include="Data\Unit_2\Reading\Practice\Reading_Practice_Unit2_Task3.xml" />
+    <Content Include="Data\Unit_2\Reading\ReadingDescription.xml" />
+    <Content Include="Data\Unit_2\Reading\Text\Reading_Unit2_EngText.xml" />
+    <Content Include="Data\Unit_2\Reading\Text\Reading_Unit2_VietText.xml" />
+    <None Include="Data\Unit_3\Reading\Audio\Reading_Unit3.mp3" />
+    <Content Include="Data\Unit_3\Reading\Practice\Reading_Practise_Unit3_Task1.xml" />
+    <Content Include="Data\Unit_3\Reading\Practice\Reading_Practise_Unit3_Task2.xml" />
+    <Content Include="Data\Unit_3\Reading\Practice\Reading_Practise_Unit3_Task3.xml" />
+    <Content Include="Data\Unit_3\Reading\ReadingDescription.xml" />
+    <Content Include="Data\Unit_3\Reading\Text\Reading_Unit3_EngText.xml" />
+    <Content Include="Data\Unit_3\Reading\Text\Reading_Unit3_VietText.xml" />
+    <None Include="Data\Unit_4\Reading\Audio\Reading_Unit4.mp3" />
+    <Content Include="Data\Unit_4\Reading\Practice\Reading_Practise_Unit4_Task1.xml" />
+    <Content Include="Data\Unit_4\Reading\Practice\Reading_Practise_Unit4_Task2.xml" />
+    <Content Include="Data\Unit_4\Reading\Text\Reading_Unit4_EngText.xml" />
+    <Content Include="Data\Unit_4\Reading\Text\Reading_Unit4_VietText.xml" />
+    <None Include="Data\Unit_5\Reading\Audio\Reading_Unit5.mp3" />
+    <Content Include="Data\Unit_5\Reading\Practice\Reading_Practise_Unit5_Task1.xml" />
+    <Content Include="Data\Unit_5\Reading\Practice\Reading_Practise_Unit5_Task2.xml" />
+    <Content Include="Data\Unit_5\Reading\Practice\Reading_Practise_Unit5_Task3.xml" />
+    <Content Include="Data\Unit_5\Reading\Text\Reading_Unit4=5_VietText.xml" />
+    <Content Include="Data\Unit_5\Reading\Text\Reading_Unit5_EngText.xml" />
+    <None Include="Data\Unit_6\Reading\Audio\Reading_Unit6.mp3" />
+    <Content Include="Data\Unit_6\Reading\Practice\Reading_Practise_Unit6_Task1.xml" />
+    <Content Include="Data\Unit_6\Reading\Practice\Reading_Practise_Unit6_Task2.xml" />
+    <Content Include="Data\Unit_6\Reading\Text\Reading_Unit6_EngText.xml" />
+    <Content Include="Data\Unit_6\Reading\Text\Reading_Unit6_VietText.xml" />
+    <None Include="Data\Unit_7\Reading\Audio\Reading_Unit7.mp3" />
+    <Content Include="Data\Unit_7\Reading\Practice\Reading_Practise_Unit7_Task1.xml" />
+    <Content Include="Data\Unit_7\Reading\Practice\Reading_Practise_Unit7_Task2.xml" />
+    <Content Include="Data\Unit_7\Reading\Practice\Reading_Practise_Unit7_Task3.xml" />
+    <Content Include="Data\Unit_7\Reading\Text\Reading_Unit7_EngText.xml" />
+    <Content Include="Data\Unit_7\Reading\Text\Reading_Unit7_VietText.xml" />
+    <None Include="Data\Unit_8\Reading\Audio\Reading_Unit8.mp3" />
+    <Content Include="Data\Unit_8\Reading\Practice\Reading_Practise_Unit8_Task1.xml" />
+    <Content Include="Data\Unit_8\Reading\Practice\Reading_Practise_Unit8_Task2.xml" />
+    <Content Include="Data\Unit_8\Reading\Practice\Reading_Practise_Unit8_Task3.xml" />
+    <Content Include="Data\Unit_8\Reading\Text\Reading_Unit8_EngText.xml" />
+    <Content Include="Data\Unit_8\Reading\Text\Reading_Unit8_VietText.xml" />
+    <None Include="Data\Unit_9\Reading\Audio\Reading_Unit9.mp3" />
+    <Content Include="Data\Unit_9\Reading\Practice\Reading_Practise_Unit9_Task1.xml" />
+    <Content Include="Data\Unit_9\Reading\Practice\Reading_Practise_Unit9_Task2.xml" />
+    <Content Include="Data\Unit_9\Reading\Text\Reading_Unit9_EngText.xml" />
+    <Content Include="Data\Unit_9\Reading\Text\Reading_Unit9_VietText.xml" />
+    <Content Include="Data\Writting\unit1.xml" />
+    <Content Include="Data\Writting\unit10.xml" />
+    <Content Include="Data\Writting\unit11.xml" />
+    <Content Include="Data\Writting\unit12.xml" />
+    <Content Include="Data\Writting\unit13.xml" />
+    <Content Include="Data\Writting\unit14.xml" />
+    <Content Include="Data\Writting\unit15.xml" />
+    <Content Include="Data\Writting\unit16.xml" />
+    <Content Include="Data\Writting\unit2.xml" />
+    <Content Include="Data\Writting\unit3.xml" />
+    <Content Include="Data\Writting\unit4.xml" />
+    <Content Include="Data\Writting\unit5.xml" />
+    <Content Include="Data\Writting\unit6.xml" />
+    <Content Include="Data\Writting\unit7.xml" />
+    <Content Include="Data\Writting\unit8.xml" />
+    <Content Include="Data\Writting\unit9.xml" />
+    <Content Include="Dll\Liquid.Components.dll" />
+    <Content Include="Dll\Liquid.dll" />
+    <Content Include="Dll\Liquid.Menu.dll" />
+    <Content Include="Dll\Liquid.Popup.dll" />
+    <Content Include="Dll\Liquid.RichText.dll" />
+    <Content Include="Dll\Liquid.TreeView.dll" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\OutOfBrowserSettings.xml" />
+    <None Include="Service References\ListeningServiceReference\Listening_Service.wsdl" />
+    <None Include="Service References\ListeningServiceReference\Listening_Service.xsd" />
+    <None Include="Service References\ReadingServiceReference\Reading_Service.wsdl" />
+    <None Include="Service References\ReadingServiceReference\Reading_Service.xsd" />
+    <None Include="Service References\ReadingServiceReference\Reading_Service1.xsd" />
+    <None Include="Service References\ReadingServiceReference\Reading_Service2.xsd" />
+    <None Include="Service References\ReadingServiceReference\Reading_Service.disco" />
+    <None Include="Service References\ReadingServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\ReadingServiceReference\configuration.svcinfo" />
+    <None Include="Service References\ReadingServiceReference\Reading_Service3.xsd" />
+    <None Include="Service References\ReadingServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ReadingServiceReference\UISample.ReadingServiceReference.READING.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReadingServiceReference\UISample.ReadingServiceReference.READING_PRACTICE.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ListeningServiceReference\Listening_Service.disco" />
+    <None Include="Service References\ListeningServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\ListeningServiceReference\configuration.svcinfo" />
+    <None Include="Service References\ListeningServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SpeakingServiceReference\SpeakingService.wsdl" />
+    <None Include="Service References\SpeakingServiceReference\SpeakingService.xsd" />
+    <None Include="Service References\SpeakingServiceReference\SpeakingService1.xsd" />
+    <None Include="Service References\SpeakingServiceReference\SpeakingService2.xsd" />
+    <None Include="Service References\SpeakingServiceReference\SpeakingService3.xsd" />
+    <None Include="Service References\SpeakingServiceReference\UISample.SpeakingServiceReference.SPEAKING.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\VocabularyServiceReference\UISample.VocabularyServiceReference.VOCABULARY.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\VocabularyServiceReference\VocabularyService.wsdl" />
+    <None Include="Service References\VocabularyServiceReference\VocabularyService.xsd" />
+    <None Include="Service References\VocabularyServiceReference\VocabularyService1.xsd" />
+    <None Include="Service References\VocabularyServiceReference\VocabularyService2.xsd" />
+    <None Include="Service References\WritingServiceReference\UISample.WritingServiceReference.WRITING.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WritingServiceReference\Writing_Service.disco" />
+    <None Include="Service References\WritingServiceReference\Writing_Service.wsdl" />
+    <None Include="Service References\WritingServiceReference\Writing_Service.xsd" />
+    <None Include="Service References\WritingServiceReference\Writing_Service1.xsd" />
+    <None Include="Service References\WritingServiceReference\Writing_Service2.xsd" />
+    <None Include="Service References\WritingServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\WritingServiceReference\configuration.svcinfo" />
+    <None Include="Service References\WritingServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Resource Include="back-icon.png" />
+    <Resource Include="delete-icon.png" />
+    <Resource Include="Image\Icon\Pause\Pause Blue Button.png" />
+    <Resource Include="Image\Icon\Pause\Pause Green Button.png" />
+    <Resource Include="Image\Icon\Play\Play Blue Button.png" />
+    <Resource Include="Image\Icon\Play\Play Green Button.png" />
+    <Resource Include="Image\Icon\Play\Play Red Button.png" />
+    <Resource Include="Image\Icon\Stop\Stop Blue Button.png" />
+    <Resource Include="Image\Icon\Stop\Stop Green Button.png" />
+    <Resource Include="Image\Icon\Stop\Stop Red Button.png" />
+    <None Include="Service References\VocabularyServiceReference\VocabularyService.disco" />
+    <None Include="Service References\VocabularyServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\VocabularyServiceReference\configuration.svcinfo" />
+    <None Include="Service References\VocabularyServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SpeakingServiceReference\SpeakingService.disco" />
+    <None Include="Service References\SpeakingServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\SpeakingServiceReference\configuration.svcinfo" />
+    <None Include="Service References\SpeakingServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Resource Include="Image\Icon\back-icon.png" />
+    <Resource Include="Image\Icon\delete-icon.png" />
+    <Resource Include="Image\Icon\next-icon.png" />
+    <Resource Include="next-icon.png" />
+    <Content Include="ServiceReferences.ClientConfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ListeningServiceReference\" />
+    <WCFMetadataStorage Include="Service References\ReadingServiceReference\" />
+    <WCFMetadataStorage Include="Service References\SpeakingServiceReference\" />
+    <WCFMetadataStorage Include="Service References\VocabularyServiceReference\" />
+    <WCFMetadataStorage Include="Service References\WritingServiceReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\Unit_10\Language Focus\" />
+    <Folder Include="Data\Unit_10\Listening\" />
+    <Folder Include="Data\Unit_10\Reading\Pictures\" />
+    <Folder Include="Data\Unit_10\Writing\" />
+    <Folder Include="Data\Unit_11\Language Focus\" />
+    <Folder Include="Data\Unit_11\Listening\" />
+    <Folder Include="Data\Unit_11\Reading\Pictures\" />
+    <Folder Include="Data\Unit_11\Writing\" />
+    <Folder Include="Data\Unit_12\Language Focus\" />
+    <Folder Include="Data\Unit_12\Listening\" />
+    <Folder Include="Data\Unit_12\Reading\Pictures\" />
+    <Folder Include="Data\Unit_12\Writing\" />
+    <Folder Include="Data\Unit_13\Language Focus\" />
+    <Folder Include="Data\Unit_13\Listening\" />
+    <Folder Include="Data\Unit_13\Reading\Pictures\" />
+    <Folder Include="Data\Unit_13\Writing\" />
+    <Folder Include="Data\Unit_14\Language Focus\" />
+    <Folder Include="Data\Unit_14\Listening\" />
+    <Folder Include="Data\Unit_14\Reading\Pictures\" />
+    <Folder Include="Data\Unit_14\Writing\" />
+    <Folder Include="Data\Unit_15\Language Focus\" />
+    <Folder Include="Data\Unit_15\Listening\" />
+    <Folder Include="Data\Unit_15\Reading\Pictures\" />
+    <Folder Include="Data\Unit_15\Writing\" />
+    <Folder Include="Data\Unit_16\Language Focus\" />
+    <Folder Include="Data\Unit_16\Listening\" />
+    <Folder Include="Data\Unit_16\Reading\Pictures\" />
+    <Folder Include="Data\Unit_16\Writing\" />
+    <Folder Include="Data\Unit_1\Language Focus\" />
+    <Folder Include="Data\Unit_1\Listening\" />
+    <Folder Include="Data\Unit_1\Reading\Pictures\" />
+    <Folder Include="Data\Unit_1\Writing\" />
+    <Folder Include="Data\Unit_2\Language Focus\" />
+    <Folder Include="Data\Unit_2\Listening\" />
+    <Folder Include="Data\Unit_2\Reading\Pictures\" />
+    <Folder Include="Data\Unit_2\Writing\" />
+    <Folder Include="Data\Unit_3\Language Focus\" />
+    <Folder Include="Data\Unit_3\Listening\" />
+    <Folder Include="Data\Unit_3\Reading\Pictures\" />
+    <Folder Include="Data\Unit_3\Writing\" />
+    <Folder Include="Data\Unit_4\Language Focus\" />
+    <Folder Include="Data\Unit_4\Listening\" />
+    <Folder Include="Data\Unit_4\Reading\Pictures\" />
+    <Folder Include="Data\Unit_4\Writing\" />
+    <Folder Include="Data\Unit_5\Language Focus\" />
+    <Folder Include="Data\Unit_5\Listening\" />
+    <Folder Include="Data\Unit_5\Reading\Pictures\" />
+    <Folder Include="Data\Unit_5\Writing\" />
+    <Folder Include="Data\Unit_6\Language Focus\" />
+    <Folder Include="Data\Unit_6\Listening\" />
+    <Folder Include="Data\Unit_6\Reading\Pictures\" />
+    <Folder Include="Data\Unit_6\Writing\" />
+    <Folder Include="Data\Unit_7\Language Focus\" />
+    <Folder Include="Data\Unit_7\Listening\" />
+    <Folder Include="Data\Unit_7\Reading\Pictures\" />
+    <Folder Include="Data\Unit_7\Writing\" />
+    <Folder Include="Data\Unit_8\Language Focus\" />
+    <Folder Include="Data\Unit_8\Listening\" />
+    <Folder Include="Data\Unit_8\Reading\Pictures\" />
+    <Folder Include="Data\Unit_8\Writing\" />
+    <Folder Include="Data\Unit_9\Language Focus\" />
+    <Folder Include="Data\Unit_9\Listening\" />
+    <Folder Include="Data\Unit_9\Reading\Pictures\" />
+    <Folder Include="Data\Unit_9\Writing\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight\V3.0\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,35 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[UNIT 5:TECHNOLOGY AND YOU]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Reading the passage and then do the tasks that follow.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Computers have become part of your daily lives. We visit shops, offices, and places of scenic beauty with]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[the help of computers. We pay bills prepared by computers. We read newspapers and magazines which have]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[been produced on computers. We receive letters from and send letters to almost every part of the world with]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[the help of computers. And we can even learn foreign languages on computers.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[What makes a computer such a miraculous device? Each time you turn it on, with appropriate hardware and]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[software, it is capable of doing almost anything you ask it to. It is a calculating machine which speeds up]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[calculations: it can add, subtract, multiply, and divide with lightning speed and perfect accuracy.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[It is an electronic storage device which manages large collections of data. It is a magical typewriter which]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[allows you to type and print any kind of document - letters, memos or requests for leave. It is a personal]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[communicator which helps you to interact with other computers and with people around the world. And if you]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[like entertainment, you can relax by playing computer games or listening to computer-played music.]]></Text>
+</LiquidRichText>

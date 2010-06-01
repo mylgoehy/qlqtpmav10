@@ -1,0 +1,232 @@
+﻿<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+  <Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+  <Style ID="Custom40" FontFamily="Portable User Interface" FontSize="16" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+  <TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2"></TableStyle>
+  <Text Style="Custom40"><![CDATA[Complete the blanks in the passage. Use the correct present simple form of the verbs]]></Text>
+  <Text Style="Custom40"><![CDATA[ in the box. (There are more verbs than needed and you will have to use some verbs]]></Text>
+  <Text Style="Custom40"><![CDATA[ more than once.)]]></Text>
+  <Newline />
+  <Text Style="Custom40"><![CDATA[Fishing (1)]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo1" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[ my favourite sport. I often (2) ]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo2" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[for hours without catching ]]></Text>
+  <Text Style="Custom40"><![CDATA[anything. But this does not (3) ]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo3" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[me. Some fishermen (4)]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo4" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[ unlucky. ]]></Text>
+  <Text Style="Custom40"><![CDATA[Instead of catchig fish, they (5)]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo5" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[ old boots and rubbish. I (6)]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo6" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[even less lucky. I never (7)]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo7" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[ anything – not even old boots. After having ]]></Text>
+  <Text Style="Custom40"><![CDATA[spent whole mornings on the river, I always (8)]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo8" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[home with an empty bag.]]></Text>
+  <Text Style="Custom40"><![CDATA[“You must (9)]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo9" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[fishing!”, my friends (10)]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo10" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[“It’s a waste of time”. ]]></Text>
+  <Text Style="Custom40"><![CDATA[But they don’t (11) ]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo11" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[that I (12)]]></Text>
+  <Xaml>
+    <ComboBox Name="Combo12" Width="100" Height="Auto">
+      <ComboBoxItem Content="be" />
+      <ComboBoxItem Content="play" />
+      <ComboBoxItem Content="take" />
+      <ComboBoxItem Content="run" />
+      <ComboBoxItem Content="fish" />
+      <ComboBoxItem Content="go" />
+      <ComboBoxItem Content="say" />
+      <ComboBoxItem Content="catch" />
+      <ComboBoxItem Content="worry" />
+      <ComboBoxItem Content="give up" />
+      <ComboBoxItem Content="like" />
+      <ComboBoxItem Content="relise" />
+    </ComboBox>
+  </Xaml>
+  <Tag Style="Custom40"></Tag>
+  <Text Style="Custom40"><![CDATA[not really interested in fishing. I’m ]]></Text>
+  <Text Style="Custom40"><![CDATA[only interested in sitting in a boat, doing nothing at all. ]]></Text>
+</LiquidRichText>

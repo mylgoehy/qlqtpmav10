@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>1</Type>
+  <Heading>The words/phrases in the box bellow all appear in the reading passage. Use them to complete the sentences.</Heading>
+  <NumQuestion>7</NumQuestion>
+  <Question>
+    <Word>
+      <Option>emotion</Option>
+      <Option>communication</Option>
+      <Option>intergral part</Option>
+      <Option>solemn</Option>
+      <Option>lull</Option>
+      <Option>delights</Option>
+      <Option>mournful</Option>
+    </Word>
+    <Paragraph>
+      <Text>1.If you know English, you can </Text>
+      <Blank>[]</Blank>
+      <Text>with people from English-speaking wrold easily.\n</Text>  
+      <Text>2.Every night, the mother tells her daughter a fairy able to </Text>
+      <Blank>[]</Blank>
+      <Text>her to sleep.\n</Text>
+      <Text>3.Nam is success at school </Text>
+      <Blank>[]</Blank>
+      <Text>his parents.\n</Text>      
+      <Text>4.He is an </Text>
+      <Blank>[]</Blank>
+      <Text>of the team, we can’t do without him.\n</Text>
+      <Text>5.The teacher criticited him with a </Text>
+      <Blank>[]</Blank>
+      <Text>expression on his face.\n</Text>
+      <Text>6.Like a lot of men, he finds it hard to express his </Text>
+      <Blank>[]</Blank>
+      <Text>.\n</Text>
+      <Text>7.With a</Text>
+      <Blank>[]</Blank>
+      <Text>look on his face, he told us about his uncle’s death.\n</Text>
+    </Paragraph>
+</Question>
+</ReadingPractice>
