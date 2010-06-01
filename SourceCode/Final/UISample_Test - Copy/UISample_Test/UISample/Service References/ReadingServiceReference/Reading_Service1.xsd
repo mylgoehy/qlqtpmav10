@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfREADING">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="READING" nillable="true" type="tns:READING" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfREADING" nillable="true" type="tns:ArrayOfREADING" />
+  <xs:complexType name="READING">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="Suggestion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Audio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UNIT" nillable="true" type="tns:UNIT">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="READING" nillable="true" type="tns:READING" />
+  <xs:complexType name="UNIT">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WRITINGs" nillable="true" type="tns:ArrayOfWRITING">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="GRAMMAR_PRACTICEs" nillable="true" type="tns:ArrayOfGRAMMAR_PRACTICE">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="LANGUAGE_FOCUS" nillable="true" type="tns:LANGUAGE_FOCUS">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="LISTENING" nillable="true" type="tns:LISTENING">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="LISTENING_PRACTICEs" nillable="true" type="tns:ArrayOfLISTENING_PRACTICE">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="MUSICs" nillable="true" type="tns:ArrayOfMUSIC">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="PICTUREs" nillable="true" type="tns:ArrayOfPICTURE">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="READING_ANSWERs" nillable="true" type="tns:ArrayOfREADING_ANSWER">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="READING_PRACTICEs" nillable="true" type="tns:ArrayOfREADING_PRACTICE">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="SPEAKING" nillable="true" type="tns:SPEAKING">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="USER_MARKs" nillable="true" type="tns:ArrayOfUSER_MARK">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="VOCABULARies" nillable="true" type="tns:ArrayOfVOCABULARY">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UNIT" nillable="true" type="tns:UNIT" />
+  <xs:complexType name="ArrayOfWRITING">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WRITING" nillable="true" type="tns:WRITING" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWRITING" nillable="true" type="tns:ArrayOfWRITING" />
+  <xs:complexType name="WRITING">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Task" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Ques" type="xs:int" />
+      <xs:element minOccurs="0" name="Ques" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ans" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Template" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WRITING" nillable="true" type="tns:WRITING" />
+  <xs:complexType name="ArrayOfGRAMMAR_PRACTICE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GRAMMAR_PRACTICE" nillable="true" type="tns:GRAMMAR_PRACTICE" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGRAMMAR_PRACTICE" nillable="true" type="tns:ArrayOfGRAMMAR_PRACTICE" />
+  <xs:complexType name="GRAMMAR_PRACTICE">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="Task" type="xs:int" />
+      <xs:element minOccurs="0" name="Ques" type="xs:int" />
+      <xs:element minOccurs="0" name="Ans" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GRAMMAR_PRACTICE" nillable="true" type="tns:GRAMMAR_PRACTICE" />
+  <xs:complexType name="LANGUAGE_FOCUS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="Pronunciation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Grammar" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Grammar_Path" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LANGUAGE_FOCUS" nillable="true" type="tns:LANGUAGE_FOCUS" />
+  <xs:complexType name="LISTENING">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="ContentPractise" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LISTENING" nillable="true" type="tns:LISTENING" />
+  <xs:complexType name="ArrayOfLISTENING_PRACTICE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LISTENING_PRACTICE" nillable="true" type="tns:LISTENING_PRACTICE" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLISTENING_PRACTICE" nillable="true" type="tns:ArrayOfLISTENING_PRACTICE" />
+  <xs:complexType name="LISTENING_PRACTICE">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="Task" type="xs:int" />
+      <xs:element minOccurs="0" name="Ques" type="xs:int" />
+      <xs:element minOccurs="0" name="Ans" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LISTENING_PRACTICE" nillable="true" type="tns:LISTENING_PRACTICE" />
+  <xs:complexType name="ArrayOfMUSIC">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MUSIC" nillable="true" type="tns:MUSIC" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMUSIC" nillable="true" type="tns:ArrayOfMUSIC" />
+  <xs:complexType name="MUSIC">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Music" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Unit" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Lyric" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Practice" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Music_Path" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MUSIC" nillable="true" type="tns:MUSIC" />
+  <xs:complexType name="ArrayOfPICTURE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PICTURE" nillable="true" type="tns:PICTURE" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPICTURE" nillable="true" type="tns:ArrayOfPICTURE" />
+  <xs:complexType name="PICTURE">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Pic" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Unit" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Skill" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Pic_Path" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PICTURE" nillable="true" type="tns:PICTURE" />
+  <xs:complexType name="ArrayOfREADING_ANSWER">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="READING_ANSWER" nillable="true" type="tns:READING_ANSWER" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfREADING_ANSWER" nillable="true" type="tns:ArrayOfREADING_ANSWER" />
+  <xs:complexType name="READING_ANSWER">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="Task" type="xs:int" />
+      <xs:element minOccurs="0" name="Ques" type="xs:int" />
+      <xs:element minOccurs="0" name="Ans" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="READING_ANSWER" nillable="true" type="tns:READING_ANSWER" />
+  <xs:complexType name="ArrayOfREADING_PRACTICE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="READING_PRACTICE" nillable="true" type="tns:READING_PRACTICE" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfREADING_PRACTICE" nillable="true" type="tns:ArrayOfREADING_PRACTICE" />
+  <xs:complexType name="READING_PRACTICE">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="Task" type="xs:int" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Contents" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="READING_PRACTICE" nillable="true" type="tns:READING_PRACTICE" />
+  <xs:complexType name="SPEAKING">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="Suggestion" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SPEAKING" nillable="true" type="tns:SPEAKING" />
+  <xs:complexType name="ArrayOfUSER_MARK">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="USER_MARK" nillable="true" type="tns:USER_MARK" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUSER_MARK" nillable="true" type="tns:ArrayOfUSER_MARK" />
+  <xs:complexType name="USER_MARK">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_User" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Unit" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Skill" type="xs:int" />
+      <xs:element minOccurs="0" name="Mark_Unit" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Mark_Skill" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="USER_MARK" nillable="true" type="tns:USER_MARK" />
+  <xs:complexType name="ArrayOfVOCABULARY">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VOCABULARY" nillable="true" type="tns:VOCABULARY" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVOCABULARY" nillable="true" type="tns:ArrayOfVOCABULARY" />
+  <xs:complexType name="VOCABULARY">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_Voc" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Unit" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Skill" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Eword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Vword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Voice_Path" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VOCABULARY" nillable="true" type="tns:VOCABULARY" />
+</xs:schema>

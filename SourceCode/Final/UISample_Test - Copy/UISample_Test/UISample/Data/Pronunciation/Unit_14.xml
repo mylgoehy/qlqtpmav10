@@ -1,0 +1,42 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / g /  -  / k /
+	* Grammar and vocabulary :
+			          1.	Will vs. going to
+					  2.	Will: making predictions
+					  3.	Will: making offers
+
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="g" soundPath = "test/group.mp3">group</Item>
+			<Item type="g" soundPath = "test/goal.mp3">goal</Item>
+			<Item type="k" soundPath = "test/club.mp3">club</Item>
+			<Item type="k" soundPath = "test/school.mp3">school</Item> 
+			
+			<Item type="g" soundPath = "test/game.mp3">game</Item>
+			<Item type="g" soundPath = "test/dog.mp3">dog</Item>
+			<Item type="k" soundPath = "test/kick.mp3">kick</Item>
+			<Item type="k" soundPath = "test/because.mp3">because</Item>
+      
+			<Item type="g" soundPath = "test/together.mp3">together</Item>
+			<Item type="g" soundPath = "test/Uruguay.mp3">Uruguay</Item>
+			<Item type="k" soundPath = "test/cup.mp3">cup</Item>
+			<Item type="k" soundPath = "test/compete.mp3">compete</Item>
+
+			<Item type="g" soundPath = "test/again.mp3">again</Item>
+			<Item type="g" soundPath = "test/Margaret.mp3">Margaret</Item>
+			<Item type="k" soundPath = "test/ticket.mp3">ticket</Item>
+			<Item type="k" soundPath = "test/weak.mp3">weak</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. Our group hasn’t scored a goal.</Sentence>
+			<Sentence>2. Uruguay will lose another game again.</Sentence>
+			<Sentence>3. Margaret took the dog and the cat for a walk.</Sentence>
+			<Sentence>4. Can your school club compete in the next tournament?</Sentence>
+			<Sentence>5. He can’t kick the ball because he’s too weak.</Sentence>
+			<Sentence>6. He has got a ticket for the next World Cup in Germany.</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

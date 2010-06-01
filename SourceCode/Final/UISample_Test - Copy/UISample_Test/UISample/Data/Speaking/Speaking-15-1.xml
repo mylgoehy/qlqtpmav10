@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task>
+	<title>Complete each question in A with a suitable word in B.</title>
+	<text>A : 
+1.	When was the city xxx ?
+2.	What is the xxx like?
+3.	What are the xxx like?
+4.	How many xxx are there?
+5.	What is the xxx of the city?
+6.	What is its xxx ?
+ 
+B :
+a.	people
+b.	area
+c.	population
+d.	founded
+e.	parks
+f.	transport
+</text>
+  <answer>1. d</answer>
+  <answer>2. f.</answer>
+  <answer>3. a/e.</answer>
+  <answer>4. e/a.</answer>
+  <answer>5. b/c.</answer>
+  <answer>6. b/c.</answer>
+</task>

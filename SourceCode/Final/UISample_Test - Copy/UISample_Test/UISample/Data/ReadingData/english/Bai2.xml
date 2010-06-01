@@ -1,0 +1,33 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[Unit 2: SCHOOL TALKS]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Read the following small talks and then do the tasks that follow.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Hello. My name s Nguyen Hong Phong. I m sixteen years old. I m a student at Chu Van An high school.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[I m in class 10A with forty-five other students. I study many subjects such as maths, Physics, Chemistry,]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Biology, Literature, History, Geography, and so on. I like to learn English best because it is an international]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[language. I don t really like getting up early, but I have to because I often have a lesson at 7: 15.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Hello my name is Nguyen Lan Phuong. I teach English at Chu Van An High School. It is one of the biggest]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[schools in Hanoi. Teaching is hard work, but I enjoy it because I love working with children.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[I  m Nguyen Hong Ha. I  m Phong s father. We live in a small flat above a corner shop in Tay Son Street.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[The flat is far from Phong s school so he usually goes to school by bike. I worry about this. He has to ride]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[his bike in narrow and crowded streets to get to school.  There is so much traffic, so many cars motorbikes]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[and bicycles.]]></Text>
+</LiquidRichText>

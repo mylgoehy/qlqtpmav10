@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Choose the best answer.</Heading>
+  <NumQuestions>1</NumQuestions>
+  <Question>
+    <Ask>Decide which of the options below is the best title for the passage.</Ask>
+    <Selections>
+      <Option>The story of a Film Maker.</Option>
+      <Option>A Brief History of Cinema.</Option>
+      <Option>The History of the Film Industry</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+</ReadingPractice>

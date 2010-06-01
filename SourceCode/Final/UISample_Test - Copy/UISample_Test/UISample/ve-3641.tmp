@@ -1,0 +1,102 @@
+﻿using System;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Documents;
+using System.Windows.Ink;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Animation;
+using System.Windows.Shapes;
+
+namespace UISample
+{
+	public partial class ReadingControl : UserControl
+	{
+        private int _selectedUnit;
+
+        /// <summary>
+        /// The <see cref="SelectedUnit" /> dependency property's name.
+        /// </summary>
+        public const string SelectedUnitPropertyName = "SelectedUnit";
+
+        /// <summary>
+        /// Gets or sets the value of the <see cref="SelectedUnit" />
+        /// property. This is a dependency property.
+        /// </summary>
+        public int SelectedUnit
+        {
+            get
+            {
+                return (int)GetValue(SelectedUnitProperty);
+            }
+            set
+            {
+                SetValue(SelectedUnitProperty, value);
+            }
+        }
+
+        /// <summary>
+        /// Identifies the <see cref="SelectedUnit" /> dependency property.
+        /// </summary>
+        public static readonly DependencyProperty SelectedUnitProperty = DependencyProperty.Register(
+            SelectedUnitPropertyName,
+            typeof(int),
+            typeof(ReadingControl),
+            new PropertyMetadata(0, SelectedUnitChanged));
+
+        private bool reload;
+
+		public ReadingControl()
+		{
+			// Required to initialize variables
+			InitializeComponent();
+
+            //===moi them vao===//
+            rtbxReading.IsReadOnly = true;
+            rtbxReading.RichTextURL = "Data/Reading/Text/RichText.xml";//sau nay truyen vao ten file chua bai reading.
+            rtbxReading.RichText = "Đây là RichTextBox mình vừa add dll vào. H mọi người code phần reading trên canvas này nhe. Có thiếu control ji cứ thêm vào. Nhóm Design sẽ chỉnh sửa lại sao. Nếu ko có ji thì đừng nên &#xd;&#xa;dịch chuyển vị trí các control nhe(amination chạy loạn á mà).&#xd;&#xa;&#xd;&#xa;À 1 vấn đề là khi hiển thị thì phan nội dung bên phải cửa sổ chương trình nó vẫn hiện lên=&gt; nên khi chạy nhin thay hết canvas Reading (xấu lắm). Tụi mình chưa sửa dc nên dùng 1 rectangle màu đen che đỡ. Bạn nao biết chỉ dùm lun.&#xd;&#xa;Thank all.";
+            rtbxReading.Visibility = Visibility.Collapsed;
+
+            //load practice control
+            rpcReadingPractice.LoadContentFromXml("Data/Reading/Practice/reading_practice_3.xml");
+            rpcReadingPractice.TittleAlignment(TextAlignment.Left);
+            rpcReadingPractice.Visibility = Visibility.Collapsed;
+
+
+		}
+
+        private static void SelectedUnitChanged(DependencyObject src, DependencyPropertyChangedEventArgs args)
+        {
+            if (src == null)
+                return;
+
+            if((int)args.NewValue == _selectedUnit)
+        }
+
+        private void LoadReadingContent()
+        {
+            
+        }
+
+        private void bntPractice_Click(object sender, RoutedEventArgs e)
+        {
+            rpcReadingPractice.Visibility = Visibility.Visible;
+
+            rtbxReading.Visibility = Visibility.Collapsed;
+        }
+
+        private void bntEnglish_Click(object sender, RoutedEventArgs e)
+        {
+            rtbxReading.Visibility = Visibility.Visible;
+
+            rpcReadingPractice.Visibility = Visibility.Collapsed;
+        }
+
+        private void bntVietnam_Click(object sender, RoutedEventArgs e)
+        {
+            rtbxReading.Visibility = Visibility.Visible;
+
+            rpcReadingPractice.Visibility = Visibility.Collapsed;
+        }
+	}
+}

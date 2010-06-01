@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Choose the best answer</Heading>
+  <NumQuestions>1</NumQuestions>
+  <Question>
+    <Ask>Decide which of the three options below is the best title for the passage.</Ask>
+    <Selections>
+      <Option>The Computer – A New Invention</Option>
+      <Option>The Computer Has Become Part of Our Life</Option>
+      <Option>What Can the Computer Do?</Option>
+    </Selections>
+    <CorrectAnswer>3</CorrectAnswer>
+  </Question>
+</ReadingPractice>

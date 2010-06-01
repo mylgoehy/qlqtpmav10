@@ -1,0 +1,61 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom37" FontFamily="Portable User Interface" FontSize="16" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom37"><![CDATA[1.	]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox1" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="if"/>
+		<ComboBoxItem Content="when"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ there is a good programme on TV tonight, I'll watch it.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[2.	]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox2" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="if"/>
+		<ComboBoxItem Content="when"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ I go home tonight, I'll have bath.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[3.	My family will go to the beach for our holiday ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox3" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="if"/>
+		<ComboBoxItem Content="when"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ we have enough money.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[4.	]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox4" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="if"/>
+		<ComboBoxItem Content="when"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ it's a nice day tomorrow, we'll go swimming.]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[5.	I'll lend you my book ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox5" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="if"/>
+		<ComboBoxItem Content="when"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ I finish reading it.]]></Text>
+<Newline />
+</LiquidRichText>

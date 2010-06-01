@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>1</Type>
+  <Heading>Choose the option that best suits the meaning of the italicised word(s).</Heading>
+  <NumQuestion>2</NumQuestion>
+  <Question>
+    <Word>
+      <Option>I</Option>
+      <Option>our</Option>
+      <Option>me</Option>
+      <Option>you</Option>
+      <Option>we</Option>
+    </Word>
+    <Paragraph>
+      <Text>Thank you for purchasing</Text>
+      <Blank>[]</Blank>
+      <Text>modern cell phone. Please read manual included in the package carefully. If</Text>
+      <Blank>[]</Blank>
+      <Text>have any questions , please feel free to email to</Text>
+      <Blank />
+    </Paragraph>
+  </Question>
+  <Question>
+    <Word>
+      <Option>are</Option>
+      <Option>is</Option>
+    </Word>
+    <Paragraph>
+      <Text>Where</Text>
+      <Blank>[]</Blank>
+      <Text>you?</Text>
+    </Paragraph>
+  </Question>
+</ReadingPractice>

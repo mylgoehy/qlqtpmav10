@@ -1,0 +1,42 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / iə /  -  / eə /   -  / ʊə /
+	* Grammar and vocabulary :
+			          1.	Should
+					  2.	Conditional sentence type 2
+
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="iə" soundPath = "test/here.mp3">here</Item>
+			<Item type="iə" soundPath = "test/dear.mp3">dear</Item>
+			<Item type="eə" soundPath = "test/pair.mp3">pair</Item>
+			<Item type="eə" soundPath = "test/chair.mp3">chair</Item>
+			<Item type="ʊə" soundPath = "test/poor.mp3">poor</Item>
+			<Item type="ʊə" soundPath = "test/sure.mp3">sure</Item>
+			
+			<Item type="iə" soundPath = "test/clear.mp3">clear</Item>
+			<Item type="iə" soundPath = "test/idea.mp3">idea</Item>
+			<Item type="eə" soundPath = "test/square.mp3">square</Item>
+			<Item type="eə" soundPath = "test/where.mp3">where</Item>
+			<Item type="ʊə" soundPath = "test/tour.mp3">tour</Item>
+			<Item type="ʊə" soundPath = "test/usual.mp3">usual</Item>
+
+			<Item type="iə" soundPath = "test/cheers.mp3">cheers</Item>
+			<Item type="iə" soundPath = "test/atmosphere.mp3">atmosphere</Item>
+			<Item type="eə" soundPath = "test/upstairs.mp3">upstairs</Item>
+			<Item type="eə" soundPath = "test/carefully.mp3">carefully</Item>
+			<Item type="ʊə" soundPath = "test/casual.mp3">casual</Item>
+			<Item type="ʊə" soundPath = "test/actually.mp3">actually</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. Let’s have some beer, dear.</Sentence>
+			<Sentence>2. What a good idea! The atmosphere here is very clear.</Sentence>
+			<Sentence>3. Where are my shoes? They are nowhere here.</Sentence>
+			<Sentence>4. Have you looked carefully everywhere?</Sentence>
+			<Sentence>5. I am sure he is far from poor.</Sentence>
+			<Sentence>6. Well, actually he usually wears casual clothes.</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

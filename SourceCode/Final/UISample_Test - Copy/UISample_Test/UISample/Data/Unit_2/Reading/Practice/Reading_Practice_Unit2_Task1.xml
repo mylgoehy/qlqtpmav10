@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <!--element NewLine đánh dấu xuống dòng trong mỗi Paragraph.Giữa mỗi Paragraph ko cần thêm NewLine-->
+  <Type>1</Type>
+  <Question>
+    <CorrectAnswers>
+      <Ans>is</Ans>
+      <Ans>fish</Ans>
+      <Ans>worry</Ans>
+      <Ans>are</Ans>
+      <Ans>catch</Ans>
+      <Ans>am</Ans>
+      <Ans>catch</Ans>
+      <Ans>go</Ans>
+      <Ans>give up</Ans>
+      <Ans>say</Ans>
+      <Ans>realize</Ans>
+      <Ans>am</Ans>
+    </CorrectAnswers>
+    <Content>Reading_Practice_Unit2_Task1_RichText.xml</Content>
+  </Question>
+</ReadingPractice>

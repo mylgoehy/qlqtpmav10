@@ -1,0 +1,36 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / ˄ /  -  / a: /
+	* Grammar and vocabulary :
+			          1. Wh-question
+			          2. Gerund and to + infinitive
+			          
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="˄" soundPath = "test/study.mp3">study</Item>
+			<Item type="˄" soundPath = "test/subject.mp3">subject</Item>
+			<Item type="a:" soundPath = "test/far.mp3">far</Item>
+			<Item type="a:" soundPath = "test/father.mp3">father</Item>
+      
+			<Item type="˄" soundPath = "test/cousin.mp3">cousin</Item>
+			<Item type="˄" soundPath = "test/love.mp3">love</Item> 
+			<Item type="a:" soundPath = "test/marvellous.mp3">marvellous</Item>  
+			<Item type="a:" soundPath = "test/target.mp3">target</Item>		
+			
+			<Item type="˄" soundPath = "test/wonderful.mp3">wonderful</Item>
+      
+			<Item type="a:" soundPath = "test/guitar.mp3">guitar</Item>
+      
+			
+		</Listen>
+		<Practice>
+			<Sentence>1. I love my school very much </Sentence>
+			<Sentence>2. I think my cousin is lovely</Sentence>
+			<Sentence>3. Last month I took Sunny out for lunch</Sentence>
+			<Sentence>4. They are dancing under the stars </Sentence>
+			<Sentence>5. Martha and Charles are dancing in the dark</Sentence>
+			<Sentence>6. Let's have lunch in the garden</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Choose the best answer.</Heading>
+  <NumQuestions>1</NumQuestions>
+  <Question>
+    <Ask>Choose the most suitable main idea for each paragraph.</Ask>
+    <Selections>
+      <Option>We cannot live without water.</Option>
+      <Option>Let’s do something to save the earth.</Option>
+      <Option>Forests give us a lot of valuable things.</Option>
+      <Option>Vegetation can help conserve water.</Option>
+    </Selections>
+  </Question>
+ </ReadingPractice>

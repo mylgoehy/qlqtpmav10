@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8571e004-86e1-49eb-86f1-34a0757bdf8d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52690/UISampleSite/SpeakingService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SpeakingService.wsdl" MetadataType="Wsdl" ID="54f5160a-66dc-4c4e-811a-6a516adb829a" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/SpeakingService.svc?wsdl" />
+    <MetadataFile FileName="SpeakingService3.xsd" MetadataType="Schema" ID="0e7e0e5d-096f-484e-8492-f98cb73b0bad" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/SpeakingService.svc?xsd=xsd3" />
+    <MetadataFile FileName="SpeakingService1.xsd" MetadataType="Schema" ID="a86c45da-1273-4943-901c-bfbebf48cb84" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/SpeakingService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SpeakingService.xsd" MetadataType="Schema" ID="be43e8e6-92c9-4f9a-8635-1e7378584705" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/SpeakingService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SpeakingService2.xsd" MetadataType="Schema" ID="876d6413-74d8-4b44-9880-ce827b22e392" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/SpeakingService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SpeakingService.disco" MetadataType="Disco" ID="84f6f8ef-84a2-4b27-a182-276337483c8f" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/SpeakingService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,33 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / ə /  -  / ɜ: /
+        		* Grammar and vocabulary : The present progressive (with a future meaning) and be going to
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="ə" soundPath = "test/teacher.mp3">teacher</Item>
+			<Item type="ə" soundPath = "test/other.mp3">other</Item>
+			<Item type="ɜ:" soundPath = "test/about.mp3">about</Item>
+			<Item type="ɜ:" soundPath = "test/today.mp3">today</Item>
+			
+			<Item type="ə" soundPath = "test/bird.mp3">bird</Item>
+			<Item type="ə" soundPath = "test/term.mp3">term</Item> 
+			<Item type="ɜ:" soundPath = "test/work.mp3">work</Item>
+			<Item type="ɜ:" soundPath = "test/shirt.mp3">shirt</Item>
+			
+			<Item type="ə" soundPath = "test/together.mp3">together</Item>
+			<Item type="ə" soundPath = "test/pagoda.mp3">pagoda</Item>
+			<Item type="ɜ:" soundPath = "test/church.mp3">church</Item>
+			<Item type="ɜ:" soundPath = "test/early.mp3">early</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. Have you heard about our excursion to Thay Pagoda?</Sentence>
+			<Sentence>2. Her father is learning German with a teacher.</Sentence>
+			<Sentence>3. Last year the birds returned to the river earlier than this year.</Sentence>
+			<Sentence>4. The girl work in the church on Thursdays.</Sentence>
+			<Sentence>5. Was it Barbara’s camera?</Sentence>
+			<Sentence>6. I’m thirsty, Nurse. I want a glass of water.</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

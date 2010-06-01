@@ -1,0 +1,33 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[UNIT 12: MUSIC]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Read the passage and then do the tasks that following.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[There are two things that make humans different from all other animals. They are language and music.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Music is clearly different from language. However, people use it to communicate - especially their emotions.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Like reading, writing, and speaking, music can express ideas, thoughts and feelings. It can express ones anger,]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[love, hate, or friendship; it can also convey ones hopes and dreams.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Music is very much an integral part of our life. It is played during almost all important events and on special]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[occasions and sets the tone for them. It adds joyfulness to atmosphere of a festival and makes a funeral more]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[solemn and mournful. Music lulls babies to sleep at night and wakes students up the morning.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Above all, music entertains. It makes happy and excited. It delights the sense. In fact, music as entertainment]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[has always been a big business. It is a billion-dollar industry. It is difficult to imagine what our lives would be]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[like without music.]]></Text>
+</LiquidRichText>

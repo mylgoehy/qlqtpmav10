@@ -1,0 +1,37 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[Unit 4 : SPECIAL EDUCATION]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Read the passage and then do the tasks that follow.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[A TEACHER IN A SPECIAL CLASS]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[Like other teachers, Pham Thu Thuy enjoys her teaching job.  However, her class is different from other]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[classes. The twenty-five children, who are learning how to read and write in her class, are disabled. Some]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[are deaf, some dumb and others mentally retarded. Most of the children come from large and poor families,]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[which prevent them from having proper schooling.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[At first, there was a lot of opposition from the parents of the disabled children. They used to believe that their]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[children could not learn anything at all. In the first week, only five children attended the class. Gradually more]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[children arrived. Their parents realised that the young teacher was making great efforts to help their poor kids.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Watching Thuy taking a class, one can see how time-consuming the work is. During a math lesson, she raised]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[both arms and opened up her fingers one by one until all ten stood up. She then closed the fingers one by one.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[She continued the demonstration until the children realised they had just learned how to add and subtract. The]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[children have every reason to be proud of their efforts. They know a new world is opening up for them.]]></Text>
+</LiquidRichText>

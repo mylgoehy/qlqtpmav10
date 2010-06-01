@@ -1,0 +1,94 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom37" FontFamily="Portable User Interface" FontSize="16" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom37"><![CDATA[Dear Tom,]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[Here I am in New York! I(1) ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox1" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="take"/>
+		<ComboBoxItem Content="be"/>
+		<ComboBoxItem Content="meet"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ here for two weeks now and it's very]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[exciting. My friend, Nacy(I never met her in London in 1992)(2) ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox2" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="take"/>
+		<ComboBoxItem Content="live"/>
+		<ComboBoxItem Content="do"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ in]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[New York for seven years, so she knows all about it. I(3) ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox3" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="meet"/>
+		<ComboBoxItem Content="be"/>
+		<ComboBoxItem Content="watch"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ a lot of ]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[people and I(4) ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox4" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="meet"/>
+		<ComboBoxItem Content="have"/>
+		<ComboBoxItem Content="watch"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ all the things that tourists usually do. I (5)]]></Text>
+<Newline />
+<Xaml>
+	<ComboBox Name="Combobox5" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="do"/>
+		<ComboBoxItem Content="have"/>
+		<ComboBoxItem Content="take"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ a hot luch in China town. I(6) ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox6" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="meet"/>
+		<ComboBoxItem Content="have"/>
+		<ComboBoxItem Content="take"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ a trip to the Statue of]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[Liberty. I even (7) ]]></Text>
+<Xaml>
+	<ComboBox Name="Combobox7" Cursor="Hand" Width="100" Height="Auto" >
+		<ComboBoxItem Content="meet"/>
+		<ComboBoxItem Content="have"/>
+		<ComboBoxItem Content="watch"/>
+	</ComboBox>
+</Xaml>
+<Tag Style="Custom37">
+</Tag>
+<Text Style="Custom37"><![CDATA[ a ball game on TV!]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[Back  on the 19th]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[See you later,]]></Text>
+<Newline />
+<Text Style="Custom37"><![CDATA[Bob]]></Text>
+</LiquidRichText>

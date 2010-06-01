@@ -1,0 +1,37 @@
+﻿<LanguageFocus>
+	<Content>* Pronunciation : / ᶾ /  -  / ᶴ /
+	* Grammar and vocabulary :
+			         1.	Comparatives and superlatives
+					 2.	Making comparisons
+
+
+			         
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="ᶾ" soundPath = "test/television.mp3">television</Item>
+			<Item type="ᶾ" soundPath = "test/Asia.mp3">Asia</Item>
+			<Item type="ᶴ" soundPath = "test/shop.mp3">shop</Item>
+			<Item type="ᶴ" soundPath = "test/washing.mp3">washing</Item> 
+			
+			<Item type="ᶾ" soundPath = "test/pleasure.mp3">pleasure</Item>
+			<Item type="ᶾ" soundPath = "test/illusion.mp3">illusion</Item>
+			<Item type="ᶴ" soundPath = "test/machine.mp3">machine</Item>
+			<Item type="ᶴ" soundPath = "test/English.mp3">English</Item>
+      
+			<Item type="ᶾ" soundPath = "test/measure.mp3">measure</Item>
+			<Item type="ᶾ" soundPath = "test/massage.mp3">massage</Item>
+			<Item type="ᶴ" soundPath = "test/Swedish.mp3">Swedish</Item>
+			<Item type="ᶴ" soundPath = "test/special.mp3">special</Item>
+		</Listen>
+		<Practice>
+			<Sentence>1. It’s his pleasure to visit Asia.</Sentence>
+			<Sentence>2. You shouldn’t have any illusioins about television.</Sentence>
+			<Sentence>3. A massage can be a good measure to help you relax.</Sentence>
+			<Sentence>4. Does this shop sell washing machines?</Sentence>
+			<Sentence>5. Is he English or Swedish?</Sentence>
+			<Sentence>6. Is there anything special on TV tonight?</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

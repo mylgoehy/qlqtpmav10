@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 -->
+  <Type>0</Type>
+  <Heading>Read the passage again and complete the following sentences by circling the corresponding letter A, B, C, or D.</Heading>
+  <NumQuestions>5</NumQuestions>
+  <Question>
+    <Ask>Thuy's class is different from other classes because the children _____.</Ask>
+    <Selections>
+      <Option>are from large families</Option>
+      <Option>are less mentally developed</Option>
+      <Option>love Maths very much</Option>
+      <Option>are disabled</Option>
+    </Selections>
+    <CorrectAnswer>4</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>At first the parents were _______________ the idea of sending their children to the special class.</Ask>
+    <Selections>
+      <Option>interested in</Option>
+      <Option>opposed to</Option>
+      <Option>satisfied with</Option>
+      <Option>worried about</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>It can be inferred from the second paragraph of the reading passage that there has been _______________.</Ask>
+    <Selections>
+      <Option>a change in the parents’ attitude towards the class</Option>
+      <Option>a lot of protest from the parents against the class</Option>
+      <Option>a feeling of doubt in the teacher’s ability</Option>
+      <Option>a belief in the parents’ opposition</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The writer describes how Thuy teaches the children to add and subtract in order to prove that ______________.</Ask>
+    <Selections>
+      <Option>the children like Maths</Option>
+      <Option>the teacher is proud of her work</Option>
+      <Option>the teaching work takes time</Option>
+      <Option>adding and subtracting are important</Option>
+    </Selections>
+    <CorrectAnswer>3</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The writer's attitude towards Thuy's work in the passage can be described as_______________  .</Ask>
+    <Selections>
+      <Option>humorous</Option>
+      <Option>angry</Option>
+      <Option>suspicious</Option>
+      <Option>admiring</Option>
+    </Selections>
+    <CorrectAnswer>4</CorrectAnswer>
+  </Question>
+</ReadingPractice>

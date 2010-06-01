@@ -1,0 +1,54 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IReading_Service" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None">
+                        <transport>
+                            <extendedProtectionPolicy policyEnforcement="Never" />
+                        </transport>
+                    </security>
+                </binding>
+                <binding name="BasicHttpBinding_IWriting_Service" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None">
+                        <transport>
+                            <extendedProtectionPolicy policyEnforcement="Never" />
+                        </transport>
+                    </security>
+                </binding>
+                <binding name="BasicHttpBinding_IVocabularyService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None">
+                        <transport>
+                            <extendedProtectionPolicy policyEnforcement="Never" />
+                        </transport>
+                    </security>
+                </binding>
+                <binding name="BasicHttpBinding_ISpeakingService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None">
+                        <transport>
+                            <extendedProtectionPolicy policyEnforcement="Never" />
+                        </transport>
+                    </security>
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:52690/UISampleSite/Reading_Service.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IReading_Service"
+                contract="ReadingServiceReference.IReading_Service" name="BasicHttpBinding_IReading_Service" />
+            <endpoint address="http://localhost:52690/UISampleSite/Writing_Service.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IWriting_Service"
+                contract="WritingServiceReference.IWriting_Service" name="BasicHttpBinding_IWriting_Service" />
+            <endpoint address="http://localhost:52690/UISampleSite/VocabularyService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IVocabularyService"
+                contract="VocabularyServiceReference.IVocabularyService" name="BasicHttpBinding_IVocabularyService" />
+            <endpoint address="http://localhost:52690/UISampleSite/SpeakingService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_ISpeakingService"
+                contract="SpeakingServiceReference.ISpeakingService" name="BasicHttpBinding_ISpeakingService" />
+        </client>
+    </system.serviceModel>
+</configuration>

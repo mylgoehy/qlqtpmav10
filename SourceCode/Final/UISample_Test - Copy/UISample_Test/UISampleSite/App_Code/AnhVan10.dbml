@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AnhVan10" Class="AnhVan10DataContext" Serialization="Unidirectional" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\AnhVan10.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AnhVan10ConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BOOK" Member="BOOKs">
+    <Type Name="BOOK">
+      <Column Name="ID_Book" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Author" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Parth" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WRITING" Member="WRITINGs">
+    <Type Name="WRITING">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Task" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Ques" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ques" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Ans" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Template" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="UNIT_WRITING" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GRAMMAR_PRACTICE" Member="GRAMMAR_PRACTICEs">
+    <Type Name="GRAMMAR_PRACTICE">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Task" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ques" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ans" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="UNIT_GRAMMAR_PRACTICE" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LANGUAGE_FOCUS" Member="LANGUAGE_FOCUS">
+    <Type Name="LANGUAGE_FOCUS">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Pronunciation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Grammar" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Grammar_Path" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="UNIT_LANGUAGE_FOCUS" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LISTENING" Member="LISTENINGs">
+    <Type Name="LISTENING">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ContentPractise" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="UNIT_LISTENING" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LISTENING_PRACTICE" Member="LISTENING_PRACTICEs">
+    <Type Name="LISTENING_PRACTICE">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Task" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ques" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ans" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="UNIT_LISTENING_PRACTICE" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MUSIC" Member="MUSICs">
+    <Type Name="MUSIC">
+      <Column Name="ID_Music" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lyric" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Practice" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Music_Path" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="UNIT_MUSIC" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MUSIC_PRACTICE" Member="MUSIC_PRACTICEs">
+    <Type Name="MUSIC_PRACTICE">
+      <Column Name="ID_Music" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Ques" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ans" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PICTURE" Member="PICTUREs">
+    <Type Name="PICTURE">
+      <Column Name="ID_Pic" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_Skill" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Pic_Path" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="UNIT_PICTURE" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.READING" Member="READINGs">
+    <Type Name="READING">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Suggestion" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="EText" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="VText" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Audio" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="READING_UNIT" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="dbo.READING_ANSWER" Member="READING_ANSWERs">
+    <Type Name="READING_ANSWER">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Task" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ques" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ans" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="UNIT_READING_ANSWER" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.READING_PRACTICE" Member="READING_PRACTICEs">
+    <Type Name="READING_PRACTICE">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Task" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Contents" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="UNIT_READING_PRACTICE" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RECORD_SPEAKING" Member="RECORD_SPEAKINGs">
+    <Type Name="RECORD_SPEAKING">
+      <Column Name="ID_Rec" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Path" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="USER_RECORD_SPEAKING" Member="USER" ThisKey="ID_User" OtherKey="ID_User" Type="USER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SAVE_WRITING" Member="SAVE_WRITINGs">
+    <Type Name="SAVE_WRITING">
+      <Column Name="ID_Save" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Path" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="USER_SAVE_WRITING" Member="USER" ThisKey="ID_User" OtherKey="ID_User" Type="USER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SPEAKING" Member="SPEAKINGs">
+    <Type Name="SPEAKING">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Suggestion" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="UNIT_SPEAKING" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TEST" Member="TESTs">
+    <Type Name="TEST">
+      <Column Name="ID_Text" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Part" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Ques" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ques" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Ans" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UNIT" Member="UNITs">
+    <Type Name="UNIT">
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="UNIT_WRITING" Member="WRITINGs" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="WRITING" />
+      <Association Name="UNIT_GRAMMAR_PRACTICE" Member="GRAMMAR_PRACTICEs" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="GRAMMAR_PRACTICE" />
+      <Association Name="UNIT_LANGUAGE_FOCUS" Member="LANGUAGE_FOCUS" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="LANGUAGE_FOCUS" Cardinality="One" />
+      <Association Name="UNIT_LISTENING" Member="LISTENING" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="LISTENING" Cardinality="One" />
+      <Association Name="UNIT_LISTENING_PRACTICE" Member="LISTENING_PRACTICEs" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="LISTENING_PRACTICE" />
+      <Association Name="UNIT_MUSIC" Member="MUSICs" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="MUSIC" />
+      <Association Name="UNIT_PICTURE" Member="PICTUREs" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="PICTURE" />
+      <Association Name="UNIT_READING_ANSWER" Member="READING_ANSWERs" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="READING_ANSWER" />
+      <Association Name="UNIT_READING_PRACTICE" Member="READING_PRACTICEs" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="READING_PRACTICE" />
+      <Association Name="UNIT_SPEAKING" Member="SPEAKING" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="SPEAKING" Cardinality="One" />
+      <Association Name="UNIT_USER_MARK" Member="USER_MARKs" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="USER_MARK" />
+      <Association Name="UNIT_VOCABULARY" Member="VOCABULARies" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="VOCABULARY" />
+      <Association Name="READING_UNIT" Member="READING" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="READING" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[USER]" Member="USERs">
+    <Type Name="USER">
+      <Column Name="ID_User" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="School" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Mark" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="USER_RECORD_SPEAKING" Member="RECORD_SPEAKINGs" ThisKey="ID_User" OtherKey="ID_User" Type="RECORD_SPEAKING" />
+      <Association Name="USER_SAVE_WRITING" Member="SAVE_WRITINGs" ThisKey="ID_User" OtherKey="ID_User" Type="SAVE_WRITING" />
+      <Association Name="USER_USER_MARK" Member="USER_MARKs" ThisKey="ID_User" OtherKey="ID_User" Type="USER_MARK" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USER_MARK" Member="USER_MARKs">
+    <Type Name="USER_MARK">
+      <Column Name="ID_User" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Skill" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Mark_Unit" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Mark_Skill" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="UNIT_USER_MARK" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+      <Association Name="USER_USER_MARK" Member="USER" ThisKey="ID_User" OtherKey="ID_User" Type="USER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VOCABULARY" Member="VOCABULARies">
+    <Type Name="VOCABULARY">
+      <Column Name="ID_Voc" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_Unit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_Skill" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Eword" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Vword" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Voice_Path" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="UNIT_VOCABULARY" Member="UNIT" ThisKey="ID_Unit" OtherKey="ID_Unit" Type="UNIT" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

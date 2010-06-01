@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Decide whether the statements are true (T) or false (F).</Heading>
+  <NumQuestions>5</NumQuestions>
+  <Question>
+    <Ask>New York is the name of both a state and a city.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>New York Harbour has a lot of ice in winter.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>New York is on two rivers.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The United Nations Building is in New York.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>New York belonged to the Dutch when it was founded.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+</ReadingPractice>

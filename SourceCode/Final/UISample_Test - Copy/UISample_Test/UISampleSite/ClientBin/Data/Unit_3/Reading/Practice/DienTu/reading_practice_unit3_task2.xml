@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 -->
+  <Type>0</Type>
+  <Heading>Decide whether the statements are true (T) or false (F)
+Correct the false information.</Heading>
+  <NumQuestions>5</NumQuestions>
+  <Question>
+    <Ask>Marie went to school in Warsaw.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+  </Question>
+  <Question>
+    <Ask>Her dream was to become a private tutor.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+  </Question>
+<Question>
+    <Ask> At the Sorbonne, she studies very well.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+  </Question>
+<Question>
+    <Ask> She married Pierre Curie in 1894</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+  </Question>
+<Question>
+    <Ask>She was the first woman professor at the Sorbonnne.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+  </Question>
+</ReadingPractice>

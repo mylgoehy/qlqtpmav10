@@ -1,0 +1,9 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:Liquid="clr-namespace:Liquid;assembly=Liquid.RichText" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="UISample.FillInBlankControl" 
+    Width="728" Height="362" mc:Ignorable="d">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Liquid:RichTextBox x:Name="rtxtContent" Grid.Column="0" AcceptsReturn="True" HorizontalAlignment="Stretch" EnableObjectSelection="True"/>
+    </Grid>
+</UserControl>

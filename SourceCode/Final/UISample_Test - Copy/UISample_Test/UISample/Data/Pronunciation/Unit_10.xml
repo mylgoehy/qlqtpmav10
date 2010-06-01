@@ -1,0 +1,33 @@
+<LanguageFocus>
+	<Content>* Pronunciation :  / b /  -  / p /
+	* Grammar : The passive voice.
+	</Content>
+	<Pronunciation>
+		<Listen>
+			<Item type="b" soundPath = "test/bee.mp3">bee</Item>
+			<Item type="b" soundPath = "test/cab.mp3">cab</Item>
+			<Item type="p" soundPath = "test/pea.mp3">pea</Item>
+			<Item type="p" soundPath = "test/cap.mp3">cap</Item>
+			
+			<Item type="b" soundPath = "test/ban.mp3">ban</Item>
+			<Item type="b" soundPath = "test/bright.mp3">bright</Item>
+			<Item type="p" soundPath = "test/pan.mp3">pan</Item>
+			<Item type="p" soundPath = "test/provide.mp3">provide</Item>
+			
+			<Item type="b" soundPath = "test/bad.mp3">bad</Item>
+			<Item type="b" soundPath = "test/back.mp3">back</Item>
+			<Item type="p" soundPath = "test/Paul.mp3">Paul</Item>
+			<Item type="p" soundPath = "test/power.mp3">power</Item>
+			
+		</Listen>
+		<Practice>
+			<Sentence>1. Is he coming to the cinema ?</Sentence>
+			<Sentence>2. We'll miss the beginning of the film ?</Sentence>
+			<Sentence>3. Is it an interesting film,Jim ?</Sentence>
+			<Sentence>4. The beans and the meat were quite cheap</Sentence>
+			<Sentence>5. He is going to leave here for the Green Mountains</Sentence>
+			<Sentence>6. Would you like to have meat,peas and cheese</Sentence>
+		</Practice>
+	</Pronunciation>
+	
+</LanguageFocus>

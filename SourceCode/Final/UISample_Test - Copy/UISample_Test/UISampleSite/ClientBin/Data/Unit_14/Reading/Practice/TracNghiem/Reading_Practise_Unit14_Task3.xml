@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Read the text again and decide whether the following statements are true(T) or false (F). Correct the false ones.</Heading>
+  <NumQuestions>5</NumQuestions>
+  <Question>
+    <Ask>The first World cup was held in Uruguay in 1904.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The World Cup is held every two years.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The World Cup regarded as the world championship of the sport.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>Germany and Brazil played in the final match of the 2002 World Cup.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>Brazil is the country that has played five times in the World Cup.</Ask>
+    <Selections>
+      <Option>T</Option>
+      <Option>F</Option>
+    </Selections>
+    <CorrectAnswer>2</CorrectAnswer>
+  </Question>
+</ReadingPractice>

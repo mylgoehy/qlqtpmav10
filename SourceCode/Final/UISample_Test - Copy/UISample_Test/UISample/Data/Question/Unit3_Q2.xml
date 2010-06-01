@@ -1,0 +1,130 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="16" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[Put the verbs in brackets in the past simple or the past perfect.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[1.	We just (finish)]]></Text>
+<Xaml><ComboBox Name = "Combo1" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "finish"/>
+<ComboBoxItem Content = "finished"/>
+<ComboBoxItem Content = "have finished"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[ dinner when they (come)]]></Text>
+<Xaml><ComboBox Name = "Combo2" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "come"/>
+<ComboBoxItem Content = "came"/>
+<ComboBoxItem Content = "have come"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Newline />
+<Text Style="Custom40"><![CDATA[2.	He seldom (travel) ]]></Text>
+<Xaml><ComboBox Name = "Combo3" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "travel"/>
+<ComboBoxItem Content = "travelled"/>
+<ComboBoxItem Content = "has travelled"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[  by bicycle before he (go)]]></Text>
+<Xaml><ComboBox Name = "Combo4" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "goes"/>
+<ComboBoxItem Content = "went"/>
+<ComboBoxItem Content = "has gone"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[ to VietNam]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[3.	Ann (go)]]></Text>
+<Xaml><ComboBox Name = "Combo5" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "goes"/>
+<ComboBoxItem Content = "went"/>
+<ComboBoxItem Content = "has gone"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[ to get the carpet for ther room but someone already ]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[(take)]]></Text>
+<Xaml><ComboBox Name = "Combo6" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "takes"/>
+<ComboBoxItem Content = "took"/>
+<ComboBoxItem Content = "has taken"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[ it.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[4.	You (manage) ]]></Text>
+<Xaml><ComboBox Name = "Combo7" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "manage"/>
+<ComboBoxItem Content = "managed"/>
+<ComboBoxItem Content = "have managed"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[ to see the Director, or he (go out)]]></Text>
+<Xaml><ComboBox Name = "Combo8" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "goes out"/>
+<ComboBoxItem Content = "went out"/>
+<ComboBoxItem Content = "has gone out"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Newline />
+<Text Style="Custom40"><![CDATA[ by the time you (get)]]></Text>
+<Xaml><ComboBox Name = "Combo9" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "get"/>
+<ComboBoxItem Content = "got"/>
+<ComboBoxItem Content = "have gotton"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[ there?]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[5.	He just (get) ]]></Text>
+<Xaml><ComboBox Name = "Combo10" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "gets"/>
+<ComboBoxItem Content = "got"/>
+<ComboBoxItem Content = "has gotton"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[ home when you (phone) ]]></Text>
+<Xaml><ComboBox Name = "Combo11" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "phone"/>
+<ComboBoxItem Content = "phoned"/>
+<ComboBoxItem Content = "have phoned"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[ .]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[ He (be) ]]></Text>
+<Xaml><ComboBox Name = "Combo1" Cursor = "Hand" Width="100" Height="Auto" >
+<ComboBoxItem Content = "is"/>
+<ComboBoxItem Content = "was"/>
+<ComboBoxItem Content = "has been"/>
+</ComboBox>
+</Xaml>
+<Tag Style="Custom40">
+</Tag>
+<Text Style="Custom40"><![CDATA[ in New York.]]></Text>
+<Newline />
+</LiquidRichText>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="db1e0973-adfc-4a4b-a415-163e1a328d1e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52690/UISampleSite/VocabularyService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="VocabularyService.xsd" MetadataType="Schema" ID="3053eb42-b732-4c1b-94f2-aa7e0aaf1175" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/VocabularyService.svc?xsd=xsd1" />
+    <MetadataFile FileName="VocabularyService1.xsd" MetadataType="Schema" ID="fa4d6bf9-76eb-4e00-bcfd-7c6294845ad6" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/VocabularyService.svc?xsd=xsd0" />
+    <MetadataFile FileName="VocabularyService.wsdl" MetadataType="Wsdl" ID="9be316b5-4a93-48e1-99e0-b1216af374c5" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/VocabularyService.svc?wsdl" />
+    <MetadataFile FileName="VocabularyService.disco" MetadataType="Disco" ID="93228a67-eaef-4073-bd58-f4ba28620e1a" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/VocabularyService.svc?disco" />
+    <MetadataFile FileName="VocabularyService2.xsd" MetadataType="Schema" ID="dbffb82a-3bce-4c35-988d-85dde1e95cf4" SourceId="1" SourceUrl="http://localhost:52690/UISampleSite/VocabularyService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

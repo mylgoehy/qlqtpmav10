@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReadingPractice>
+  <!--Loại: trắc nghiệm-0 , điền từ vào chỗ trống-1 -->
+  <Type>0</Type>
+  <Heading>Choose the best answer A, B, C, or D to complete each of the sentences.</Heading>
+  <NumQuestions>3</NumQuestions>
+  <Question>
+    <Ask>Lan wrote the letter to.</Ask>
+    <Selections>
+      <Option>inform Minh of her days off</Option>
+      <Option>complain about her parents</Option>
+      <Option>tell Minh about the plan for her class trip</Option>
+      <Option>talk about what she and her classmate will do at Huong Pagoda</Option>
+    </Selections>
+    <CorrectAnswer>3</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The students decide to go on an excursion because they wanted to 		.</Ask>
+    <Selections>
+      <Option>understand their geography lessons better</Option>
+      <Option>relax after work</Option>
+      <Option>have a campfire</Option>
+      <Option>A and B</Option>
+    </Selections>
+    <CorrectAnswer>4</CorrectAnswer>
+  </Question>
+  <Question>
+    <Ask>The students have changed their destination as 	 Thay Pagoda. </Ask>
+    <Selections>
+      <Option>it is impossible to visit the caves near</Option>
+      <Option>it costs them a lot to visit</Option>
+      <Option>they prefer Huong Pagoda to</Option>
+      <Option>many of them have been to</Option>
+    </Selections>
+    <CorrectAnswer>1</CorrectAnswer>
+  </Question>
+</ReadingPractice>

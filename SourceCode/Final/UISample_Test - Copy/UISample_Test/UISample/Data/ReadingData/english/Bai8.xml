@@ -1,0 +1,39 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="Normal" FontFamily="Portable User Interface" FontSize="11" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom40" FontFamily="Portable User Interface" FontSize="11" Foreground="#FFFCFCFC" Alignment="Left" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Text Style="Custom40"><![CDATA[Unit 8 : The Story Of My Village]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Read the passage, and then do the task follow.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[Many year ago, my village was very poor. The village had to work hard in the fields all day and could hardly]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[make ends things. Many people had to live in house make a straw and mud, a few families had radio or TV set.]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[However, in spite of shortages, the villagers managed to send their children to school and college. They]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[hoped that with an education of science and the technology, their children could find a way of bettering their]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[lives.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[The children have met their parent s wishes. When they came back from college or technical high school, they]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[introduced new farming methods, which resulted in bumper crops. They also helped the village grow cash crops]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[for export. Soon, the lifestyle of my village changed. Today, people live in brick house. In the evening, they can]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[listen to the news on the radio or watch TV for entertainment. Sometimes they go to my town on their]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[motorbikes to do some shopping or to visit their friends.]]></Text>
+<Newline />
+<Newline />
+<Text Style="Custom40"><![CDATA[  Our lives have changed a lot thanks to the knowledge our children brought home,  said an old farmer,]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[ and I alway tell my grandchildren to study harder so that they can do even more for the village than]]></Text>
+<Newline />
+<Text Style="Custom40"><![CDATA[their parents did.]]></Text>
+</LiquidRichText>

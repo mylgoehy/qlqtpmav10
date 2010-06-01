@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task>
+	<title>Combine the things in column A with the corresponding consequences in column B and read out the sentences.</title>
+	<text>Last week Nga's class went on an excursion to Huong Pagoda. Unfortunately, the excursion turned out to be a disaster. Most of the things they did went wrong. 
+A :
+1.	They went by coach. xxx
+2.	They did not bring enough food and drinks. xxx
+3.	Some had food poisoning. xxx
+4.	They had no raincoats. xxx
+5.	Some left their luggage on the coach when they arrived. xxx
+6.	Some were not careful when walking in Huong Pagoda. xxx
+7.	Some threw waste in the forest. xxx
+8.	They stayed there only one day. xxx
+
+B :
+a.	They got a fine.
+b.	They had no clothes or money with them.
+c.	They got lost.
+d.	They couldn't visit all the pagodas.
+e.	They had to spend a lot of money eating in expensive restaurants.
+f.	Most of them got carsick.
+g.	They got wet and some got a cold
+h.	They didn't enjoy their visit
+</text>
+  <answer>1. F</answer>
+  <answer>2. E</answer>
+  <answer>3. H</answer>
+  <answer>4. G</answer>
+  <answer>5. B</answer>
+  <answer>6. C</answer>
+  <answer>7. A</answer>
+  <answer>8. D</answer>
+</task>
